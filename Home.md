@@ -1,4 +1,4 @@
-# Getting Started
+## Getting Started
 
 Google Summer of Code students should first head over to the [Summer of Code](wiki/Summer-Of-Code) page and then head to our [general ideas page](wiki/Ideas-Page).
 
