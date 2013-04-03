@@ -3,18 +3,18 @@
 
 The following links detail successful general ways to write a Summer of Code Proposal:
 
-* (http://inkscape.org/wiki/index.php/SOC_Writing_Project_Proposals)[HOWTO Write Project Proposals]
-* (http://inkscape.org/wiki/index.php/SOC_Accepted_Proposals)[Inkscape's Accepted Proposals]
-* (http://www.internet2.edu/~shalunov/writing/soc2005.html)[Internet2 Experience]
-* (http://summer.cs.pdx.edu/?q=node/12)[Portland State University Experience]
-* (http://venge.net/monotone/summerofcode.html)[Monotone Experience]
-* (http://www.internet2.edu/~shalunov/tmp/rwatson-soc.txt)[Internet2 Experience]
+* [http://inkscape.org/wiki/index.php/SOC_Writing_Project_Proposals](HOWTO Write Project Proposals)
+* [http://inkscape.org/wiki/index.php/SOC_Accepted_Proposals](Inkscape's Accepted Proposals)
+* [http://www.internet2.edu/~shalunov/writing/soc2005.html](Internet2 Experience)
+* [http://summer.cs.pdx.edu/?q=node/12](Portland State University Experience)
+* [http://venge.net/monotone/summerofcode.html](Monotone Experience)
+* [http://www.internet2.edu/~shalunov/tmp/rwatson-soc.txt](Internet2 Experience)
 
-Please read (http://socghop.appspot.com/document/show/program/google/gsoc2009/faqs)[Google's Summer of Code Student FAQ] and advice from past participants as you create your proposal. **Feel free to submit multiple proposals.**
+Please read [http://socghop.appspot.com/document/show/program/google/gsoc2009/faqs](Google's Summer of Code Student FAQ) and advice from past participants as you create your proposal. **Feel free to submit multiple proposals.**
 
-Mithro has prepared some (http://forums.thousandparsec.com/viewtopic.php?f=4&t=101)[tips for writing an application]. **PLEASE** read this before submitting an application.
+Mithro has prepared some [http://forums.thousandparsec.com/viewtopic.php?f=4&t=101](tips for writing an application). **PLEASE** read this before submitting an application.
 
-Feel free to write your proposal on the wiki. Please link it from the ([Google)[Summer of Code/Proposals2010|Proposals2010]] page.
+Feel free to write your proposal on the wiki. Please link it from the [[Google](Summer of Code/Proposals2010|Proposals2010)] page.
 
 ## Selection Criteria
 
@@ -41,7 +41,7 @@ The following are conditions that result in automatic rejection:
 
  * Read up the [http://www.thousandparsec.net/tp/dev/index.php developer section].
  * Join the mailing lists for the project you are interested in.
- * Join the IRC chat channel (#timvideos on irc.freenode.net)[irc://irc.freenode.org/#timvideos].
+ * Join the IRC chat channel [#timvideos on irc.freenode.net](irc://irc.freenode.org/#timvideos).
 
 # Ideas
 
@@ -49,13 +49,13 @@ You can find our ideas list at [[Ideas for Programmers]] page. The list is not d
 
 # Mentors
 
-Please see the (The People page)[]
+Please see the [The People page]()
 
 
 # External Links
 
-* (Google Summer of Code)[http://code.google.com/soc]
-* (Google SoC FAQ)[]
+* [Google Summer of Code](http://code.google.com/soc)
+* [Google SoC FAQ]()
 
 
 # Thanks
@@ -63,8 +63,8 @@ Please see the (The People page)[]
 We would like to thank the following people,
 
 * http://wiki.creativecommons.org/Summer_of_Code Creative Commons - a lot of the information in this document was adapted from their Summer of Code page.
-* (Inkscape)[http://www.inkscape.com/] - the Inkscape project also has a large amount of stuff which was useful in creating this page.
-* (Google)[http://www.google.com/] - without Google this wouldn't even be possible.
+* [Inkscape](http://www.inkscape.com/) - the Inkscape project also has a large amount of stuff which was useful in creating this page.
+* [Google](http://www.google.com/) - without Google this wouldn't even be possible.
 
 
 
