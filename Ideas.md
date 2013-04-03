@@ -68,15 +68,14 @@ Repository for actually deploying a live streaming system, includes website, set
 
 ## HDMI2USB
 
-HDMI2USB is a core hardware project in the Tim Video's suite. 
+HDMI2USB is a core hardware project in the Tim Video's suite. There are two types of projects to work on with the HDMI2USB system;
+ * Firmware Projects - As the device uses a Xilinx Spartan 6 FPGA, developing much of the hardware is actually a process of developing software!<br>[More information on current HDMI2USB firmware](https://github.com/timvideos/HDMI2USB/wiki/Firmware).
+ * Extension Boards - The Digilent ATLYS can be extended via the [VHDCI connector](http://en.wikipedia.org/wiki/Very-high-density_cable_interconnect).<br>[More information on existing HDMI2USB extension boards]()
 
-There are two types of projects to work on with the HDMI2USB system;
- * Firmware Projects - As the device uses a Xilinx Spartan 6 FPGA, developing much of the hardware is actually a process of developing software! [More information on HDMI2USB firmware]().
- * Extension Boards - The Digilent ATLYS only has limited I/O, extension boards are PCBs which connect to the Digilent ATLYS's [VHDCI connector](http://en.wikipedia.org/wiki/Very-high-density_cable_interconnect) and extend the functionality. [More information on HDMI2USB extension boards]()
+#### Digilent ATLYS Prototype Board
 
 **All hardware projects will require you to have a [Digilent ATLYS prototype board](http://digilentinc.com/Products/Detail.cfm?NavPath=2,400,836&Prod=ATLYS).**
 
-### HDMI2USB Extension Boards
 For developing features for the HDMI2USB system we use a [Digilent ATLYS prototype board](http://digilentinc.com/Products/Detail.cfm?NavPath=2,400,836&Prod=ATLYS).
 
 > The Atlys circuit board is a complete, ready-to-use digital circuit development platform
@@ -89,5 +88,13 @@ For developing features for the HDMI2USB system we use a [Digilent ATLYS prototy
 
 If you can show that you are committed to developing hardware (such as being accepted into a program like Google Summer of Code), **you can apply for a grant to have a board provided to you for development.**
 
-### HDMI2USB Firmware 
-https://github.com/timvideos/HDMI2USB/wiki/Firmware
+
+
+### HDMI2USB Extension Boards Projects
+
+
+
+### HDMI2USB Firmware Projects
+
+
+
