@@ -65,3 +65,83 @@ We would like to thank the following people,
 * http://wiki.creativecommons.org/Summer_of_Code Creative Commons - a lot of the information in this document was adapted from their Summer of Code page.
 * (Inkscape)[http://www.inkscape.com/] - the Inkscape project also has a large amount of stuff which was useful in creating this page.
 * (Google)[http://www.google.com/] - without Google this wouldn't even be possible.
+
+
+
+# Tips
+
+
+I have been looking over the proposals and there are a couple of things that many seem to be lacking. I have put this email together to help you fix these and help make your proposals better.
+
+## Tip 1 - Include IRC Nickname
+
+Include your IRC nick as the first thing in the detailed description. 
+
+In the last month there have been over 50 new people turn up, keeping you all straight is hard for us. Specially when your IRC nick, email address and real name have no resemblance.
+
+## Tip 2 - Project First, Resume Second
+
+We are most interested in your proposal for the project. If your proposal looks good we may then look at your resume / personal description.
+
+Hence, include the project information first and your personal stuff second.
+
+
+## Tip 3 - Include assertive Functional Milestones
+
+One of the best ways to show that you are a serious students is to include proper assertive milestones. These should be a single sentences which say something like 
+The AI will issue move orders.
+The client will be able to display planets in a 3d fashion.
+The ruleset will allow tpclient-pywx to see planets.
+The metaserver will display a starmap generated from starmapper.
+
+The keyword here is will, it is assertive.
+
+These milestones should have dates associated with them. We understand that you are new to the project and that these dates will change as the project progresses. You *will not* fail just because a milestone had to be moved a week or dropped all together.
+
+The milestones should be testable and specific. Here are some examples which are not acceptable.
+The AI framework will be finish.
+The star map will work.
+The ruleset will be balanced.
+
+Negative milestones are hard to test, avoid them if possible. For example "The AI will not issue wrong orders" is almost impossible to prove and not all that useful. More often negative statements are goals not milestones.
+
+These milestones will be hard to figure out, being able to talk about specifics shows that you are well researched and know your stuff. Have
+confidence in your own abilities!
+
+Keep your milestones small, they should be doable in less then a weeks full time work. The smaller (and more specific) they are, the harder it will be to get behind.
+
+Talk to the mentors about your milestones, they have huge amount of knowledge about what is realistic and can really help you refine the details.
+
+## Tip 4 - We are not mind readers
+
+?Anything which is not linked to from your proposal effectively does not exist. I'm afraid we can not (yet) read your mind. 
+
+I personally have a crap memory, it is unlikely that I will remember that IRC conversation we had about XYZ. Other mentors may not have seen that conversation either.
+
+If you have thought about a certain way to do something tell us, even if you decided that it was not feasible. If you had an important IRC conversation which resulted in changing the way you think, link too the logs. If a web page was influential tell us about it!
+
+## Tip 5 - Submit now!
+
+Do not leave it to the last minute as you won't have time to update the proposal based on feedback. There is still plenty of time for mentors to give feedback and you to update your proposal.
+
+Last year all accepted student for Thousand Parsec went through at least three updates to their applications.
+
+## Tip 6 - Make your application public
+
+Having a public application means not only can mentors give you feedback but other students and the general community can too!
+
+Using a wiki is a good idea because it lets us look at the history of how your proposal has evolved. It also means you can have formatting making it easier to read.
+
+## Tip 7 - Splitting applications which are too big
+
+Google limits the text you can submit for your detailed description to XXX characters. This can be quite limited if you have some detailed information or pseudo code. 
+
+It is recommended that you produce two versions of your application.
+
+A "cut back" version which fits into the character limit. This should be all the very important bits of your application. You must include your functional milestones in this section. There should be enough meat in this section to convince us to look at your further URL.
+
+The URL in the document should link to your full proposal. Feel free to add things like pseudo code, ruleset design information or anything else which you feel is relevant.
+
+This linked proposal you should also include your complete Google application. The text which is being duplicated should be clearly marked in a different colour but still readable. Assume that clicking the link replace the Google application with the page and we can no longer remember the original proposal.
+
+Remember quality is better then quantity!
