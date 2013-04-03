@@ -44,9 +44,11 @@ To help you decide which project you might like, we have created the following f
  * There are many bugs which in individual components which are not yet listed as potential starter projects. Check out the bug trackers!
  * Feel free to suggest your own ideas!
 
----------------------------------------
-
-
+<br>
+<br>
+<br>
+<br>
+<br>
 # Software Projects
 
 ## gst-switch
@@ -80,8 +82,11 @@ Repository for actually deploying a live streaming system consisting of a flumot
 
 #### The streaming system including a django based website, shell script set up scripts and Python watchdog code.
 
----------------------------------------
-
+<br>
+<br>
+<br>
+<br>
+<br>
 # Hardware Projects
 
 ## HDMI2USB
@@ -121,8 +126,11 @@ If you can show that you are committed to developing hardware (such as being acc
 
  * [**HDMI2USB Firmware** Tasks](https://github.com/timvideos/getting-started/issues?labels=Firmware)
 
----------------------------------------
-
+<br>
+<br>
+<br>
+<br>
+<br>
 # Partner Projects
 
 ## flumotion
