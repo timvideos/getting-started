@@ -33,6 +33,17 @@ To help you decide where you interest might like, we have created the following 
 </map>
 [Edit Image](https://docs.google.com/a/mithis.com/drawings/d/1zYlT69xQqbAjzuJgKj-UhO1vRF5JNLpic8xmPrfNtXM/edit)
 
+| Target | Link                                      |
+| ------ | ----------------------------------------- |
+| **HDMI2USB Extension Board** Tasks | https://github.com/timvideos/getting-started/issues?labels=Extension+Boards |
+| **HDMI2USB Firmware** Tasks | https://github.com/timvideos/getting-started/issues?labels=Firmware |
+| **gst-switch** Tasks | https://github.com/timvideos/getting-started/issues?labels=gst-switch |
+| **gstreamer** Tasks | https://github.com/timvideos/getting-started/issues?labels=gstreamer |
+| **flumotion** Tasks | https://github.com/timvideos/getting-started/issues?labels=flumotion |
+| **Tim Video's Website** Tasks | https://github.com/timvideos/getting-started/issues?labels=timvideos |
+
+---------------------------------------
+
 # Software Projects
 
 ## gst-switch
