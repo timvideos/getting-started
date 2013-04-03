@@ -1,4 +1,3 @@
-
 # Prior Reading
 
 Firstly, **please read the Google Summer of Code 
@@ -170,7 +169,6 @@ Please see the [](The People page)
 
 # Where to Ask Questions
 
- * Read up the [http://www.thousandparsec.net/tp/dev/index.php developer section].
  * Join the mailing lists for the project you are interested in.
  * Join the IRC chat channel [irc://irc.freenode.org/#timvideos](#timvideos on irc.freenode.net).
 
