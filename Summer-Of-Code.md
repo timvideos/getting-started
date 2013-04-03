@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Prior Reading
 
 Firstly, **please read the Google Summer of Code 

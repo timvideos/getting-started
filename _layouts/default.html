@@ -1,0 +1,45 @@
+---
+---
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Tim Videos - Getting Started!</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/pygment_trac.css">
+    <script src="js/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">{{page.title}}</h1>
+        <p class="header">{{page.tagline}}</p>
+
+        <ul>
+<!--
+          <li class="download"><a class="buttons" href="https://github.com/timvideos/getting-started/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/timvideos/getting-started/tarball/master">Download TAR</a></li>
+  -->
+          <li><a class="buttons" href="/Home.html">Welcome</a></li>
+          <li><a class="buttons" href="/Ideas.html">Ideas</a> (<a href="https://github.com/timvideos/getting-started/issues">Tracker</a>)</li>
+          <li><a class="buttons" href="/People.html">People</a></li>
+
+        </ul>
+
+        <p class="header"><a class="header name" href="https://github.com/timvideos/getting-started/wiki{{page.url|replace_first:'.html',''}}">Edit</a></p> 
+
+
+      </header>
+      <section>
+{{content}}
+      </section>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+  </body>
+</html>

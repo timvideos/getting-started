@@ -1,4 +1,8 @@
-Welcome to the "getting started with Tim Videos" documentation project! 
+---
+layout: default
+title: Welcome!
+tagline: Getting started with Tim Videos
+---
 
 As Tim Video's is a conglomeration of a bunch of Open Source projects it can be quite hard to find your way around. This information should help you figure out where you need to go and what you need to do to get started!
 

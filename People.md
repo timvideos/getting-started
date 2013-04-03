@@ -1,3 +1,9 @@
+---
+layout: default
+title: People
+tagline: The creators of Tim Videos (it's not just Tim!).
+---
+
 ### Tim 'mithro' Ansell
 The "Tim" in Tim Videos. Founder and Leader of the Tim Video's project.
 
