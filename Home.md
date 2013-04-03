@@ -4,6 +4,8 @@ title: Welcome!
 tagline: Getting started with Tim Videos
 ---
 
+# Welcome!
+
 Welcome to TimVideos!  We're busy working on several exciting video-related Open Source projects right now.  Whether you want to work hands-on with hardware or code in a variety of languages, we have a project for you.  Join the team! 
 
 This information should help you explore the projects and learn how to get started.
