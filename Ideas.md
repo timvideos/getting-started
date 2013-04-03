@@ -1,7 +1,8 @@
 ---
-layout: default
-title: Ideas!
-tagline: Projects you could possibly work on.
+{'layout': 'default',
+ 'title': 'Ideas!',
+ 'tagline': 'Projects you could possibly work on.'
+}
 ---
 
 # Overview
