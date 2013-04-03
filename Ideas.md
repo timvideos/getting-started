@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ideas!
-tagline: Projects you could possible work on.
+tagline: Projects you could possibly work on.
 ---
 
 # Overview
@@ -72,9 +72,11 @@ HDMI2USB is a core hardware project in the Tim Video's suite. There are two type
  * Firmware Projects - As the device uses a Xilinx Spartan 6 FPGA, developing much of the hardware is actually a process of developing software!<br>[More information on current HDMI2USB firmware](https://github.com/timvideos/HDMI2USB/wiki/Firmware).
  * Extension Boards - The Digilent ATLYS can be extended via the [VHDCI connector](http://en.wikipedia.org/wiki/Very-high-density_cable_interconnect).<br>[More information on existing HDMI2USB extension boards]()
 
-### Digilent ATLYS Prototype Board
+<p style='font-size: 18px; color: red; text-align: center;'>
+<strong>!!! All hardware projects will require you to have a Digilent ATLYS prototype board !!!</strong>
+</p>
 
-**All hardware projects will require you to have a [Digilent ATLYS prototype board](http://digilentinc.com/Products/Detail.cfm?NavPath=2,400,836&Prod=ATLYS).**
+### Digilent ATLYS Prototype Board
 
 For developing features for the HDMI2USB system we use a [Digilent ATLYS prototype board](http://digilentinc.com/Products/Detail.cfm?NavPath=2,400,836&Prod=ATLYS).
 
