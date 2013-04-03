@@ -39,16 +39,26 @@ To help you decide which project you might like, we have created the following f
 
 This project is intended to be a replacement of DV-switch base on GStreamer.
 
-### Links
+### gst-switch Links
+
+ * [Code](http://github.com/timvideos/gst-switch)
+ * [Mailing List](https://groups.google.com/group/gst-switch)
+ * [IRC Channel](irc://irc.freenode.org/#gst-switch) - Freenode IRC, channel #gst-switch. [IRC Logs]()
 
 ## flumotion
 
 flumotion is a project that is older than the Tim Video's suite. Originally developed by Fluendo, it uses the gstreamer platform to do the actual heavy lifting.
 
-### Links
+### flumotion Links
+
+ * [Code]()
+ * [Mailing List]()
+ * [IRC Channel]()
 
 
 # Hardware Projects
+
+## HDMI2USB
 
 HDMI2USB is the core hardware project in the Tim Video's suite. Its job is to capture the display output of a laptop and bring it back onto a different computer.
 
@@ -68,7 +78,7 @@ For developing features for the HDMI2USB system we use a [Digilent ATLYS prototy
 
 If you can show that you are committed to developing hardware (such as being accepted into a program like Google Summer of Code), **you can apply for a grant to have a board provided to you for development.**
 
-## Project Links
+### HDMI2USB Links
 
  * [Code](http://github.com/timvideos/HDMI2USB.git)
  * [Mailing List](https://groups.google.com/group/hdmi2usb?hl=en-GB)
@@ -79,8 +89,13 @@ If you can show that you are committed to developing hardware (such as being acc
 It doesn't require any modification of the system being captured and is ideal for capturing conference slides from wide variety of sources.
 
 ## Firmware Projects
-
 https://github.com/timvideos/HDMI2USB/wiki/Firmware
 
-## Hardware Projects
+### Links
+
+ * [Code]()
+ * [Mailing List]()
+ * [IRC Channel]()
+
+
 
