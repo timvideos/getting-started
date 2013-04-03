@@ -170,7 +170,7 @@ Please see the [](The People page)
 # Where to Ask Questions
 
  * Join the mailing lists for the project you are interested in.
- * Join the IRC chat channel [irc://irc.freenode.org/#timvideos](#timvideos on irc.freenode.net).
+ * Join the IRC chat channel [#timvideos on irc.freenode.net](irc://irc.freenode.org/#timvideos).
 
 # Thanks
 
