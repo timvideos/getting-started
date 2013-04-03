@@ -10,7 +10,7 @@ If you are just interested in contributing and this is your first visit, head ov
 
 If you have a Digilent Atlys Board, head over to the [HDMI2USB Wiki](https://github.com/timvideos/HDMI2USB/wiki) and specifically look at the [Getting started with Atlys Board](https://github.com/timvideos/HDMI2USB/wiki/Getting-Started-with-an-Atlys-Board) page.
 
-## The projects
+## The Projects
 
 | Name (C)ode (M)ailing List (I)RC | Description | Contributors |
 | -------------------------------- | ------------ | ----------- |
