@@ -37,9 +37,9 @@ To help you decide which project you might like, we have created the following f
 
 ## gst-switch
 
-This project is intended to be a replacement of DV-switch base on GStreamer.
+This project is intended to be a replacement of DV-switch based on GStreamer.
 
-### gst-switch Links
+### Links
 
  * [Code](http://github.com/timvideos/gst-switch)
  * [Mailing List](https://groups.google.com/group/gst-switch)
@@ -49,6 +49,15 @@ This project is intended to be a replacement of DV-switch base on GStreamer.
 
 flumotion is a project that is older than the Tim Video's suite. Originally developed by Fluendo, it uses the gstreamer platform to do the actual heavy lifting.
 
+## timvideos
+
+Repository for actually deploying a live streaming system, includes website, set up scripts and watchdog code.
+
+### Links
+
+ * [Code](http://github.com/timvideos/timvideos)
+ * [Mailing List](https://groups.google.com/group/timvideos)
+ * [IRC Channel](irc://irc.freenode.org/#timvideos) - Freenode IRC, channel #timvideos. [IRC Logs]()
 
 # Hardware Projects
 
@@ -59,7 +68,7 @@ HDMI2USB is the core hardware project in the Tim Video's suite. Its job is to ca
 **All hardware projects will require you to have a Digilent ATLYS prototype board.** [See Prototyping Board for more information](https://github.com/timvideos/getting-started/wiki/Ideas-Page#prototyping-board).
 
 
-### Prototyping Board
+### HDMI2USB Extension Boards
 For developing features for the HDMI2USB system we use a [Digilent ATLYS prototype board](http://digilentinc.com/Products/Detail.cfm?NavPath=2,400,836&Prod=ATLYS).
 
 > The Atlys circuit board is a complete, ready-to-use digital circuit development platform
