@@ -5,7 +5,7 @@ Tim Video's is actually a number of *different* but related projects. There are 
 To help you decide where you interest might like, we have created the following flow diagram:
 
 <img src="https://docs.google.com/drawings/d/1zYlT69xQqbAjzuJgKj-UhO1vRF5JNLpic8xmPrfNtXM/pub?w=960&h=720" usemap="#wiki-flow-diagram-map" alt="Getting Started Flow Diagram">
-<map id="flow-diagram-map" name="flow-diagram-map">
+<map name="wiki-flow-diagram-map">
  <area shape="rect" coords="47,458,197,549"  href="https://github.com/timvideos/getting-started/issues?labels=Extension+Boards"
   title="HDMI2USB Extension Board Tasks">
  <area shape="rect" coords="209,463,360,552" href="https://github.com/timvideos/getting-started/issues?labels=Firmware"
