@@ -4,6 +4,7 @@ Tim Video's is actually a number of *different* but related projects. There are 
 
 To help you decide where you interest might like, we have created the following flow diagram:
 !["Getting Started" - Flow Diagram](https://docs.google.com/drawings/d/1zYlT69xQqbAjzuJgKj-UhO1vRF5JNLpic8xmPrfNtXM/pub?w=960&h=720)
+[Edit Image](https://docs.google.com/a/mithis.com/drawings/d/1zYlT69xQqbAjzuJgKj-UhO1vRF5JNLpic8xmPrfNtXM/edit)
 
 # Software Projects
 
