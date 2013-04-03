@@ -2,7 +2,7 @@
 
 Tim Video's is actually a number of *different* but related projects. There are a huge variety of ways to get started in a huge variety of different areas.
 
-To help you decide where you interest might like, we have created the following flow diagram:
+To help you decide which project you might like, we have created the following flow diagram:
 
 <img src="https://docs.google.com/drawings/d/1zYlT69xQqbAjzuJgKj-UhO1vRF5JNLpic8xmPrfNtXM/pub?w=960&h=720" usemap="#wiki-flow-diagram-map" alt="Getting Started Flow Diagram">
 <map name="wiki-flow-diagram-map">
@@ -43,14 +43,14 @@ This project is intended to be a replacement of DV-switch base on GStreamer.
 
 ## flumotion
 
-flumotion is project that is older then the Tim Video's suite. Originally developed by Fluendo, it uses the gstreamer platform to do the actual heavy lifting.
+flumotion is a project that is older than the Tim Video's suite. Originally developed by Fluendo, it uses the gstreamer platform to do the actual heavy lifting.
 
 ### Links
 
 
 # Hardware Projects
 
-HDMI2USB is the core hardware project in the Tim Video's suite. It's job is to capture the display output of a laptop and bring it back onto a different computer.
+HDMI2USB is the core hardware project in the Tim Video's suite. Its job is to capture the display output of a laptop and bring it back onto a different computer.
 
 **All hardware projects will require you to have a Digilent ATLYS prototype board.** [See Prototyping Board for more information](https://github.com/timvideos/getting-started/wiki/Ideas-Page#prototyping-board).
 
@@ -66,7 +66,7 @@ For developing features for the HDMI2USB system we use a [Digilent ATLYS prototy
 > including ChipScope, EDK, and the free WebPack, so designs can be completed with no extra
 > costs.
 
-If you can show that you are committed to developing hardware (such as being accepted into a program like Google Summer of Code). **You can apply for a grant to have a board provided to you for development.**
+If you can show that you are committed to developing hardware (such as being accepted into a program like Google Summer of Code), **you can apply for a grant to have a board provided to you for development.**
 
 ## Project Links
 
