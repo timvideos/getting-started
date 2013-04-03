@@ -1,6 +1,9 @@
-Tim Video's is actually a number of different but related projects. There are a huge variety of ways to get started. 
+# Overview
 
-For this reason, we have created the 
+Tim Video's is actually a number of *different* but related projects. There are a huge variety of ways to get started in a huge variety of different areas.
+
+To help you decide where you interest might like, we have created the following flow diagram:
+!["Getting Started" - Flow Diagram](https://docs.google.com/drawings/d/1zYlT69xQqbAjzuJgKj-UhO1vRF5JNLpic8xmPrfNtXM/pub?w=960&h=720)
 
 # Software Projects
 
