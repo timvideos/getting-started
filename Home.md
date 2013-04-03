@@ -1,6 +1,6 @@
-Welcome to the "getting started with Tim Videos" documentation project! 
+Welcome to Tim Videos!  We're busy working on several exciting video-related Open Source projects right now.  Whether you want to work hands-on with hardware or code in a variety of languages, we have a project for you.  Join the team! 
 
-As Tim Video's is a conglomeration of a bunch of Open Source projects it can be quite hard to find your way around. This information should help you figure out where you need to go and what you need to do to get started!
+This information should help you explore the projects and learn how to get started.
 
 ## Getting Started
 
