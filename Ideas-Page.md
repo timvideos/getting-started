@@ -49,12 +49,6 @@ This project is intended to be a replacement of DV-switch base on GStreamer.
 
 flumotion is a project that is older than the Tim Video's suite. Originally developed by Fluendo, it uses the gstreamer platform to do the actual heavy lifting.
 
-### flumotion Links
-
- * [Code]()
- * [Mailing List]()
- * [IRC Channel]()
-
 
 # Hardware Projects
 
@@ -78,7 +72,7 @@ For developing features for the HDMI2USB system we use a [Digilent ATLYS prototy
 
 If you can show that you are committed to developing hardware (such as being accepted into a program like Google Summer of Code), **you can apply for a grant to have a board provided to you for development.**
 
-### HDMI2USB Links
+### Links
 
  * [Code](http://github.com/timvideos/HDMI2USB.git)
  * [Mailing List](https://groups.google.com/group/hdmi2usb?hl=en-GB)
@@ -88,14 +82,6 @@ If you can show that you are committed to developing hardware (such as being acc
 ### Key Features
 It doesn't require any modification of the system being captured and is ideal for capturing conference slides from wide variety of sources.
 
-## Firmware Projects
+## HDMI2USB Firmware 
 https://github.com/timvideos/HDMI2USB/wiki/Firmware
-
-### Links
-
- * [Code]()
- * [Mailing List]()
- * [IRC Channel]()
-
-
 
