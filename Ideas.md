@@ -40,12 +40,17 @@ To help you decide which project you might like, we have created the following f
   title="Web Tasks"></area>
 </map>
 
+ * Students should checkout the [Summer Of Code page](Summer-Of-Code.html).
+ * There are many bugs which in individual components which are not yet listed as potential starter projects. Check out the bug trackers!
+ * Feel free to suggest your own ideas!
+
 ---------------------------------------
+
 
 # Software Projects
 
 ## gst-switch
-[(Code)](http://github.com/timvideos/gst-switch) | [(Mailing List)](https://groups.google.com/group/gst-switch) | [(IRC Channel)](irc://irc.freenode.org/#gst-switch)
+[(Code)](http://github.com/timvideos/gst-switch) | [(Mailing List)](https://groups.google.com/group/gst-switch) | [(IRC Channel)](irc://irc.freenode.org/#gst-switch) | [(Bug Tracker)](http://github.com/timvideos/gst-switch/issues)
 
  * [**gst-switch** Tasks](https://github.com/timvideos/getting-started/issues?labels=gst-switch)
 
@@ -67,7 +72,7 @@ speakertrack is a bunch of extensions to gstreamer and gst-switch to allow autom
 
 
 ## Streaming System
-[(Code)](http://github.com/timvideos/streaming-system) | [(IRC Channel)](irc://irc.freenode.org/#timvideos)
+[(Code)](http://github.com/timvideos/streaming-system) | [(IRC Channel)](irc://irc.freenode.org/#timvideos) | [(Bug Tracker)](http://github.com/timvideos/streaming-system/issues)
 
  * [**Streaming System Website** Tasks](https://github.com/timvideos/getting-started/issues?labels=website)
 
@@ -80,7 +85,8 @@ Repository for actually deploying a live streaming system consisting of a flumot
 # Hardware Projects
 
 ## HDMI2USB
-[(Code)](http://github.com/timvideos/HDMI2USB.git) | [(Mailing List)](https://groups.google.com/group/hdmi2usb?hl=en-GB) | [(IRC Channel)](irc://irc.freenode.org/#hdmi2usb) 
+[(Code)](http://github.com/timvideos/HDMI2USB.git) | [(Mailing List)](https://groups.google.com/group/hdmi2usb?hl=en-GB) | [(IRC Channel)](irc://irc.freenode.org/#hdmi2usb) | [(Bug Tracker)](http://github.com/timvideos/HDMI2USB/issues)
+
 
 HDMI2USB is a core hardware project in the Tim Video's suite. There are two types of projects to work on with the HDMI2USB system;
  * Firmware Projects - As the device uses a Xilinx Spartan 6 FPGA, developing much of the hardware is actually a process of developing software!<br>[More information on current HDMI2USB firmware](https://github.com/timvideos/HDMI2USB/wiki/Firmware).
