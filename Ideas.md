@@ -54,25 +54,13 @@ To help you decide which project you might like, we have created the following f
 
 This project is intended to be a replacement of DV-switch based on GStreamer.
 
-### Links
-
- * [Code](http://github.com/timvideos/gst-switch)
- * [Mailing List](https://groups.google.com/group/gst-switch)
- * [IRC Channel](irc://irc.freenode.org/#gst-switch) - Freenode IRC, channel #gst-switch. [IRC Logs]()
-
 ## flumotion
 
 flumotion is a project that is older than the Tim Video's suite. Originally developed by Fluendo, it uses the gstreamer platform to do the actual heavy lifting.
 
-## timvideos
+## TimVideos
 
 Repository for actually deploying a live streaming system, includes website, set up scripts and watchdog code.
-
-### Links
-
- * [Code](http://github.com/timvideos/timvideos)
- * [Mailing List](https://groups.google.com/group/timvideos)
- * [IRC Channel](irc://irc.freenode.org/#timvideos) - Freenode IRC, channel #timvideos. [IRC Logs]()
 
 ---------------------------------------
 
@@ -80,12 +68,14 @@ Repository for actually deploying a live streaming system, includes website, set
 
 ## HDMI2USB
 
-HDMI2USB is the core hardware project in the Tim Video's suite. Its job is to capture the display output of a laptop and bring it back onto a different computer.
+HDMI2USB is a core hardware project in the Tim Video's suite. There are two types of projects to work on with the HDMI2USB system;
+ * Firmware Projects - As the device uses a Xilinx Spartan 6 FPGA, developing much of the hardware is actually a process of developing software!<br>[More information on current HDMI2USB firmware](https://github.com/timvideos/HDMI2USB/wiki/Firmware).
+ * Extension Boards - The Digilent ATLYS can be extended via the [VHDCI connector](http://en.wikipedia.org/wiki/Very-high-density_cable_interconnect).<br>[More information on existing HDMI2USB extension boards]()
 
-**All hardware projects will require you to have a Digilent ATLYS prototype board.** [See Prototyping Board for more information](https://github.com/timvideos/getting-started/wiki/Ideas-Page#prototyping-board).
+#### Digilent ATLYS Prototype Board
 
+**All hardware projects will require you to have a [Digilent ATLYS prototype board](http://digilentinc.com/Products/Detail.cfm?NavPath=2,400,836&Prod=ATLYS).**
 
-### HDMI2USB Extension Boards
 For developing features for the HDMI2USB system we use a [Digilent ATLYS prototype board](http://digilentinc.com/Products/Detail.cfm?NavPath=2,400,836&Prod=ATLYS).
 
 > The Atlys circuit board is a complete, ready-to-use digital circuit development platform
@@ -98,15 +88,13 @@ For developing features for the HDMI2USB system we use a [Digilent ATLYS prototy
 
 If you can show that you are committed to developing hardware (such as being accepted into a program like Google Summer of Code), **you can apply for a grant to have a board provided to you for development.**
 
-### Links
-
- * [Code](http://github.com/timvideos/HDMI2USB.git)
- * [Mailing List](https://groups.google.com/group/hdmi2usb?hl=en-GB)
- * [IRC Channel](irc://irc.freenode.org/#hdmi2usb) - Freenode IRC, channel #hdmi2usb. [IRC Logs]()
 
 
-### Key Features
-It doesn't require any modification of the system being captured and is ideal for capturing conference slides from wide variety of sources.
+### HDMI2USB Extension Boards Projects
 
-## HDMI2USB Firmware 
-https://github.com/timvideos/HDMI2USB/wiki/Firmware
+
+
+### HDMI2USB Firmware Projects
+
+
+
