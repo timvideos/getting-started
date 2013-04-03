@@ -1,6 +1,9 @@
 ---
 layout: default
+title: Summer of Code
+tagline: Special information for Google Summer of Code participants.
 ---
+
 # Prior Reading
 
 Firstly, **please read the Google Summer of Code 
