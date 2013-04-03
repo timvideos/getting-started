@@ -21,6 +21,7 @@ If you have a Digilent Atlys Board, head over to the [HDMI2USB Wiki](https://git
 
 | Name | <small>(C)ode<br>(M)ailing&nbsp;List<br>(I)RC</small>| Description | Contributors |
 | ---- | ---------------------------------------------------- | ------------ | ----------- |
+| **TimVideos.us** | [(C)](http://github.com/timvideos) [(M)](https://groups.google.com/group/timvideos) [(I)](irc://irc.freenode.org/#timvideos) | Over-arching parent project. | |
 | gst-switch | [(C)](http://github.com/timvideos/gst-switch)&nbsp;[(M)](https://groups.google.com/group/gst-switch)&nbsp;[(I)](irc://irc.freenode.org/#gst-switch)  | Replacement for DVSwitch based around gstreamer. | duzy, mithro |
 | speakertrack | [(C)](http://github.com/timvideos/gst-switch) | Extension to gst-switch to allow automatic tracking of speakers using PTZ cameras rather then needing a camera operator. | duzy, mithro |
 | streaming-system | [(C)](http://github.com/timvideos/streaming-system) [(M)](https://groups.google.com/group/timvideos) [(I)](irc://irc.freenode.org/#timvideos) | Repository for actually deploying a live streaming system, includes website, set up scripts and watchdog code. | mithro, iiie, |
