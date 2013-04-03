@@ -4,32 +4,32 @@ Tim Video's is actually a number of *different* but related projects. There are 
 
 To help you decide where you interest might like, we have created the following flow diagram:
 
-<img src="https://docs.google.com/drawings/d/1zYlT69xQqbAjzuJgKj-UhO1vRF5JNLpic8xmPrfNtXM/pub?w=960&h=720" usemap="#wiki-flow-diagram-map" alt="Getting Started Flow Diagram" />
+<img src="https://docs.google.com/drawings/d/1zYlT69xQqbAjzuJgKj-UhO1vRF5JNLpic8xmPrfNtXM/pub?w=960&h=720" usemap="#wiki-flow-diagram-map" alt="Getting Started Flow Diagram">
 <map id="flow-diagram-map" name="flow-diagram-map">
  <area shape="rect" coords="47,458,197,549"  href="https://github.com/timvideos/getting-started/issues?labels=Extension+Boards"
-  title="HDMI2USB Extension Board Tasks" />
+  title="HDMI2USB Extension Board Tasks">
  <area shape="rect" coords="209,463,360,552" href="https://github.com/timvideos/getting-started/issues?labels=Firmware"
-  title="HDMI2USB Firmware Tasks" />
+  title="HDMI2USB Firmware Tasks">
  <area shape="rect" coords="451,466,602,550" href="https://github.com/timvideos/getting-started/issues?labels=gst-switch"
-  title="gst-switch Tasks" />
+  title="gst-switch Tasks">
  <area shape="rect" coords="449,557,600,642" href="https://github.com/timvideos/getting-started/issues?labels=gstreamer"
   title="gstreamer Tasks" />
  <area shape="rect" coords="615,462,763,550" href="https://github.com/timvideos/getting-started/issues?labels=flumotion"
-  title="flumotion Tasks" />
+  title="flumotion Tasks">
  <area shape="rect" coords="773,462,923,551" href="https://github.com/timvideos/getting-started/issues?labels=timvideos"
-  title="Tim Video's Website" />
+  title="Tim Video's Website">
  <area shape="rect" coords="586,65,723,215"  href="https://github.com/timvideos/getting-started/issues?labels=Software"
-  title="Software Tasks" />
+  title="Software Tasks">
  <area shape="rect" coords="228,65,374,210"  href="https://github.com/timvideos/getting-started/issues?labels=Hardware"
-  title="Hardware Tasks" />
+  title="Hardware Tasks">
  <area shape="rect" coords="209,301,355,444" href="https://github.com/timvideos/getting-started/issues?labels=Firmware"
-  title="Firmware Tasks" />
+  title="Firmware Tasks">
  <area shape="rect" coords="453,296,598,448" href="https://github.com/timvideos/getting-started/issues?labels=C"
-  title="C Tasks" />
+  title="C Tasks">
  <area shape="rect" coords="615,298,760,449" href="https://github.com/timvideos/getting-started/issues?labels=Python"
-  title="Python Tasks" />
+  title="Python Tasks">
  <area shape="rect" coords="774,298,927,448" href="https://github.com/timvideos/getting-started/issues?labels=Web"
-  title="Web Tasks" />
+  title="Web Tasks">
 </map>
 [Edit Image](https://docs.google.com/a/mithis.com/drawings/d/1zYlT69xQqbAjzuJgKj-UhO1vRF5JNLpic8xmPrfNtXM/edit)
 
