@@ -2,6 +2,7 @@
 layout: default
 title: Getting Started!
 ---
+
 # Welcome!
 
 Welcome to TimVideos!  We're busy working on several exciting video-related Open Source projects right now.  Whether you want to work hands-on with hardware or code in a variety of languages, we have a project for you.  Join the team! 
