@@ -1,7 +1,7 @@
 ---
 {'layout': 'default',
  'title': 'People',
- 'tagline': 'The creators of Tim Videos (it's not just Tim!).'}
+ 'tagline': 'The creators of Tim Videos (it is not just Tim!).'}
 
 ---
 
