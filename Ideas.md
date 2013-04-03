@@ -40,67 +40,52 @@ To help you decide which project you might like, we have created the following f
   title="Web Tasks"></area>
 </map>
 
- * [**HDMI2USB Extension Board** Tasks](https://github.com/timvideos/getting-started/issues?labels=Extension+Boards)
- * [**HDMI2USB Firmware** Tasks](https://github.com/timvideos/getting-started/issues?labels=Firmware)
- * [**gst-switch** Tasks](https://github.com/timvideos/getting-started/issues?labels=gst-switch)
- * [**gstreamer** Tasks](https://github.com/timvideos/getting-started/issues?labels=gstreamer)
- * [**flumotion** Tasks](https://github.com/timvideos/getting-started/issues?labels=flumotion)
- * [**Tim Video's Website** Tasks](https://github.com/timvideos/getting-started/issues?labels=timvideos)
-
 ---------------------------------------
 
 # Software Projects
 
 ## gst-switch
-([Code](http://github.com/timvideos/gst-switch)) | ([Mailing List](https://groups.google.com/group/gst-switch)) | ([IRC Channel](irc://irc.freenode.org/#gst-switch))
+[(Code)](http://github.com/timvideos/gst-switch) | [(Mailing List)](https://groups.google.com/group/gst-switch) | [(IRC Channel)](irc://irc.freenode.org/#gst-switch)
 
-This project is intended to be a replacement of [DVswitch](http://dvswitch.alioth.debian.org/wiki/) based on [GStreamer](http://gstreamer.freedesktop.org/).
+ * [**gst-switch** Tasks](https://github.com/timvideos/getting-started/issues?labels=gst-switch)
+
+gst-switch project is intended to be a replacement of [DVswitch](http://dvswitch.alioth.debian.org/wiki/) based on [GStreamer](http://gstreamer.freedesktop.org/). It aims to do interactive live mixing of incoming video streams, designed for the needs of conference recording.
 
 > DVswitch is a digital video mixer intended for interactive live mixing of
 > several incoming DV video streams. It was originally designed for the needs
 > of DebConf; It has now been used for various other conferences, meetings and
 > live musical performances.
 
-
- * gst-switch is written in C
+#### gst-switch is written in C and uses GStreamer
 
 ## speakertrack
+*Use the gst-switch, code repository, mailing lists and IRC channel.*
 
+speakertrack is a bunch of extensions to gstreamer and gst-switch to allow automatic tracking of speakers using PTZ cameras rather then needing a camera operator. 
 
-## flumotion
-([Code](https://code.flumotion.com/cgit/)) | ([Mailing Lists](http://lists.fluendo.com/mailman/listinfo)) | ([IRC Channel](irc://irc.freenode.org/#fluendo))
-
-While flumotion was **not** originally developed for TimVideos.us, it is used
-heavily to do the live video streaming side. For this reason we will have
-numerous ideas on how to improve the platform for our usecase.
-
-> Flumotion is an award winning streaming software created in 2006 by a group
-> of open source developers and multimedia experts. Flumotion Streaming
-> Software allows broadcasters and companies to stream content live and on
-> demand in all the leading formats from a single server.
+#### speakertrack is written in C and uses OpenCV
 
 
 ## Streaming System
-([Code](http://github.com/timvideos/streaming-system)) | ([IRC Channel](irc://irc.freenode.org/#timvideos))
+[(Code)](http://github.com/timvideos/streaming-system) | [(IRC Channel)](irc://irc.freenode.org/#timvideos)
+
+ * [**Streaming System Website** Tasks](https://github.com/timvideos/getting-started/issues?labels=website)
 
 Repository for actually deploying a live streaming system consisting of a flumotion setup and website.
 
- * The streaming system including a django based website, shell script set up scripts and Python watchdog code.
-
+#### The streaming system including a django based website, shell script set up scripts and Python watchdog code.
 
 ---------------------------------------
 
 # Hardware Projects
 
 ## HDMI2USB
+[(Code)](http://github.com/timvideos/HDMI2USB.git) | [(Mailing List)](https://groups.google.com/group/hdmi2usb?hl=en-GB) | [(IRC Channel)](irc://irc.freenode.org/#hdmi2usb) 
 
 HDMI2USB is a core hardware project in the Tim Video's suite. There are two types of projects to work on with the HDMI2USB system;
  * Firmware Projects - As the device uses a Xilinx Spartan 6 FPGA, developing much of the hardware is actually a process of developing software!<br>[More information on current HDMI2USB firmware](https://github.com/timvideos/HDMI2USB/wiki/Firmware).
  * Extension Boards - The Digilent ATLYS can be extended via the [VHDCI connector](http://en.wikipedia.org/wiki/Very-high-density_cable_interconnect).<br>[More information on existing HDMI2USB extension boards]()
 
- * [Code](http://github.com/timvideos/HDMI2USB.git)
- * [Mailing List](https://groups.google.com/group/hdmi2usb?hl=en-GB)
- * [IRC Channel](irc://irc.freenode.org/#hdmi2usb) - Freenode IRC, channel #hdmi2usb. [IRC Logs]()
 
 <p style='font-size: 18px; color: red; text-align: center;'>
 <strong>!!! All hardware projects will require you to have a Digilent ATLYS prototype board !!!</strong>
@@ -121,12 +106,55 @@ For developing features for the HDMI2USB system we use a [Digilent ATLYS prototy
 If you can show that you are committed to developing hardware (such as being accepted into a program like Google Summer of Code), **you can apply for a grant to have a board provided to you for development.**
 
 
-
 ### HDMI2USB Extension Boards Projects
 
+ * [**HDMI2USB Extension Board** Tasks](https://github.com/timvideos/getting-started/issues?labels=Extension+Boards)
 
 
 ### HDMI2USB Firmware Projects
 
+ * [**HDMI2USB Firmware** Tasks](https://github.com/timvideos/getting-started/issues?labels=Firmware)
+
+---------------------------------------
+
+# Partner Projects
+
+## flumotion
+[(Code)](https://code.flumotion.com/cgit/) | [(Mailing Lists)](http://lists.fluendo.com/mailman/listinfo) | [(IRC Channel)](irc://irc.freenode.org/#fluendo)
+
+ * [**flumotion** Tasks](https://github.com/timvideos/getting-started/issues?labels=flumotion)
+
+While flumotion was **not** originally developed for TimVideos.us, it is used
+heavily to do the live video streaming side. For this reason we will have
+numerous ideas on how to improve the platform for our usecase.
+
+> Flumotion is an award winning streaming software created in 2006 by a group
+> of open source developers and multimedia experts. Flumotion Streaming
+> Software allows broadcasters and companies to stream content live and on
+> demand in all the leading formats from a single server.
+
+#### flumotion is written in Python and uses GStreamer
+
+## gstreamer
+
+[(Code)](http://cgit.freedesktop.org/gstreamer) | [(Mailing Lists)](http://gstreamer.freedesktop.org/lists/) | [(IRC Channel)](irc://irc.freenode.org/#gstreamer) 
+
+ * [**gstreamer** Tasks](https://github.com/timvideos/getting-started/issues?labels=gstreamer)
+
+While flumotion was **not** originally developed for TimVideos.us, it is used
+heavily by gst-switch for doing video mixing and heavily by flumotion to do the
+heavy lifting of media processing. For this reason we will have numerous ideas
+on how to improve the platform for our usecase.
+
+
+
+> GStreamer is a library for constructing graphs of media-handling components.
+> The applications it supports range from simple Ogg/Vorbis playback,
+> audio/video streaming to complex audio (mixing) and video (non-linear
+> editing) processing. Applications can take advantage of advances in codec and
+> filter technology transparently. Developers can add new codecs and filters by
+> writing a simple plugin with a clean, generic interface.
+
+#### gstreamer is written in C
 
 
