@@ -74,6 +74,8 @@ Repository for actually deploying a live streaming system, includes website, set
  * [Mailing List](https://groups.google.com/group/timvideos)
  * [IRC Channel](irc://irc.freenode.org/#timvideos) - Freenode IRC, channel #timvideos. [IRC Logs]()
 
+---------------------------------------
+
 # Hardware Projects
 
 ## HDMI2USB
@@ -108,4 +110,3 @@ It doesn't require any modification of the system being captured and is ideal fo
 
 ## HDMI2USB Firmware 
 https://github.com/timvideos/HDMI2USB/wiki/Firmware
-
