@@ -169,7 +169,7 @@ Please see the [](The People page)
 
 # Where to Ask Questions
 
- * Join the [mailing lists](https://github.com/timvideos/getting-started/wiki#the-projects) for the project you are interested in.
+ * Join the [mailing lists](https://github.com/timvideos/getting-started/wiki#the-projects) for the projects you are interested in.
  * Join the IRC chat channel [#timvideos on irc.freenode.net](irc://irc.freenode.org/#timvideos).
 
 # Thanks
