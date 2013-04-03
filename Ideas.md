@@ -52,16 +52,41 @@ To help you decide which project you might like, we have created the following f
 # Software Projects
 
 ## gst-switch
+([Code](http://github.com/timvideos/gst-switch)) | ([Mailing List](https://groups.google.com/group/gst-switch)) | ([IRC Channel](irc://irc.freenode.org/#gst-switch))
 
-This project is intended to be a replacement of DV-switch based on GStreamer.
+This project is intended to be a replacement of [DVswitch](http://dvswitch.alioth.debian.org/wiki/) based on [GStreamer](http://gstreamer.freedesktop.org/).
+
+> DVswitch is a digital video mixer intended for interactive live mixing of
+> several incoming DV video streams. It was originally designed for the needs
+> of DebConf; It has now been used for various other conferences, meetings and
+> live musical performances.
+
+
+ * gst-switch is written in C
+
+## speakertrack
+
 
 ## flumotion
+([Code](https://code.flumotion.com/cgit/)) | ([Mailing Lists](http://lists.fluendo.com/mailman/listinfo)) | ([IRC Channel](irc://irc.freenode.org/#fluendo))
 
-flumotion is a project that is older than the Tim Video's suite. Originally developed by Fluendo, it uses the gstreamer platform to do the actual heavy lifting.
+While flumotion was **not** originally developed for TimVideos.us, it is used
+heavily to do the live video streaming side. For this reason we will have
+numerous ideas on how to improve the platform for our usecase.
+
+> Flumotion is an award winning streaming software created in 2006 by a group
+> of open source developers and multimedia experts. Flumotion Streaming
+> Software allows broadcasters and companies to stream content live and on
+> demand in all the leading formats from a single server.
+
 
 ## Streaming System
+([Code](http://github.com/timvideos/streaming-system)) | ([IRC Channel](irc://irc.freenode.org/#timvideos))
 
-Repository for actually deploying a live streaming system, including a django based website, Shell Script set up scripts and Python watchdog code.
+Repository for actually deploying a live streaming system consisting of a flumotion setup and website.
+
+ * The streaming system including a django based website, shell script set up scripts and Python watchdog code.
+
 
 ---------------------------------------
 
@@ -72,6 +97,10 @@ Repository for actually deploying a live streaming system, including a django ba
 HDMI2USB is a core hardware project in the Tim Video's suite. There are two types of projects to work on with the HDMI2USB system;
  * Firmware Projects - As the device uses a Xilinx Spartan 6 FPGA, developing much of the hardware is actually a process of developing software!<br>[More information on current HDMI2USB firmware](https://github.com/timvideos/HDMI2USB/wiki/Firmware).
  * Extension Boards - The Digilent ATLYS can be extended via the [VHDCI connector](http://en.wikipedia.org/wiki/Very-high-density_cable_interconnect).<br>[More information on existing HDMI2USB extension boards]()
+
+ * [Code](http://github.com/timvideos/HDMI2USB.git)
+ * [Mailing List](https://groups.google.com/group/hdmi2usb?hl=en-GB)
+ * [IRC Channel](irc://irc.freenode.org/#hdmi2usb) - Freenode IRC, channel #hdmi2usb. [IRC Logs]()
 
 <p style='font-size: 18px; color: red; text-align: center;'>
 <strong>!!! All hardware projects will require you to have a Digilent ATLYS prototype board !!!</strong>
