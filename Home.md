@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Welcome!
-tagline: Getting started with Tim Videos
 ---
 
 # Welcome!
