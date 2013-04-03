@@ -1,15 +1,16 @@
 ---
-layout: default
-title: Summer of Code
-tagline: Special information for Google Summer of Code participants.
+{'layout': 'default',
+ 'title': 'Summer of Code',
+ 'tagline': 'Information for Google Summer of Code participants.'}
+
 ---
 
 # Prior Reading
 
 Firstly, **please read the Google Summer of Code 
-[Student Manual](http://www.booki.cc/gsocstudentguide/)**. It contains a lot of helpful
-information about the program and about participating as a student in Google
-Summer of Code.
+[Student Manual](http://en.flossmanuals.net/GSoCStudentGuide/)**. It contains a
+lot of helpful information about the program and about participating as a
+student in Google Summer of Code.
 
 Secondly, **please read the Google Summer of Code
 [FAQ](http://www.google-melange.com/gsoc/document/show/gsoc_program/google/gsoc2013/help_page)**.

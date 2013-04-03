@@ -1,6 +1,8 @@
 ---
-layout: default
-title: Getting Started!
+{'layout': 'default', 
+ 'title': 'Getting Started!',
+ 'tagline': 'How to start contributing to TimVideos.us'}
+
 ---
 
 # Welcome!
