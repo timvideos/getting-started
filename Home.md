@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Welcome!
+title: Getting Started!
 ---
 
 # Welcome!
@@ -23,5 +23,5 @@ If you have a Digilent Atlys Board, head over to the [HDMI2USB Wiki](https://git
 | ---- | ---------------------------------------------------- | ------------ | ----------- |
 | gst-switch | [(C)](http://github.com/timvideos/gst-switch)&nbsp;[(M)](https://groups.google.com/group/gst-switch)&nbsp;[(I)](irc://irc.freenode.org/#gst-switch)  | Replacement for DVSwitch based around gstreamer. | duzy, mithro |
 | speakertrack | [(C)](http://github.com/timvideos/gst-switch) | Extension to gst-switch to allow automatic tracking of speakers using PTZ cameras rather then needing a camera operator. | duzy, mithro |
-| timvideos | [(C)](http://github.com/timvideos/timvideos) [(M)](https://groups.google.com/group/timvideos) [(I)](irc://irc.freenode.org/#timvideos) | Repository for actually deploying a live streaming system, includes website, set up scripts and watchdog code. | mithro, iiie, |
+| streaming-system | [(C)](http://github.com/timvideos/streaming-system) [(M)](https://groups.google.com/group/timvideos) [(I)](irc://irc.freenode.org/#timvideos) | Repository for actually deploying a live streaming system, includes website, set up scripts and watchdog code. | mithro, iiie, |
 | HDMI2USB | [(C)](http://github.com/timvideos/HDMI2USB) [(M)](http://github.com/timvideos/HDMI2USB) [(I)](irc://irc.freenode.org/#irc) | Hardware based on a Xilinx Spartan 6 FPGA for capturing HDMI, DVI and DisplayPort data. Replacement for TwinPact. | mithro, |
