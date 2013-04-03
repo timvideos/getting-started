@@ -59,9 +59,9 @@ This project is intended to be a replacement of DV-switch based on GStreamer.
 
 flumotion is a project that is older than the Tim Video's suite. Originally developed by Fluendo, it uses the gstreamer platform to do the actual heavy lifting.
 
-## TimVideos
+## Streaming System
 
-Repository for actually deploying a live streaming system, includes website, set up scripts and watchdog code.
+Repository for actually deploying a live streaming system, including a django based website, Shell Script set up scripts and Python watchdog code.
 
 ---------------------------------------
 

@@ -7,23 +7,23 @@
 
 # Welcome!
 
-Welcome to TimVideos!  We're busy working on several exciting video-related Open Source projects right now.  Whether you want to work hands-on with hardware or code in a variety of languages, we have a project for you.  Join the team! 
+Welcome to TimVideos.us!  We're busy working on several exciting video-related Open Source projects right now.  Whether you want to work hands-on with hardware or code in a variety of languages, we have a project for you.  Join the team! 
 
 This information should help you explore the projects and learn how to get started.
 
 ## Getting Started
 
-Google Summer of Code (or similar project based program) students should first head over to the [[Summer of Code]] page and then head to our [[Ideas]] page.
+Google Summer of Code (or similar project based program) students should first head over to the [Summer Of Code](Summer-Of-Code.html) page and then head to our [Ideas](Ideas.html) page.
 
-If you are just interested in contributing and this is your first visit, head over to the [[Ideas]] page.
+If you are just interested in contributing and this is your first visit, head over to the [Ideas](Ideas.html) page.
 
 If you have a Digilent Atlys Board, head over to the [HDMI2USB Wiki](https://github.com/timvideos/HDMI2USB/wiki) and specifically look at the [Getting started with Atlys Board](https://github.com/timvideos/HDMI2USB/wiki/Getting-Started-with-an-Atlys-Board) page.
 
 ## The Projects
 
-| Name | <small>(C)ode<br>(M)ailing&nbsp;List<br>(I)RC</small>| Description | Contributors |
-| ---- | ---------------------------------------------------- | ------------ | ----------- |
-| **TimVideos.us** | [(C)](http://github.com/timvideos) [(M)](https://groups.google.com/group/timvideos) [(I)](irc://irc.freenode.org/#timvideos) | Over-arching parent project. | |
+| Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | <small>(C)ode<br>(M)ailing&nbsp;List<br>(I)RC</small>| Description | Contributors |
+| -------- | ---------------------------------------------------- | ------------ | ----------- |
+| <img src="favicon.ico" style="border:0; margin: 0; padding:2px; width: 1.5em; vertical-align:middle"> **TimVideos.us** | [(C)](http://github.com/timvideos) [(M)](https://groups.google.com/group/timvideos) [(I)](irc://irc.freenode.org/#timvideos) | Parent project. | |
 | gst-switch | [(C)](http://github.com/timvideos/gst-switch)&nbsp;[(M)](https://groups.google.com/group/gst-switch)&nbsp;[(I)](irc://irc.freenode.org/#gst-switch)  | Replacement for DVSwitch based around gstreamer. | duzy, mithro |
 | speakertrack | [(C)](http://github.com/timvideos/gst-switch) | Extension to gst-switch to allow automatic tracking of speakers using PTZ cameras rather then needing a camera operator. | duzy, mithro |
 | streaming-system | [(C)](http://github.com/timvideos/streaming-system) [(M)](https://groups.google.com/group/timvideos) [(I)](irc://irc.freenode.org/#timvideos) | Repository for actually deploying a live streaming system, includes website, set up scripts and watchdog code. | mithro, iiie, |
