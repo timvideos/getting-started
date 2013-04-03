@@ -10,15 +10,23 @@ To help you decide where you interest might like, we have created the following 
 
 ## gst-switch
 
+This project is intended to be a replacement of DV-switch base on GStreamer.
+
+### Links
+
 ## flumotion
 
-## 
+flumotion is project that is older then the Tim Video's suite. Originally developed by Fluendo, it uses the gstreamer platform to do the actual heavy lifting. 
+
+### Links
+
 
 # Hardware Projects
 
 HDMI2USB is the core hardware project in the Tim Video's suite. It's job is to capture the display output of a laptop and bring it back onto a different computer.
 
 **All hardware projects will require you to have a Digilent ATLYS prototype board.** [See Prototyping Board for more information](https://github.com/timvideos/getting-started/wiki/Ideas-Page#prototyping-board).
+
 
 ### Prototyping Board
 For developing features for the HDMI2USB system we use a [Digilent ATLYS prototype board](http://digilentinc.com/Products/Detail.cfm?NavPath=2,400,836&Prod=ATLYS).  
@@ -31,8 +39,21 @@ For developing features for the HDMI2USB system we use a [Digilent ATLYS prototy
 > including ChipScope, EDK, and the free WebPack, so designs can be completed with no extra
 > costs. 
 
+If you can show that you are committed to developing hardware (such as being accepted into a program like Google Summer of Code). **You can apply for a grant to have a board provided to you for development.**
 
-If you can show that you are committed to developing hardware (such as starting through a program like Google Summer of Code). You can apply for a grant to have a board send to you
+## Project Links
+
+ * [Code](http://github.com/timvideos/HDMI2USB.git)
+ * [Mailing List](https://groups.google.com/group/hdmi2usb?hl=en-GB)
+ * [IRC Channel](irc://irc.freenode.org/#hdmi2usb) - Freenode IRC, channel #hdmi2usb. [IRC Logs]()
+
 
 ### Key Features
 It doesn't require any modification of the system being captured and is ideal for capturing conference slides from wide variety of sources.
+
+## Firmware Projects
+
+https://github.com/timvideos/HDMI2USB/wiki/Firmware
+
+## Hardware Projects
+
