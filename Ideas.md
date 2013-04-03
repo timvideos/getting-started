@@ -155,7 +155,7 @@ numerous ideas on how to improve the platform for our usecase.
 
  * [**gstreamer** Tasks](https://github.com/timvideos/getting-started/issues?labels=gstreamer)
 
-While flumotion was **not** originally developed for TimVideos.us, it is used
+While gstreamer was **not** originally developed for TimVideos.us, it is used
 heavily by gst-switch for doing video mixing and heavily by flumotion to do the
 heavy lifting of media processing. For this reason we will have numerous ideas
 on how to improve the platform for our usecase.
