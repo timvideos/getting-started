@@ -4,9 +4,9 @@ As Tim Video's is a conglomeration of a bunch of Open Source projects it can be 
 
 ## Getting Started
 
-Google Summer of Code (or similar project based program) students should first head over to the [Summer of Code](wiki/Summer-Of-Code) page and then head to our [general ideas page](wiki/Ideas-Page).
+Google Summer of Code (or similar project based program) students should first head over to the [Summer of Code](wiki/Summer-Of-Code) page and then head to our [Ideas Page](wiki/Ideas-Page).
 
-If you are just interested in contributing and this is your first visit, head over to the [general ideas page](wiki/Ideas-Page).
+If you are just interested in contributing and this is your first visit, head over to the [Ideas Page](wiki/Ideas-Page).
 
 If you have a Digilent Atlys Board, head over to the [HDMI2USB Wiki](https://github.com/timvideos/HDMI2USB/wiki) and specifically look at the [Getting started with Atlys Board](https://github.com/timvideos/HDMI2USB/wiki/Getting-Started-with-an-Atlys-Board) page.
 
