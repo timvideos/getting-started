@@ -12,7 +12,7 @@ If you have a Digilent Atlys Board, head over to the [HDMI2USB Wiki](https://git
 
 ## The Projects
 
-| Name (C)ode (M)ailing List (I)RC | Description | Contributors |
+| Name<small><br><br>(C)ode<br>(M)ailing List<br>(I)RC</small>| Description | Contributors |
 | -------------------------------- | ------------ | ----------- |
 | gst-switch [(C)](http://github.com/timvideos/gst-switch) [(M)](https://groups.google.com/group/gst-switch) [(I)](irc://irc.freenode.org/#gst-switch)  | Replacement for DVSwitch based around gstreamer. | duzy, mithro |
 | speakertrack [(C)](http://github.com/timvideos/gst-switch) | Extension to gst-switch to allow automatic tracking of speakers using PTZ cameras rather then needing a camera operator. | duzy, mithro |
