@@ -31,7 +31,7 @@ If you have a Digilent Atlys Board, head over to the [HDMI2USB Wiki](https://git
 
 ### Partner Projects
 
-Projects not developed by TimVideos.us, but extensively used by.
+Projects not developed by TimVideos.us, but extensively used by us.
 
 | Name     | <small>(C)ode<br>(M)ailing&nbsp;List<br>(I)RC</small>| Description | Used By |
 | -------- | ---------------------------------------------------- | ----------- | ------- |
