@@ -13,9 +13,9 @@ This information should help you explore the projects and learn how to get start
 
 ## Getting Started
 
-Google Summer of Code (or similar project based program) students should first head over to the [Summer Of Code](Summer-Of-Code.html) page and then head to our [Ideas](Ideas.html) page.
+Google Summer of Code (or similar project based program) students should first head over to the [[Summer Of Code]] page and then head to our [[Ideas]] page.
 
-If you are just interested in contributing and this is your first visit, head over to the [Ideas](Ideas.html) page.
+If you are just interested in contributing and this is your first visit, head over to the [[Ideas]] page.
 
 If you have a Digilent Atlys Board, head over to the [HDMI2USB Wiki](https://github.com/timvideos/HDMI2USB/wiki) and specifically look at the [Getting started with Atlys Board](https://github.com/timvideos/HDMI2USB/wiki/Getting-Started-with-an-Atlys-Board) page.
 
