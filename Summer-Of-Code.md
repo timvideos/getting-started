@@ -1,6 +1,6 @@
 ---
 {'layout': 'default',
- 'title': 'Summer of Code',
+ 'title': 'Summer Of Code',
  'tagline': 'Information for Google Summer of Code participants.'}
 
 ---
