@@ -54,7 +54,7 @@ To help you decide which **existing** projects you might like to help out with, 
 ## gst-switch
 [(Code)](http://github.com/timvideos/gst-switch) | [(Mailing List)](https://groups.google.com/group/gst-switch) | [(IRC Channel)](irc://irc.freenode.org/#gst-switch) | [(Bug Tracker)](http://github.com/timvideos/gst-switch/issues)
 
- * [Tasks in the gst-witch project]](https://github.com/timvideos/getting-started/issues?labels=gst-switch).
+ * [Tasks in the gst-witch project](https://github.com/timvideos/getting-started/issues?labels=gst-switch).
 
 gst-switch project is intended to be a replacement of [DVswitch](http://dvswitch.alioth.debian.org/wiki/) based on [GStreamer](http://gstreamer.freedesktop.org/). It aims to do interactive live mixing of incoming video streams, designed for the needs of conference recording.
 
