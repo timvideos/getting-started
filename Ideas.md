@@ -76,7 +76,7 @@ speakertrack is a bunch of extensions to gstreamer and gst-switch to allow autom
 ## Streaming System
 [(Code)](http://github.com/timvideos/streaming-system) | [(IRC Channel)](irc://irc.freenode.org/#timvideos) | [(Bug Tracker)](http://github.com/timvideos/streaming-system/issues)
 
- * [**Streaming System Website** Tasks](https://github.com/timvideos/getting-started/issues?labels=website)
+ * [Tasks in the **Streaming System Website** project](https://github.com/timvideos/getting-started/issues?labels=website)
 
 Repository for actually deploying a live streaming system consisting of a flumotion setup and website.
 
@@ -119,12 +119,12 @@ If you can show that you are committed to developing hardware (such as being acc
 
 ### HDMI2USB Extension Boards Projects
 
- * [**HDMI2USB Extension Board** Tasks](https://github.com/timvideos/getting-started/issues?labels=Extension+Boards)
+ * [**HDMI2USB Extension Board** related Tasks](https://github.com/timvideos/getting-started/issues?labels=Extension+Boards)
 
 
 ### HDMI2USB Firmware Projects
 
- * [**HDMI2USB Firmware** Tasks](https://github.com/timvideos/getting-started/issues?labels=Firmware)
+ * [**HDMI2USB Firmware** releated Tasks](https://github.com/timvideos/getting-started/issues?labels=Firmware)
 
 <br>
 <br>
@@ -170,4 +170,3 @@ on how to improve the platform for our usecase.
 > writing a simple plugin with a clean, generic interface.
 
 #### gstreamer is written in C
-
