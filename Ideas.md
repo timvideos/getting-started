@@ -51,6 +51,8 @@ To help you decide which **existing** projects you might like to help out with, 
 <br>
 # Software Projects
 
+**The following software projects have tasks that you can work on.**
+
 ## gst-switch
 [(Code)](http://github.com/timvideos/gst-switch) | [(Mailing List)](https://groups.google.com/group/gst-switch) | [(IRC Channel)](irc://irc.freenode.org/#gst-switch) | [(Bug Tracker)](http://github.com/timvideos/gst-switch/issues)
 
@@ -88,6 +90,8 @@ Repository for actually deploying a live streaming system consisting of a flumot
 <br>
 <br>
 # Hardware Projects
+
+**The following hardware projects have tasks that you can work on.**
 
 ## HDMI2USB
 [(Code)](http://github.com/timvideos/HDMI2USB.git) | [(Mailing List)](https://groups.google.com/group/hdmi2usb?hl=en-GB) | [(IRC Channel)](irc://irc.freenode.org/#hdmi2usb) | [(Bug Tracker)](http://github.com/timvideos/HDMI2USB/issues)
