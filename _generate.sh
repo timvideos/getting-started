@@ -41,8 +41,11 @@ cd ..
 ####################################################################
 if [ ! -d website ]; then
     git clone git@github.com:timvideos/timvideos.github.io.git website
+    cd website
+else
+    cd website
+    git pull
 fi 
-cd website
 
 # Remove the old content
 rm -rf *
@@ -53,13 +56,11 @@ git checkout README.md
 # Copy the site into this directory
 cp -R ../wiki/_site/* .
 
-git diff
 git status
 
 # Make git match the content
 git add -A .
-git commit -m "Converted $COMMIT_ID"
+git commit -m "Converted https://github.com/timvideos/getting-started/commit/$COMMIT_ID"
 
 # Push the change
 git push
-
