@@ -19,11 +19,14 @@ export GIT_SSH=/tmp/timvideos-website/ssh
 ####################################################################
 if [ ! -d wiki ]; then
     git clone git@github.com:timvideos/getting-started.wiki.git wiki
+    git remote add mirror git@github.com:timvideos/getting-started.git
 fi
 cd wiki
 
 # Get the latest data
 git pull
+# Push the changes to the front page.
+git push mirror --all
 
 COMMIT_ID=$(git rev-parse HEAD)
 
