@@ -51,6 +51,7 @@ To help you decide which **existing** projects you might like to help out with, 
 <br>
 <br>
 <br>
+
 # Software Projects
 
 **The following software projects have tasks that you can work on.**
@@ -91,6 +92,7 @@ Repository for actually deploying a live streaming system consisting of a flumot
 <br>
 <br>
 <br>
+
 # Hardware Projects
 
 **The following hardware projects have tasks that you can work on.**
@@ -137,6 +139,7 @@ If you can show that you are committed to developing hardware (such as being acc
 <br>
 <br>
 <br>
+
 # Partner Projects
 
 ## flumotion
@@ -165,8 +168,6 @@ While gstreamer was **not** originally developed for TimVideos.us, it is used
 heavily by gst-switch for doing video mixing and heavily by flumotion to do the
 heavy lifting of media processing. For this reason we will have numerous ideas
 on how to improve the platform for our usecase.
-
-
 
 > GStreamer is a library for constructing graphs of media-handling components.
 > The applications it supports range from simple Ogg/Vorbis playback,
