@@ -7,9 +7,11 @@
 
 # Overview
 
-Tim Videos is actually a number of **different** but related projects. There are a huge variety of ways to get started in a several different areas.
+TimVideos.us is a group of exciting projects which together create a system for doing both recording and live event streaming for conferences, meetings, user groups and other presentations. Check out our [[Getting Started!]] page for more information!
 
-To help you decide which **existing** projects you might like to contribute to, we have created the following flow diagram:
+Whether you want to work hands-on with hardware or code in a variety of languages, we have a project for you. Join the team! This information should help you explore the projects and learn how to get started. 
+
+To help you decide which of the TimVideos.us projects you wish to contribute to, we have created the following flow diagram:
 
 [Edit Image](https://docs.google.com/a/mithis.com/drawings/d/1zYlT69xQqbAjzuJgKj-UhO1vRF5JNLpic8xmPrfNtXM/edit)
 
@@ -56,34 +58,18 @@ To help you decide which **existing** projects you might like to contribute to, 
 
 **The following software projects have tasks that you can work on.**
 
-## gst-switch
-[(Code)](http://github.com/timvideos/gst-switch) | [(Mailing List)](https://groups.google.com/group/gst-switch) | [(IRC Channel)](irc://irc.freenode.org/#gst-switch) | [(Bug Tracker)](http://github.com/timvideos/gst-switch/issues)
+## [[gst-switch]]
 
  * [Tasks in the gst-switch project](https://github.com/timvideos/getting-started/issues?labels=gst-switch).
+ * [Tasks in the gst-switch project dealing with **speaker tracking**](https://github.com/timvideos/getting-started/issues?labels=speakertrack).
+ 
 
-gst-switch project is intended to be a replacement of [DVSwitch][DVSwitch] based on [GStreamer][GStreamer]. It aims to do interactive live mixing of incoming video streams, and is designed to meet the needs of conference recording.
-
-> DVSwitch is a digital video mixer intended for interactive live mixing of
-> several incoming DV video streams. It was originally designed for the needs
-> of DebConf; It has now been used for various other conferences, meetings and
-> live musical performances.
-
-#### gst-switch is written in C and uses GStreamer
-
-## speakertrack
-*Use the gst-switch, code repository, mailing lists and IRC channel.*
-
-speakertrack is a set of extensions to gstreamer (described below) and gst-switch to allow automatic tracking of speakers using PTZ cameras rather then needing a camera operator. 
-
-#### speakertrack is written in C and uses OpenCV
-
-
-## Streaming System
+## [[Streaming System]]
 [(Code)](http://github.com/timvideos/streaming-system) | [(IRC Channel)](irc://irc.freenode.org/#timvideos) | [(Bug Tracker)](http://github.com/timvideos/streaming-system/issues)
 
  * [Tasks in the **Streaming System Website** project](https://github.com/timvideos/getting-started/issues?labels=website)
 
-Repository for deploying a live streaming system, consisting of a flumotion setup and website.
+Streaming-system is a comprehensive video conferencing package that allows users to set up and deploy a live streaming system. It includes a website, setup scripts and watchdog code.
 
 #### The streaming system including a django-based website, shell script setup scripts and Python watchdog code.
 
@@ -97,7 +83,7 @@ Repository for deploying a live streaming system, consisting of a flumotion setu
 
 **The following hardware projects have tasks that you can work on.**
 
-## HDMI2USB
+## [[HDMI2USB]]
 [(Code)](http://github.com/timvideos/HDMI2USB.git) | [(Mailing List)](https://groups.google.com/group/hdmi2usb?hl=en-GB) | [(IRC Channel)](irc://irc.freenode.org/#hdmi2usb) | [(Bug Tracker)](http://github.com/timvideos/HDMI2USB/issues)
 
 
