@@ -61,7 +61,7 @@ To help you decide which **existing** projects you might like to help out with, 
 
  * [Tasks in the gst-switch project](https://github.com/timvideos/getting-started/issues?labels=gst-switch).
 
-gst-switch project is intended to be a replacement of [DVswitch](http://dvswitch.alioth.debian.org/wiki/) based on [GStreamer](http://gstreamer.freedesktop.org/). It aims to do interactive live mixing of incoming video streams, designed for the needs of conference recording.
+gst-switch project is intended to be a replacement of [DVswitch][DVswitch] based on [GStreamer][GStreamer]. It aims to do interactive live mixing of incoming video streams, designed for the needs of conference recording.
 
 > DVswitch is a digital video mixer intended for interactive live mixing of
 > several incoming DV video streams. It was originally designed for the needs
@@ -102,6 +102,7 @@ Repository for actually deploying a live streaming system consisting of a flumot
 
 
 HDMI2USB is a core hardware project in the Tim Video's suite. There are two types of projects to work on with the HDMI2USB system;
+
  * Firmware Projects - As the device uses a Xilinx Spartan 6 FPGA, developing much of the hardware is actually a process of developing software!<br>[More information on current HDMI2USB firmware](https://github.com/timvideos/HDMI2USB/wiki/Firmware).
  * Extension Boards - The Digilent ATLYS can be extended via the [VHDCI connector](http://en.wikipedia.org/wiki/Very-high-density_cable_interconnect).<br>[More information on existing HDMI2USB extension boards]()
 
