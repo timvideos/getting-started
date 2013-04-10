@@ -14,6 +14,7 @@
 
 <!-- HDMI2USB References -->
 
+ [Protoboard]: /HDMI2USB.html#digilent-atlys-prototype-board
  [Atlys]: http://digilentinc.com/Products/Detail.cfm?NavPath=2,400,836&Prod=ATLYS
  [SDI]: http://en.wikipedia.org/wiki/Serial_digital_interface
  [MJPEG]: http://en.wikipedia.org/wiki/MJPEG

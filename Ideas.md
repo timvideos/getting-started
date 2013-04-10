@@ -84,31 +84,17 @@ Streaming-system is a comprehensive video conferencing package that allows users
 **The following hardware projects have tasks that you can work on.**
 
 ## [[HDMI2USB]]
-[(Code)](http://github.com/timvideos/HDMI2USB.git) | [(Mailing List)](https://groups.google.com/group/hdmi2usb?hl=en-GB) | [(IRC Channel)](irc://irc.freenode.org/#hdmi2usb) | [(Bug Tracker)](http://github.com/timvideos/HDMI2USB/issues)
-
 
 HDMI2USB is a core hardware project in the Tim Videos suite. There are two types of projects to work on with the HDMI2USB system;
 
  * Firmware Projects - As the device uses a Xilinx Spartan 6 FPGA, developing much of the hardware is actually a process of developing software!<br>[More information on current HDMI2USB firmware](https://github.com/timvideos/HDMI2USB/wiki/Firmware).
 
- * Extension Boards - The Digilent ATLYS can be extended via the [VHDCI connector](http://en.wikipedia.org/wiki/Very-high-density_cable_interconnect).<br>[More information on existing HDMI2USB extension boards]()
+ * Extension Boards - The Digilent ATLYS can be extended via the [VHDCI connector](http://en.wikipedia.org/wiki/Very-high-density_cable_interconnect).<br>[More information on existing HDMI2USB extension boards](https://github.com/timvideos/HDMI2USB/wiki/Getting-Started-with-an-Atlys-Board)
 
 
 <p style='font-size: 18px; color: red; text-align: center;'>
-<strong>!!! All hardware projects will require you to have a Digilent ATLYS prototype board !!!</strong>
+<strong>!!! All hardware projects will require you to have a <a href="/HDMI2USB.html#digilent-atlys-prototype-board">Digilent ATLYS prototype board</a> !!!</strong>
 </p>
-
-### Digilent ATLYS Prototype Board
-
-For developing features for the HDMI2USB system we use a [Digilent ATLYS prototype board](http://digilentinc.com/Products/Detail.cfm?NavPath=2,400,836&Prod=ATLYS).
-
-> The Atlys circuit board is a complete, ready-to-use digital circuit development platform
-> based on a Xilinx Spartan 6 LX45 FPGA. The on-board collection of high-end peripherals,
-> including Gbit Ethernet, HDMI Video, 128Mbyte DDR2 memory array, audio and USB ports make
-> the Atlys board an ideal host for complete digital systems built around embedded
-> processors like Xilinx’s MicroBlaze. Atlys is fully compatible with all Xilinx CAD tools,
-> including ChipScope, EDK, and the free WebPack, so designs can be completed with no extra
-> costs.
 
 If you can show that you are committed to developing hardware (such as being accepted into a program like Google Summer of Code), **you can apply for a grant to have a board provided to you for development.**
 
