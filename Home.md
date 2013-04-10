@@ -7,13 +7,13 @@
 
 # Welcome!
 
-Welcome to TimVideos.us!  We're busy working on several exciting video-related Open Source projects right now.  Whether you want to work hands-on with hardware or code in a variety of languages, we have a project for you.  Join the team! 
+Welcome to TimVideos.us!  We're busy working on several exciting video-related open source projects right now.  Whether you want to work hands-on with hardware or code in a variety of languages, we have a project for you.  Join the team! 
 
 This information should help you explore the projects and learn how to get started.
 
 ## Getting Started
 
-Google Summer of Code (or similar project based program) students should first head over to the [[Summer Of Code]] page and then head to our [[Ideas]] page.
+Google Summer of Code (or similar project-based program) students should first head over to the [[Summer Of Code]] page and then head to our [[Ideas]] page.
 
 If you are just interested in contributing and this is your first visit, head over to the [[Ideas]] page.
 
