@@ -7,9 +7,9 @@
 
 # Overview
 
-Tim Video's is actually a number of *different* but related projects. There are a huge variety of ways to get started in a huge variety of different areas.
+Tim Video's is actually a number of **different** but related projects. There are a huge variety of ways to get started in a huge variety of different areas.
 
-To help you decide which project you might like, we have created the following flow diagram:
+To help you decide which **existing** projects you might like to help out with, we have created the following flow diagram:
 
 [Edit Image](https://docs.google.com/a/mithis.com/drawings/d/1zYlT69xQqbAjzuJgKj-UhO1vRF5JNLpic8xmPrfNtXM/edit)
 <img src="https://docs.google.com/drawings/d/1zYlT69xQqbAjzuJgKj-UhO1vRF5JNLpic8xmPrfNtXM/pub?w=960&amp;h=720" usemap="#wiki-flow-diagram-map" alt="Getting Started Flow Diagram">
@@ -51,10 +51,12 @@ To help you decide which project you might like, we have created the following f
 <br>
 # Software Projects
 
+**The following software projects have tasks that you can work on.**
+
 ## gst-switch
 [(Code)](http://github.com/timvideos/gst-switch) | [(Mailing List)](https://groups.google.com/group/gst-switch) | [(IRC Channel)](irc://irc.freenode.org/#gst-switch) | [(Bug Tracker)](http://github.com/timvideos/gst-switch/issues)
 
- * [**gst-switch** Tasks](https://github.com/timvideos/getting-started/issues?labels=gst-switch)
+ * [Tasks in the gst-switch project](https://github.com/timvideos/getting-started/issues?labels=gst-switch).
 
 gst-switch project is intended to be a replacement of [DVswitch](http://dvswitch.alioth.debian.org/wiki/) based on [GStreamer](http://gstreamer.freedesktop.org/). It aims to do interactive live mixing of incoming video streams, designed for the needs of conference recording.
 
@@ -76,7 +78,7 @@ speakertrack is a bunch of extensions to gstreamer and gst-switch to allow autom
 ## Streaming System
 [(Code)](http://github.com/timvideos/streaming-system) | [(IRC Channel)](irc://irc.freenode.org/#timvideos) | [(Bug Tracker)](http://github.com/timvideos/streaming-system/issues)
 
- * [**Streaming System Website** Tasks](https://github.com/timvideos/getting-started/issues?labels=website)
+ * [Tasks in the **Streaming System Website** project](https://github.com/timvideos/getting-started/issues?labels=website)
 
 Repository for actually deploying a live streaming system consisting of a flumotion setup and website.
 
@@ -88,6 +90,8 @@ Repository for actually deploying a live streaming system consisting of a flumot
 <br>
 <br>
 # Hardware Projects
+
+**The following hardware projects have tasks that you can work on.**
 
 ## HDMI2USB
 [(Code)](http://github.com/timvideos/HDMI2USB.git) | [(Mailing List)](https://groups.google.com/group/hdmi2usb?hl=en-GB) | [(IRC Channel)](irc://irc.freenode.org/#hdmi2usb) | [(Bug Tracker)](http://github.com/timvideos/HDMI2USB/issues)
@@ -119,12 +123,12 @@ If you can show that you are committed to developing hardware (such as being acc
 
 ### HDMI2USB Extension Boards Projects
 
- * [**HDMI2USB Extension Board** Tasks](https://github.com/timvideos/getting-started/issues?labels=Extension+Boards)
+ * [**HDMI2USB Extension Board** related Tasks](https://github.com/timvideos/getting-started/issues?labels=Extension+Boards)
 
 
 ### HDMI2USB Firmware Projects
 
- * [**HDMI2USB Firmware** Tasks](https://github.com/timvideos/getting-started/issues?labels=Firmware)
+ * [**HDMI2USB Firmware** releated Tasks](https://github.com/timvideos/getting-started/issues?labels=Firmware)
 
 <br>
 <br>
@@ -170,5 +174,3 @@ on how to improve the platform for our usecase.
 > writing a simple plugin with a clean, generic interface.
 
 #### gstreamer is written in C
-
-
