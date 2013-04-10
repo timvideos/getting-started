@@ -42,8 +42,8 @@ To help you decide which **existing** projects you might like to contribute to, 
   title="Web Tasks"></area>
 </map>
 
- * Students should checkout the [Summer Of Code page](Summer-Of-Code.html).
- * There are many bugs which in individual components which are not yet listed as potential starter projects. Check out the bug trackers!
+ * Students should check out the [Summer Of Code page](Summer-Of-Code.html).
+ * There are many bugs within individual components which are not yet listed as potential starter projects. Check out the bug trackers!
  * Feel free to suggest your own ideas!
 
 <br>
@@ -61,7 +61,7 @@ To help you decide which **existing** projects you might like to contribute to, 
 
  * [Tasks in the gst-switch project](https://github.com/timvideos/getting-started/issues?labels=gst-switch).
 
-gst-switch project is intended to be a replacement of [DVswitch][DVswitch] based on [GStreamer][GStreamer]. It aims to do interactive live mixing of incoming video streams, designed for the needs of conference recording.
+gst-switch project is intended to be a replacement of [DVswitch][DVswitch] based on [GStreamer][GStreamer]. It aims to do interactive live mixing of incoming video streams, and is designed to meet the needs of conference recording.
 
 > DVswitch is a digital video mixer intended for interactive live mixing of
 > several incoming DV video streams. It was originally designed for the needs
@@ -73,7 +73,7 @@ gst-switch project is intended to be a replacement of [DVswitch][DVswitch] based
 ## speakertrack
 *Use the gst-switch, code repository, mailing lists and IRC channel.*
 
-speakertrack is a bunch of extensions to gstreamer and gst-switch to allow automatic tracking of speakers using PTZ cameras rather then needing a camera operator. 
+speakertrack is a set of extensions to gstreamer (described below) and gst-switch to allow automatic tracking of speakers using PTZ cameras rather then needing a camera operator. 
 
 #### speakertrack is written in C and uses OpenCV
 
@@ -83,9 +83,9 @@ speakertrack is a bunch of extensions to gstreamer and gst-switch to allow autom
 
  * [Tasks in the **Streaming System Website** project](https://github.com/timvideos/getting-started/issues?labels=website)
 
-Repository for actually deploying a live streaming system consisting of a flumotion setup and website.
+Repository for deploying a live streaming system, consisting of a flumotion setup and website.
 
-#### The streaming system including a django based website, shell script set up scripts and Python watchdog code.
+#### The streaming system including a django-based website, shell script setup scripts and Python watchdog code.
 
 <br>
 <br>
@@ -101,7 +101,7 @@ Repository for actually deploying a live streaming system consisting of a flumot
 [(Code)](http://github.com/timvideos/HDMI2USB.git) | [(Mailing List)](https://groups.google.com/group/hdmi2usb?hl=en-GB) | [(IRC Channel)](irc://irc.freenode.org/#hdmi2usb) | [(Bug Tracker)](http://github.com/timvideos/HDMI2USB/issues)
 
 
-HDMI2USB is a core hardware project in the Tim Video's suite. There are two types of projects to work on with the HDMI2USB system;
+HDMI2USB is a core hardware project in the Tim Videos suite. There are two types of projects to work on with the HDMI2USB system;
 
  * Firmware Projects - As the device uses a Xilinx Spartan 6 FPGA, developing much of the hardware is actually a process of developing software!<br>[More information on current HDMI2USB firmware](https://github.com/timvideos/HDMI2USB/wiki/Firmware).
 
@@ -160,12 +160,12 @@ numerous ideas on how to improve the platform for our usecase.
 
 #### flumotion is written in Python and uses GStreamer
 
-## gstreamer
+## GStreamer
 [(Code)](http://cgit.freedesktop.org/gstreamer) | [(Mailing Lists)](http://gstreamer.freedesktop.org/lists/) | [(IRC Channel)](irc://irc.freenode.org/#gstreamer) 
 
- * [**gstreamer** Tasks](https://github.com/timvideos/getting-started/issues?labels=gstreamer)
+ * [**GStreamer** Tasks](https://github.com/timvideos/getting-started/issues?labels=gstreamer)
 
-While gstreamer was **not** originally developed for TimVideos.us, it is used
+While GStreamer was **not** originally developed for TimVideos.us, it is used
 heavily by gst-switch for doing video mixing and heavily by flumotion to do the
 heavy lifting of media processing. For this reason we will have numerous ideas
 on how to improve the platform for our usecase.
@@ -177,4 +177,4 @@ on how to improve the platform for our usecase.
 > filter technology transparently. Developers can add new codecs and filters by
 > writing a simple plugin with a clean, generic interface.
 
-#### gstreamer is written in C
+#### GStreamer is written in C
