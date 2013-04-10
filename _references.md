@@ -1,14 +1,16 @@
 
 <!-- gst-switch References -->
 
- [DVswitch]: http://dvswitch.alioth.debian.org/wiki/
- [Gstreamer]: http://gstreamer.freedesktop.org/
+ [DVSwitch]: http://dvswitch.alioth.debian.org/wiki/
+ [GStreamer]: http://gstreamer.freedesktop.org/
  [DV]: https://en.wikipedia.org/wiki/DV
+ [st]: gst-switch.html#speakertrack
 
 <!-- gst-switch (speaker track) -->
 
  [OpenCV]: http://opencv.org/
  [VISCA]: http://en.wikipedia.org/wiki/VISCA_Protocol
+ [PTZ]: http://en.wikipedia.org/wiki/Pan%E2%80%93tilt%E2%80%93zoom_camera
 
 <!-- HDMI2USB References -->
 
@@ -18,6 +20,7 @@
  [YUV]: http://en.wikipedia.org/wiki/YUV
  [HDMI]: http://en.wikipedia.org/wiki/HDMI
  [DVI]: http://en.wikipedia.org/wiki/Digital_visual_interface
+ [DisplayPort]: http://en.wikipedia.org/wiki/DisplayPort
  [EDID]: http://en.wikipedia.org/wiki/Extended_display_identification_data
 
 <!-- Streaming System -->

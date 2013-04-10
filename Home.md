@@ -7,9 +7,13 @@
 
 # Welcome!
 
-Welcome to TimVideos.us!  We're busy working on several exciting video-related open source projects right now.  Whether you want to work hands-on with hardware or code in a variety of languages, we have a project for you.  Join the team! 
+Welcome to TimVideos.us! 
 
-This information should help you explore the projects and learn how to get started.
+TimVideos.us is a group of exciting projects which together create a system for doing both recording and live event streaming for conferences, meetings, user groups and other presentations. 
+
+We hope that, through our projects, the costs and expertise currently required to produce live streaming events will be reduced to near zero. We wish to develop a system where everyone has the ability to record presentations and host live remote participants across the globe.
+
+Whether you want to work hands-on with hardware or code in a variety of languages, we have a project for you. Join the team! This information should help you explore the projects and learn how to get started.
 
 ## Getting Started
 
@@ -21,13 +25,16 @@ If you have a Digilent Atlys Board, head over to the [HDMI2USB Wiki](https://git
 
 ## The Projects
 
-| Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | <small>(C)ode<br>(M)ailing&nbsp;List<br>(I)RC</small>| Description | Contributors |
-| -------- | ---------------------------------------------------- | ------------ | ----------- |
-| <img src="http://code.timvideos.us/favicon.ico" class="favicon"> **TimVideos.us** | [(C)](http://github.com/timvideos) [(M)](https://groups.google.com/group/timvideos) [(I)](irc://irc.freenode.org/#timvideos) | Parent project. | |
-| GST-switch       | [(C)](http://github.com/timvideos/gst-switch)&nbsp;[(M)](https://groups.google.com/group/gst-switch)&nbsp;[(I)](irc://irc.freenode.org/#gst-switch)  | GST-switch is a replacement for DVSwitch, and is based around GStreamer (described below). GST-switch aims to do interactive live mixing of incoming video streams, designed to meet the needs of conference recording. | duzy, mithro |
-| speakertrack     | [(C)](http://github.com/timvideos/gst-switch) | Speakertrack is an extension to GStreamer and gst-switch to allow automatic tracking of speakers using remotely-operated PTZ cameras rather then relying on a camera operator. | duzy, mithro |
-| streaming-system | [(C)](http://github.com/timvideos/streaming-system) [(M)](https://groups.google.com/group/timvideos) [(I)](irc://irc.freenode.org/#timvideos) | Streaming-system is a comprehensive video conferencing package that allows users to set up and deploy a live streaming system. It includes a website, setup scripts and watchdog code. | mithro, iiie, |
-| HDMI2USB         | [(C)](http://github.com/timvideos/HDMI2USB) [(M)](http://github.com/timvideos/HDMI2USB) [(I)](irc://irc.freenode.org/#irc) | HDMI2USB is hardware based on a Xilinx Spartan 6 FPGA for capturing HDMI, DVI and DisplayPort data. It facilitates presentation and video sharing with remote users and allows for recording for later viewing.  | mithro, |
+
+| Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | <small>(C)ode<br>(M)ailing&nbsp;List<br>(I)RC</small>| Description |
+| -------- | ---------------------------------------------------- | ------------ |
+| <img src="http://code.timvideos.us/favicon.ico" class="favicon"> **TimVideos.us** | [(C)](http://github.com/timvideos) [(M)](https://groups.google.com/group/timvideos) [(I)](irc://irc.freenode.org/#timvideos) | Parent project. |
+| [[gst-switch]]       | [(C)](http://github.com/timvideos/gst-switch)&nbsp;[(M)](https://groups.google.com/group/gst-switch)&nbsp;[(I)](irc://irc.freenode.org/#gst-switch)  | [[gst-switch]] aims to do interactive live mixing of incoming video streams, designed to meet the needs of conference recording. Designed as a flexible replacement for [DVSwitch][DVSwitch], and based around [GStreamer][GStreamer].  |
+| [speakertrack][st]   | [(C)](http://github.com/timvideos/gst-switch) | Speakertrack is an extension to GStreamer and gst-switch to allow automatic tracking of speakers using remotely-operated [PTZ][PTZ] cameras rather then relying on a camera operator. |
+| [[Streaming System]] | [(C)](http://github.com/timvideos/streaming-system) [(M)](https://groups.google.com/group/timvideos) [(I)](irc://irc.freenode.org/#timvideos) | Streaming-system is a comprehensive video conferencing package that allows users to set up and deploy a live streaming system. It includes a website, setup scripts and watchdog code. |
+| [[HDMI2USB]]         | [(C)](http://github.com/timvideos/HDMI2USB) [(M)](http://github.com/timvideos/HDMI2USB) [(I)](irc://irc.freenode.org/#irc) | HDMI2USB is hardware based on a Xilinx Spartan 6 FPGA for capturing [HDMI][HDMI], [DVI][DVI] and [DisplayPort][DisplayPort] data. It facilitates presentation and video sharing with remote users and allows for recording for later viewing. |
+
+<img style="width: 100%;" src="https://docs.google.com/drawings/d/1crkdqukOAV9Alq9BOMFucDmwc_HD6qnJ4OF5MJpkrLg/pub?w=960&h=720">
 
 ### Partner Projects
 

@@ -27,12 +27,12 @@ gst-switch is a software based system for interactive live mixing of incoming vi
 
 ### DVSwitch and gst-switch
 
-> DVswitch is a digital video mixer intended for interactive live mixing of
+> DVSwitch is a digital video mixer intended for interactive live mixing of
 > several incoming DV video streams. It was originally designed for the needs
 > of DebConf; It has now been used for various other conferences, meetings and
 > live musical performances.
 
-gst-switch project is intended to be a replacement of [DVswitch][DVswitch] based on [GStreamer][GStreamer]. It aims to do interactive live mixing of incoming video streams, designed for the needs of conference recording.
+gst-switch project is intended to be a replacement of [DVSwitch][DVSwitch] based on [GStreamer][GStreamer]. It aims to do interactive live mixing of incoming video streams, designed for the needs of conference recording.
 
 # Parts of gst-switch
 
@@ -57,14 +57,14 @@ The user interface;
 
 ## gst-switch streamers
 
-Take data from a gstreamer pipeline and send it up to the gst-switch server.
+Take data from a [GStreamer][GStreamer] pipeline and send it up to the gst-switch server.
 
 
 # speakertrack
 
 #### speakertrack is written in C and uses OpenCV
 
-speakertrack is a bunch of extensions to gstreamer and gst-switch to allow automatic tracking of speakers using PTZ cameras rather then needing a camera operator. 
+speakertrack is a bunch of extensions to [GStreamer][GStreamer] and gst-switch to allow automatic tracking of speakers using PTZ cameras rather then needing a camera operator. 
 
 ## Documents
 

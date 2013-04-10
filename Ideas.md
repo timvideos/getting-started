@@ -61,9 +61,9 @@ To help you decide which **existing** projects you might like to contribute to, 
 
  * [Tasks in the gst-switch project](https://github.com/timvideos/getting-started/issues?labels=gst-switch).
 
-gst-switch project is intended to be a replacement of [DVswitch][DVswitch] based on [GStreamer][GStreamer]. It aims to do interactive live mixing of incoming video streams, and is designed to meet the needs of conference recording.
+gst-switch project is intended to be a replacement of [DVSwitch][DVSwitch] based on [GStreamer][GStreamer]. It aims to do interactive live mixing of incoming video streams, and is designed to meet the needs of conference recording.
 
-> DVswitch is a digital video mixer intended for interactive live mixing of
+> DVSwitch is a digital video mixer intended for interactive live mixing of
 > several incoming DV video streams. It was originally designed for the needs
 > of DebConf; It has now been used for various other conferences, meetings and
 > live musical performances.
