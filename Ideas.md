@@ -7,9 +7,9 @@
 
 # Overview
 
-Tim Video's is actually a number of **different** but related projects. There are a huge variety of ways to get started in a huge variety of different areas.
+Tim Videos is actually a number of **different** but related projects. There are a huge variety of ways to get started in a several different areas.
 
-To help you decide which **existing** projects you might like to help out with, we have created the following flow diagram:
+To help you decide which **existing** projects you might like to contribute to, we have created the following flow diagram:
 
 [Edit Image](https://docs.google.com/a/mithis.com/drawings/d/1zYlT69xQqbAjzuJgKj-UhO1vRF5JNLpic8xmPrfNtXM/edit)
 
