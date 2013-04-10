@@ -19,9 +19,11 @@ export GIT_SSH=/tmp/timvideos-website/ssh
 ####################################################################
 if [ ! -d wiki ]; then
     git clone git@github.com:timvideos/getting-started.wiki.git wiki
+    cd wiki
     git remote add mirror git@github.com:timvideos/getting-started.git
+else
+    cd wiki
 fi
-cd wiki
 
 # Get the latest data
 git pull
