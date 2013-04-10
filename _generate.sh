@@ -1,7 +1,19 @@
 #! /bin/bash
 
-set -x
 set -e 
+
+if [ ! -d /tmp/timvideos-website ]; then
+    mkdir -p /tmp/timvideos-website
+fi
+cd /tmp/timvideos-website
+
+# Tell ssh to use the given identity
+cat > /tmp/timvideos-website/ssh <<'EOF'
+#!/bin/sh
+exec ssh -i ~/.ssh/timvideos-website "$@"
+EOF
+chmod a+x /tmp/timvideos-website/ssh
+export GIT_SSH=/tmp/timvideos-website/ssh
 
 # Get the wiki code and generate the website
 ####################################################################
@@ -22,10 +34,10 @@ cd ..
 
 # Commit the generated website to gh-pages
 ####################################################################
-if [ ! -d gh-pages ]; then
-    git clone git@github.com:timvideos/timvideos.github.io.git gh-pages
+if [ ! -d website ]; then
+    git clone git@github.com:timvideos/timvideos.github.io.git website
 fi 
-cd gh-pages
+cd website
 
 # Remove the old content
 rm -rf *
