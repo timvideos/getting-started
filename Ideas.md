@@ -159,7 +159,6 @@ numerous ideas on how to improve the platform for our usecase.
 #### flumotion is written in Python and uses GStreamer
 
 ## gstreamer
-
 [(Code)](http://cgit.freedesktop.org/gstreamer) | [(Mailing Lists)](http://gstreamer.freedesktop.org/lists/) | [(IRC Channel)](irc://irc.freenode.org/#gstreamer) 
 
  * [**gstreamer** Tasks](https://github.com/timvideos/getting-started/issues?labels=gstreamer)
