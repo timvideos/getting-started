@@ -25,6 +25,7 @@ If you have a Digilent Atlys Board, head over to the [HDMI2USB Wiki](https://git
 
 ## The Projects
 
+<img style="width: 100%;" src="https://docs.google.com/drawings/d/1crkdqukOAV9Alq9BOMFucDmwc_HD6qnJ4OF5MJpkrLg/pub?w=960&h=720">
 
 | Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | <small>(C)ode<br>(M)ailing&nbsp;List<br>(I)RC</small>| Description |
 | -------- | ---------------------------------------------------- | ------------ |
@@ -33,8 +34,6 @@ If you have a Digilent Atlys Board, head over to the [HDMI2USB Wiki](https://git
 | [speakertrack][st]   | [(C)](http://github.com/timvideos/gst-switch) | Speakertrack is an extension to GStreamer and gst-switch to allow automatic tracking of speakers using remotely-operated [PTZ][PTZ] cameras rather then relying on a camera operator. |
 | [[Streaming System]] | [(C)](http://github.com/timvideos/streaming-system) [(M)](https://groups.google.com/group/timvideos) [(I)](irc://irc.freenode.org/#timvideos) | Streaming-system is a comprehensive video conferencing package that allows users to set up and deploy a live streaming system. It includes a website, setup scripts and watchdog code. |
 | [[HDMI2USB]]         | [(C)](http://github.com/timvideos/HDMI2USB) [(M)](http://github.com/timvideos/HDMI2USB) [(I)](irc://irc.freenode.org/#irc) | HDMI2USB is hardware for capturing [HDMI][HDMI], [DVI][DVI] and [DisplayPort][DisplayPort] data. By capturing in high quality what is being presented locally it facilitates sharing with remote users and creates great recording for later viewing. The HDMI2USB hardware can also capture the [HDMI][HDMI] output from cameras. |
-
-<img style="width: 100%;" src="https://docs.google.com/drawings/d/1crkdqukOAV9Alq9BOMFucDmwc_HD6qnJ4OF5MJpkrLg/pub?w=960&h=720">
 
 ### Partner Projects
 
