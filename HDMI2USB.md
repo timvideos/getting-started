@@ -9,6 +9,7 @@
 
  * [(Code)](http://github.com/timvideos/HDMI2USB.git) 
  * [(Mailing List)](https://groups.google.com/group/hdmi2usb?hl=en-GB) 
+ * [(Wiki)](https://github.com/timvideos/HDMI2USB/wiki) - More Documentation!
  * [(IRC Channel)](irc://irc.freenode.org/#hdmi2usb) 
  * [(Bug Tracker)](http://github.com/timvideos/HDMI2USB/issues)
 
@@ -28,4 +29,3 @@ For developing features for the HDMI2USB system we use a [Digilent ATLYS prototy
 > processors like Xilinx’s MicroBlaze. Atlys is fully compatible with all Xilinx CAD tools,
 > including ChipScope, EDK, and the free WebPack, so designs can be completed with no extra
 > costs.
-
