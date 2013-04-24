@@ -60,14 +60,14 @@ To help you decide which of the TimVideos.us projects you wish to contribute to,
 
 ## [[gst-switch]]
 
- * [Tasks in the gst-switch project](https://github.com/timvideos/getting-started/issues?labels=gst-switch).
- * [Tasks in the gst-switch project dealing with **speaker tracking**](https://github.com/timvideos/getting-started/issues?labels=speakertrack).
+ * [Tasks in the gst-switch project](https://github.com/timvideos/getting-started/issues?labels=Project+-+gst-switch&page=1&state=open).
+ * [Tasks in the gst-switch project dealing with **speaker tracking**]().
  
 
 ## [[Streaming System]]
 [(Code)](http://github.com/timvideos/streaming-system) | [(IRC Channel)](irc://irc.freenode.org/#timvideos) | [(Bug Tracker)](http://github.com/timvideos/streaming-system/issues)
 
- * [Tasks in the **Streaming System Website** project](https://github.com/timvideos/getting-started/issues?labels=website)
+ * [Tasks in the **Streaming System Website** project](https://github.com/timvideos/getting-started/issues?labels=Project+-+Streaming+System+%28Website%29&page=1&state=open)
 
 Streaming-system is a comprehensive video conferencing package that allows users to set up and deploy a live streaming system. It includes a website, setup scripts and watchdog code.
 
@@ -101,12 +101,12 @@ If you can show that you are committed to developing hardware (such as being acc
 
 ### HDMI2USB Extension Boards Projects
 
- * [**HDMI2USB Extension Board** related Tasks](https://github.com/timvideos/getting-started/issues?labels=Extension+Boards)
+ * [**HDMI2USB Extension Board** related Tasks](https://github.com/timvideos/getting-started/issues?labels=Project+-+HDMI2USB+%28Extension+Boards%29&page=1&state=open)
 
 
 ### HDMI2USB Firmware Projects
 
- * [**HDMI2USB Firmware** releated Tasks](https://github.com/timvideos/getting-started/issues?labels=Firmware)
+ * [**HDMI2USB Firmware** releated Tasks](https://github.com/timvideos/getting-started/issues?labels=Type+-+Firmware&page=1&state=open)
 
 <br>
 <br>
@@ -119,7 +119,7 @@ If you can show that you are committed to developing hardware (such as being acc
 ## flumotion
 [(Code)](https://code.flumotion.com/cgit/) | [(Mailing Lists)](http://lists.fluendo.com/mailman/listinfo) | [(IRC Channel)](irc://irc.freenode.org/#fluendo)
 
- * [**flumotion** Tasks](https://github.com/timvideos/getting-started/issues?labels=flumotion)
+ * [**flumotion** Tasks](https://github.com/timvideos/getting-started/issues?labels=Project+-+Flumotion&page=1&state=open)
 
 While flumotion was **not** originally developed for TimVideos.us, it is used
 heavily to do the live video streaming side. For this reason we will have
@@ -135,7 +135,7 @@ numerous ideas on how to improve the platform for our usecase.
 ## GStreamer
 [(Code)](http://cgit.freedesktop.org/gstreamer) | [(Mailing Lists)](http://gstreamer.freedesktop.org/lists/) | [(IRC Channel)](irc://irc.freenode.org/#gstreamer) 
 
- * [**GStreamer** Tasks](https://github.com/timvideos/getting-started/issues?labels=gstreamer)
+ * [**GStreamer** Tasks](https://github.com/timvideos/getting-started/issues?labels=Project+-+gstreamer&page=1&state=open)
 
 While GStreamer was **not** originally developed for TimVideos.us, it is used
 heavily by gst-switch for doing video mixing and heavily by flumotion to do the
