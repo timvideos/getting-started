@@ -34,7 +34,7 @@ git push mirror --all
 COMMIT_ID=$(git rev-parse HEAD)
 
 # Run jekyll
-jekyll --kramdown
+jekyll --kramdown > /dev/null 2>&1
 
 cd ..
 
@@ -45,14 +45,14 @@ if [ ! -d website ]; then
     cd website
 else
     cd website
-    git pull
+    git pull -q
 fi 
 
 # Remove the old content
 rm -rf *
 
 # Get back the README.md file
-git checkout README.md
+git checkout -q README.md
 
 # Copy the site into this directory
 cp -R ../wiki/_site/* .
@@ -61,7 +61,7 @@ git status
 
 # Make git match the content
 git add -A .
-git commit -m "Converted https://github.com/timvideos/getting-started/commit/$COMMIT_ID"
+git commit -q -m "Converted https://github.com/timvideos/getting-started/commit/$COMMIT_ID"
 
 # Push the change
-git push
+git push -q
