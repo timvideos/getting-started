@@ -1,7 +1,7 @@
 #! /bin/bash
 
 set -e 
-set -x
+#set -x
 
 if [ ! -d /tmp/timvideos-website ]; then
     mkdir -p /tmp/timvideos-website
