@@ -11,4 +11,4 @@ git clone git@github.com:timvideos/getting-started.wiki.git
 
 # Don't commit to the base repository!
 
-Make edits to the wiki section (link on the left on github), they should be pushed to the main repo.
+Make edits to the wiki section (link on the right on github), they should be pushed to the main repo.
