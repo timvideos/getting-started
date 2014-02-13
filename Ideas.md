@@ -18,29 +18,29 @@ To help you decide which of the TimVideos.us projects you wish to contribute to,
 <img src="https://docs.google.com/drawings/d/1zYlT69xQqbAjzuJgKj-UhO1vRF5JNLpic8xmPrfNtXM/pub?w=960&amp;h=720" usemap="#wiki-flow-diagram-map" alt="Getting Started Flow Diagram">
 
 <map name="wiki-flow-diagram-map">
- <area shape="rect" coords="47,458,197,549"  href="https://github.com/timvideos/getting-started/issues?labels=Extension+Boards"
+ <area shape="rect" coords="47,458,197,549"  href="#hdmi2usb-extension-boards-projects"
   title="HDMI2USB Extension Board Tasks"></area>
- <area shape="rect" coords="209,463,360,552" href="https://github.com/timvideos/getting-started/issues?labels=Firmware"
+ <area shape="rect" coords="209,463,360,552" href="#hdmi2usb-firmware-projects"
   title="HDMI2USB Firmware Tasks"></area>
- <area shape="rect" coords="451,466,602,550" href="https://github.com/timvideos/getting-started/issues?labels=gst-switch"
+ <area shape="rect" coords="451,466,602,550" href="#gst-switch"
   title="gst-switch Tasks"></area>
- <area shape="rect" coords="449,557,600,642" href="https://github.com/timvideos/getting-started/issues?labels=gstreamer"
+ <area shape="rect" coords="449,557,600,642" href="#gstreamer"
   title="gstreamer Tasks"></area>
- <area shape="rect" coords="615,462,763,550" href="https://github.com/timvideos/getting-started/issues?labels=flumotion"
+ <area shape="rect" coords="615,462,763,550" href="#flumotion"
   title="flumotion Tasks"></area>
- <area shape="rect" coords="773,462,923,551" href="https://github.com/timvideos/getting-started/issues?labels=timvideos"
+ <area shape="rect" coords="773,462,923,551" href="#streaming-system"
   title="Tim Video's Website"></area>
- <area shape="rect" coords="586,65,723,215"  href="https://github.com/timvideos/getting-started/issues?labels=Software"
+ <area shape="rect" coords="586,65,723,215"  href="#software-projects"
   title="Software Tasks"></area>
- <area shape="rect" coords="228,65,374,210"  href="#hardware"
+ <area shape="rect" coords="228,65,374,210"  href="#hardware-projects"
   title="Hardware Tasks"></area>
- <area shape="rect" coords="209,301,355,444" href="https://github.com/timvideos/getting-started/issues?labels=Firmware"
+ <area shape="rect" coords="209,301,355,444" href="#hdmi2usb-firmware-projects"
   title="Firmware Tasks"></area>
- <area shape="rect" coords="453,296,598,448" href="https://github.com/timvideos/getting-started/issues?labels=C"
+ <area shape="rect" coords="453,296,598,448" href="#gst-switch"
   title="C Tasks"></area>
- <area shape="rect" coords="615,298,760,449" href="https://github.com/timvideos/getting-started/issues?labels=Python"
+ <area shape="rect" coords="615,298,760,449" href="#streaming-system"
   title="Python Tasks"></area>
- <area shape="rect" coords="774,298,927,448" href="https://github.com/timvideos/getting-started/issues?labels=Web"
+ <area shape="rect" coords="774,298,927,448" href="#streaming-system"
   title="Web Tasks"></area>
 </map>
 
@@ -64,7 +64,7 @@ To help you decide which of the TimVideos.us projects you wish to contribute to,
  * [Tasks in the gst-switch project dealing with **speaker tracking**]().
  
 
-## [[Streaming System]]
+## Streaming System
 [(Code)](http://github.com/timvideos/streaming-system) | [(IRC Channel)](irc://irc.freenode.org/#timvideos) | [(Bug Tracker)](http://github.com/timvideos/streaming-system/issues)
 
  * [Tasks in the **Streaming System Website** project](https://github.com/timvideos/getting-started/issues?labels=Project+-+Streaming+System+%28Website%29&page=1&state=open)
@@ -79,7 +79,7 @@ Streaming-system is a comprehensive video conferencing package that allows users
 <br>
 <br>
 
-# <a name="hardware"></a>Hardware Projects
+# Hardware Projects
 
 **The following hardware projects have tasks that you can work on.**
 
