@@ -21,7 +21,7 @@ Google Summer of Code (or similar project-based program) students should first h
 
 If you are just interested in contributing and this is your first visit, head over to the [[Ideas]] page.
 
-If you have a Digilent Atlys Board, head over to the [HDMI2USB Wiki](https://github.com/timvideos/HDMI2USB/wiki) and specifically look at the [Getting started with Atlys Board](https://github.com/timvideos/HDMI2USB/wiki/Getting-Started-with-an-Atlys-Board) page.
+If you have a Digilent Atlys Board, head over to the [HDMI2USB Wiki](https://github.com/timvideos/HDMI2USB/wiki) and specifically look at the [Digilent Atlys Board: Getting Started](https://github.com/timvideos/HDMI2USB/wiki/Digilent-Atlys-Board%3A-Getting-Started) page.
 
 ## The Projects
 
@@ -30,9 +30,9 @@ If you have a Digilent Atlys Board, head over to the [HDMI2USB Wiki](https://git
 | Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | <small>(C)ode<br>(M)ailing&nbsp;List<br>(I)RC</small>| Description |
 | -------- | ---------------------------------------------------- | ------------ |
 | <img src="http://code.timvideos.us/favicon.ico" class="favicon"> **TimVideos.us** | [(C)](http://github.com/timvideos) [(M)](https://groups.google.com/group/timvideos) [(I)](irc://irc.freenode.org/#timvideos) | Parent project. |
-| [[HDMI2USB]]         | [(C)](http://github.com/timvideos/HDMI2USB) [(M)](https://groups.google.com/group/hdmi2usb?hl=en-GB) [(I)](irc://irc.freenode.org/#hdmi2usb) | HDMI2USB is hardware for capturing [HDMI][HDMI], [DVI][DVI] and [DisplayPort][DisplayPort] data. By capturing in high quality what is being presented locally it facilitates sharing with remote users and creates great recording for later viewing. The HDMI2USB hardware can also capture the [HDMI][HDMI] output from cameras. |
-| [[gst-switch]]       | [(C)](http://github.com/timvideos/gst-switch)&nbsp;[(M)](https://groups.google.com/group/gst-switch)&nbsp;[(I)](irc://irc.freenode.org/#gst-switch)  | [[gst-switch]] aims to do interactive live mixing of incoming video streams, designed to meet the needs of conference recording. Designed as a flexible replacement for [DVSwitch][DVSwitch], and based around [GStreamer][GStreamer].  |
-| [speakertrack][st]   | [(C)](http://github.com/timvideos/gst-switch) | Speakertrack is an extension to GStreamer and gst-switch to allow automatic tracking of speakers using remotely-operated [PTZ][PTZ] cameras rather then relying on a camera operator. |
+| [[HDMI2USB]]         | [(C)](http://github.com/timvideos/HDMI2USB) [(M)](https://groups.google.com/group/hdmi2usb?hl=en-GB) [(I)](irc://irc.freenode.org/#hdmi2usb) | HDMI2USB is hardware for capturing HDMI, DVI and DisplayPort data. By capturing in high quality what is being presented locally it facilitates sharing with remote users and creates great recording for later viewing. The HDMI2USB hardware can also capture the HDMI output from cameras. |
+| [[gst-switch]]       | [(C)](http://github.com/timvideos/gst-switch)&nbsp;[(M)](https://groups.google.com/group/gst-switch)&nbsp;[(I)](irc://irc.freenode.org/#gst-switch)  | [[gst-switch]] aims to do interactive live mixing of incoming video streams, designed to meet the needs of conference recording. Designed as a flexible replacement for DVSwitch, and based around GStreamer.  |
+| speakertrack   | [(C)](http://github.com/timvideos/gst-switch) | Speakertrack is an extension to GStreamer and gst-switch to allow automatic tracking of speakers using remotely-operated PTZ cameras rather then relying on a camera operator. |
 | [Streaming System](https://github.com/timvideos/streaming-system) | [(C)](http://github.com/timvideos/streaming-system) [(M)](https://groups.google.com/group/timvideos) [(I)](irc://irc.freenode.org/#timvideos) | Streaming-system is a comprehensive video conferencing package that allows users to set up and deploy a live streaming system. It includes a website, setup scripts and watchdog code. |
 
 ### Partner Projects
