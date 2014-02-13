@@ -49,23 +49,69 @@ To help you decide which of the TimVideos.us projects you wish to contribute to,
  * There are many bugs within individual components which are not yet listed as potential starter projects. Check out the bug trackers!
  * Feel free to suggest your own ideas!
 
+
 <br>
 <br>
 <br>
 <br>
 <br>
 
-# Software Projects
+<div id="ideas"><h1>Loading ideas from GitHub ideas tracker...</h1></div>
 
-**The following software projects have tasks that you can work on.**
+{% raw %}
+<script type="text/html" id="ideas-template">
+    {{#projects}}
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="project">
+        <h1>{{name}} <a href="https://github.com/timvideos/getting-started/issues?labels={{label.name}}"><img src="/images/link.png"></a></h1>
+        <div class="label" style="background-color: #{{label.color}};">
+            <a href="https://github.com/timvideos/getting-started/issues?labels={{label.name}}">
+                {{label.name}}
+            </a>
+        </div>
+        <div class="description">{{&body_html}}</div>
+        {{#ideas}}
+        <div id="{{number}}" class="idea {{hot}}">
+            <h3>{{title}}<a href="{{html_url}}"><img src="/images/link.png"></a></h3>
+            <div class="labels">
+                {{#labels}}
+                    <div class="label" style="background-color: #{{color}};">
+                        <a href="https://github.com/timvideos/getting-started/issues?labels={{name}}">
+                            {{name}}
+                        </a>
+                    </div>
+                {{/labels}}
+            </div>
+            <div class="description">
+                {{&body_html}}
+            </div>
+            <div class="extra_info">Loading further info...</div>
+        </div>
+        {{/ideas}}
+    </div>
+    {{/projects}}
+</script>
 
-## [[gst-switch]]
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js" type="text/javascript"></script>
+<script src="/js/ideas.js" type="text/javascript"></script>
+{% endraw %}
 
+
+<div style="display:none;" markdown="1">
+
+
+<div id="gst-switch" markdown="1">
  * [Tasks in the gst-switch project](https://github.com/timvideos/getting-started/issues?labels=Project+-+gst-switch&page=1&state=open).
  * [Tasks in the gst-switch project dealing with **speaker tracking**]().
- 
+</div>
 
-## Streaming System
+
+<div id="Streaming System (Website)" markdown="1">
 [(Code)](http://github.com/timvideos/streaming-system) | [(IRC Channel)](irc://irc.freenode.org/#timvideos) | [(Bug Tracker)](http://github.com/timvideos/streaming-system/issues)
 
  * [Tasks in the **Streaming System Website** project](https://github.com/timvideos/getting-started/issues?labels=Project+-+Streaming+System+%28Website%29&page=1&state=open)
@@ -73,19 +119,9 @@ To help you decide which of the TimVideos.us projects you wish to contribute to,
 Streaming-system is a comprehensive video conferencing package that allows users to set up and deploy a live streaming system. It includes a website, setup scripts and watchdog code.
 
 #### The streaming system including a django-based website, shell script setup scripts and Python watchdog code.
+</div>
 
-<br>
-<br>
-<br>
-<br>
-<br>
-
-# Hardware Projects
-
-**The following hardware projects have tasks that you can work on.**
-
-## [[HDMI2USB]]
-
+<div id="HDMI2USB" markdown="1">
 HDMI2USB is a core hardware project in the Tim Videos suite. There are two types of projects to work on with the HDMI2USB system;
 
  * Firmware Projects - As the device uses a Xilinx Spartan 6 FPGA, developing much of the hardware is actually a process of developing software!<br>[More information on current HDMI2USB firmware](https://github.com/timvideos/HDMI2USB/wiki/Firmware).
@@ -99,15 +135,9 @@ HDMI2USB is a core hardware project in the Tim Videos suite. There are two types
 
 If you can show that you are committed to developing hardware (such as being accepted into a program like Google Summer of Code), **you can apply for a grant to have a board provided to you for development.**
 
+</div>
 
-### HDMI2USB Extension Boards Projects
-
- * [**HDMI2USB Extension Board** related Tasks](https://github.com/timvideos/getting-started/issues?labels=Project+-+HDMI2USB+%28Extension+Boards%29&page=1&state=open)
-
-
-### HDMI2USB Firmware Projects
-
- * [**HDMI2USB Firmware** releated Tasks](https://github.com/timvideos/getting-started/issues?labels=Type+-+Firmware&page=1&state=open)
+</div>
 
 <br>
 <br>
