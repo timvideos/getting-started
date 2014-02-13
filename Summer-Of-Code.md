@@ -13,7 +13,7 @@ lot of helpful information about the program and about participating as a
 student in Google Summer of Code.
 
 Secondly, **please read the Google Summer of Code
-[FAQ](http://www.google-melange.com/gsoc/document/show/gsoc_program/google/gsoc2013/help_page)**.
+[FAQ](http://www.google-melange.com/gsoc/document/show/gsoc_program/google/gsoc2014/help_page)**.
 It contains lots of helpful information about the program, specific deadlines
 and how things will run.
 
@@ -151,10 +151,10 @@ by trying to quantify the decision process, it'll help people understand why
 their application was or was not accepted.
 
  * **Proposal is longer than a few sentences.** - We need some meat in the proposal in order to even consider it.
- * **Proposer has contacted us prior to the submission.** - This demonstrates a definite interest in Thousand Parsec and proves an ability to communicate with us.
+ * **Proposer has contacted us prior to the submission.** - This demonstrates a definite interest in TimVideos.us and proves an ability to communicate with us.
  * **Proposer knows the appropriate programming language(s).**
  * **Proposer shows evidence of being able to create software.** - Our goal is to help programmers become good at Open Source, not to teach non-programmers how to program. However, we are willing to help people develop their programming skills.
- * **Proposal is well written.** - While we don't expect perfect English, we do expect that the proposer took time to spell check, proofread it, organize it logically, and use comprehendable grammar.
+ * **Proposal is well written.** - While we don't expect perfect English, we do expect that the proposer took time to spell check, proofread it, organize it logically, and use comprehensible grammar.
  *  **Proposal demonstrates understanding of subject matter.** - We expect the proposer to do some research, ask questions, and gain some understanding of the project they're proposing. This gives us confidence that they'll be able to complete the project successfully.
  * **Proposal shows creativity.** We like to see someone thinking outside the box, including proposing ideas for projects we hadn't listed.
  * **Proposal is the only submission for the given task.** - Many proposals focus on the same few tasks, so if you're the only person proposing to do a given project, that weighs in your favor.
