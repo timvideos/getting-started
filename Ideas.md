@@ -7,7 +7,7 @@
 
 # Overview
 
-TimVideos.us is a group of exciting projects which together create a system for doing both recording and live event streaming for conferences, meetings, user groups and other presentations. Check out our [[Getting Started!]] page for more information!
+TimVideos.us is a group of exciting projects which together create a system for doing both recording and live event streaming for conferences, meetings, user groups and other presentations. Check out our [[Getting Started!|Home]] page for more information!
 
 Whether you want to work hands-on with hardware or code in a variety of languages, we have a project for you. Join the team! This information should help you explore the projects and learn how to get started. 
 
@@ -44,7 +44,7 @@ To help you decide which of the TimVideos.us projects you wish to contribute to,
   title="Web Tasks"></area>
 </map>
 
- * Students should check out the [Summer Of Code page](Summer-Of-Code.html).
+ * Students should check out the [[Summer Of Code page|Summer-Of-Code]].
  * There are many bugs within individual components which are not yet listed as potential starter projects. Check out the bug trackers!
  * Feel free to suggest your own ideas!
 
