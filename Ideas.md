@@ -32,7 +32,7 @@ To help you decide which of the TimVideos.us projects you wish to contribute to,
   title="Tim Video's Website"></area>
  <area shape="rect" coords="586,65,723,215"  href="https://github.com/timvideos/getting-started/issues?labels=Software"
   title="Software Tasks"></area>
- <area shape="rect" coords="228,65,374,210"  href="https://github.com/timvideos/getting-started/issues?labels=Hardware"
+ <area shape="rect" coords="228,65,374,210"  href="#hardware"
   title="Hardware Tasks"></area>
  <area shape="rect" coords="209,301,355,444" href="https://github.com/timvideos/getting-started/issues?labels=Firmware"
   title="Firmware Tasks"></area>
@@ -79,7 +79,7 @@ Streaming-system is a comprehensive video conferencing package that allows users
 <br>
 <br>
 
-# Hardware Projects
+# <a name="hardware"></a>Hardware Projects
 
 **The following hardware projects have tasks that you can work on.**
 
