@@ -89,7 +89,7 @@ To help you decide which of the TimVideos.us projects you wish to contribute to,
             <div class="description">
                 {{&body_html}}
             </div>
-            <div class="extra_info">Loading further info...</div>
+            <div class="extra_info">{{&reference.extra}}</div>
         </div>
         {{/ideas}}
     </div>
@@ -137,47 +137,51 @@ If you can show that you are committed to developing hardware (such as being acc
 
 </div>
 
+
+{% raw %}
+~~~ markdown
+
+Ideas Template
+------------------------------------------------------
+Title: [{{reference.repo}} #{{reference.issue}}] {{title}}
+Labels: 
+ * (fluro green) Language
+ * (fluro light blue) Project
+ * (dark yellow) Type
+ * (dark blue) Dark blue
+
+Text
+
+More technical details at 
+
+[Link to bug in the ](http://github.com/timvideos/{{reference.repo}}/issues/{{reference.issue}})
+
+## Brief explanation
+
+A short description of what the thing you want to do.
+
+### Expected results
+
+## Detailed Explanation
+
+A much longer description of what the thing you want to do.
+
+### Further reading
+
+ * [Link to a PDF document](http://abc/abc.pdf)
+ * [Link to a some HTML page](http://abc/abc.html)
+
+## Knowledge Prerequisites
+
+ *
+
+## Contacts
+
+ * **Potential Mentors:** @{{github mentor username}}
+ * **Mailing list:** [xxx@groups.google.com](http://xxxx/)
+
+~~~
+{% endraw %}
+
 </div>
 
-<br>
-<br>
-<br>
-<br>
-<br>
-
-# Partner Projects
-
-## flumotion
-[(Code)](https://code.flumotion.com/cgit/) | [(Mailing Lists)](http://lists.fluendo.com/mailman/listinfo) | [(IRC Channel)](irc://irc.freenode.org/#fluendo)
-
- * [**flumotion** Tasks](https://github.com/timvideos/getting-started/issues?labels=Project+-+Flumotion&page=1&state=open)
-
-While flumotion was **not** originally developed for TimVideos.us, it is used
-heavily to do the live video streaming side. For this reason we will have
-numerous ideas on how to improve the platform for our usecase.
-
-> Flumotion is an award winning streaming software created in 2006 by a group
-> of open source developers and multimedia experts. Flumotion Streaming
-> Software allows broadcasters and companies to stream content live and on
-> demand in all the leading formats from a single server.
-
-#### flumotion is written in Python and uses GStreamer
-
-## GStreamer
-[(Code)](http://cgit.freedesktop.org/gstreamer) | [(Mailing Lists)](http://gstreamer.freedesktop.org/lists/) | [(IRC Channel)](irc://irc.freenode.org/#gstreamer) 
-
- * [**GStreamer** Tasks](https://github.com/timvideos/getting-started/issues?labels=Project+-+gstreamer&page=1&state=open)
-
-While GStreamer was **not** originally developed for TimVideos.us, it is used
-heavily by gst-switch for doing video mixing and heavily by flumotion to do the
-heavy lifting of media processing. For this reason we will have numerous ideas
-on how to improve the platform for our usecase.
-
-> GStreamer is a library for constructing graphs of media-handling components.
-> The applications it supports range from simple Ogg/Vorbis playback,
-> audio/video streaming to complex audio (mixing) and video (non-linear
-> editing) processing. Applications can take advantage of advances in codec and
-> filter technology transparently. Developers can add new codecs and filters by
-> writing a simple plugin with a clean, generic interface.
-
-#### GStreamer is written in C
