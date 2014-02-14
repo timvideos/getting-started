@@ -451,12 +451,12 @@ footer {
     font-weight: bold;
 }
 
-hr.project {
+hr.project-line {
+    display: block;
     height: 1px;
     background-color: black;
     padding: 0;
-    margin: 0;
-    margin-bottom: 2px;
-    border: none;
+    margin: 2px 0px;
+    border: 1px solid black;
     width: 100%;
 }

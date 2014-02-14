@@ -43,7 +43,7 @@ $.ajax({
                 idea.reference = {
                     type: "project",
                     repo: $.trim(project_ref[1]),
-                    extra: "",
+                    extra: "&nbsp;",
                 };
             }
         }
