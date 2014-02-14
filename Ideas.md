@@ -61,10 +61,8 @@ To help you decide which of the TimVideos.us projects you wish to contribute to,
 {% raw %}
 <script type="text/html" id="ideas-template">
     {{#projects}}
-    <br>
-    <br>
-    <br>
-    <br>
+    <hr class="project">
+    <hr class="project">
     <br>
     <div class="project">
         <h1>{{name}} <a href="https://github.com/timvideos/getting-started/issues?labels={{label.name}}"><img src="/images/link.png"></a></h1>

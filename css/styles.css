@@ -450,3 +450,13 @@ footer {
     font-family: Sans-Serif;
     font-weight: bold;
 }
+
+hr.project {
+    height: 1px;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2px;
+    border: none;
+    width: 100%;
+}
