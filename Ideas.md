@@ -7,11 +7,14 @@
 
 # Overview
 
-TimVideos.us is a group of exciting projects which together create a system for doing both recording and live event streaming for conferences, meetings, user groups and other presentations. Check out our [[Getting Started!|Home]] page for more information!
+TimVideos.us is a group of exciting projects which together create a system for doing both recording and live event streaming for conferences, meetings, user groups and other presentations.  Whether you want to work hands-on with hardware or code in a variety of languages, we have a project for you. Join the team!
 
-Whether you want to work hands-on with hardware or code in a variety of languages, we have a project for you. Join the team! This information should help you explore the projects and learn how to get started. 
+Check out our [[Getting Started!|Home]] page.
 
-To help you decide which of the TimVideos.us projects you wish to contribute to, we have created the following flow diagram:
+Students should also read the [[Summer Of Code]] page.
+
+The following information and flow diagram should help you explore current TimVideos projects and learn how to start contributing. 
+
 
 [Edit Image](https://docs.google.com/a/mithis.com/drawings/d/1zYlT69xQqbAjzuJgKj-UhO1vRF5JNLpic8xmPrfNtXM/edit)
 
@@ -44,10 +47,7 @@ To help you decide which of the TimVideos.us projects you wish to contribute to,
   title="Web Tasks"></area>
 </map>
 
- * Students should check out the [[Summer Of Code]] page.
- * [Ideas tracker](https://github.com/timvideos/getting-started/issues?state=open) is a dynamic, filterable version of the [[Ideas]] page.  You are welcome to expand on ideas!
- * There are many bugs within individual components which are not yet listed as potential starter projects. Check out the bug trackers!
- * Feel free to suggest your own ideas!
+
 
 
 <br>
@@ -56,10 +56,14 @@ To help you decide which of the TimVideos.us projects you wish to contribute to,
 <br>
 <br>
 
-# Ideas list
+# Ideas List
 
-This ideas list is dynamically generated from the [Ideas tracker](https://github.com/timvideos/getting-started/issues?state=open). 
-You can view and comment on the ideas there.
+*This ideas list is dynamically generated from the [Ideas tracker](https://github.com/timvideos/getting-started/issues?state=open).  You can view, filter, and comment on ideas there.  
+
+*Feel free to suggest your own ideas!  New ideas should be added using the [ Markdown Ideas Template](/Ideas.html#Markdown-Ideas-Template).
+
+*There are many bugs within individual components which are not yet listed as potential starter projects. Check out the bug trackers!
+
 
 <div id="ideas"><b>Loading ideas from GitHub ideas tracker...</b></div>
 
