@@ -56,52 +56,65 @@ To help you decide which of the TimVideos.us projects you wish to contribute to,
 <br>
 <br>
 
-<div id="ideas"><h1>Loading ideas from GitHub ideas tracker...</h1></div>
+# Ideas list
+
+This ideas list is dynamically generated from the [Ideas tracker](https://github.com/timvideos/getting-started/issues?state=open). 
+You can view and comment on the ideas there.
+
+<div id="ideas"><b>Loading ideas from GitHub ideas tracker...</b></div>
+
+
+### Markdown Ideas Template
+
+There is the Markdown required to make a new ideas.
+
+FIXME: Add a "create" link to automatically create a new idea prefilled with the following template.
 
 {% raw %}
-<script type="text/html" id="ideas-template">
-    {{#projects}}
-    <hr class="project">
-    <hr class="project">
-    <br>
-    <div class="project">
-        <h1>{{name}} <a href="https://github.com/timvideos/getting-started/issues?labels={{label.name}}"><img src="/images/link.png"></a></h1>
-        <div class="label" style="background-color: #{{label.color}};">
-            <a href="https://github.com/timvideos/getting-started/issues?labels={{label.name}}">
-                {{label.name}}
-            </a>
-        </div>
-        <div class="description">{{&body_html}}</div>
-        {{#ideas}}
-        <div id="{{number}}" class="idea {{hot}}">
-            <h3>{{title}}<a href="{{html_url}}"><img src="/images/link.png"></a></h3>
-            <div class="labels">
-                {{#labels}}
-                    <div class="label" style="background-color: #{{color}};">
-                        <a href="https://github.com/timvideos/getting-started/issues?labels={{name}}">
-                            {{name}}
-                        </a>
-                    </div>
-                {{/labels}}
-            </div>
-            <div class="description">
-                {{&body_html}}
-            </div>
-            <div class="extra_info">{{&reference.extra}}</div>
-        </div>
-        {{/ideas}}
-    </div>
-    {{/projects}}
-</script>
+~~~ markdown
+Title: [{{reference.repo}} #{{reference.issue}}] {{title}}
+Labels: 
+ * (fluro green) Language
+ * (fluro light blue) Project
+ * (dark yellow) Type
+ * (dark blue) Dark blue
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js" type="text/javascript"></script>
-<script src="/js/ideas.js" type="text/javascript"></script>
+Description:
+----
+
+More technical details at [Link to bug in the ](http://github.com/timvideos/{{reference.repo}}/issues/{{reference.issue}})
+
+## Brief explanation
+
+A short description of what the thing you want to do.
+
+### Expected results
+
+## Detailed Explanation
+
+A much longer description of what the thing you want to do.
+
+### Further reading
+
+ * [Link to a PDF document](http://abc/abc.pdf)
+ * [Link to a some HTML page](http://abc/abc.html)
+
+## Knowledge Prerequisites
+
+ *
+
+## Contacts
+
+ * **Potential Mentors:** @{{github mentor username}}
+ * **Mailing list:** [xxx@groups.google.com](http://xxxx/)
+
+---
+~~~
 {% endraw %}
 
 
 <div style="display:none;" markdown="1">
-
+<!-- Extra information to put in each project's section -->
 
 <div id="gst-switch" markdown="1">
  * [Tasks in the gst-switch project](https://github.com/timvideos/getting-started/issues?labels=Project+-+gst-switch&page=1&state=open).
@@ -135,51 +148,46 @@ If you can show that you are committed to developing hardware (such as being acc
 
 </div>
 
-
-{% raw %}
-~~~ markdown
-
-Ideas Template
-------------------------------------------------------
-Title: [{{reference.repo}} #{{reference.issue}}] {{title}}
-Labels: 
- * (fluro green) Language
- * (fluro light blue) Project
- * (dark yellow) Type
- * (dark blue) Dark blue
-
-Text
-
-More technical details at 
-
-[Link to bug in the ](http://github.com/timvideos/{{reference.repo}}/issues/{{reference.issue}})
-
-## Brief explanation
-
-A short description of what the thing you want to do.
-
-### Expected results
-
-## Detailed Explanation
-
-A much longer description of what the thing you want to do.
-
-### Further reading
-
- * [Link to a PDF document](http://abc/abc.pdf)
- * [Link to a some HTML page](http://abc/abc.html)
-
-## Knowledge Prerequisites
-
- *
-
-## Contacts
-
- * **Potential Mentors:** @{{github mentor username}}
- * **Mailing list:** [xxx@groups.google.com](http://xxxx/)
-
-~~~
-{% endraw %}
-
 </div>
 
+{% raw %}
+<!-- Template for the idea list. Uses http://mustache.github.io/mustache.5.html -- You can't use markdown in this template. -->
+<script type="text/html" id="ideas-template">
+    {{#projects}}
+    <div class="project">
+        <h2>{{name}} <a href="https://github.com/timvideos/getting-started/issues?labels={{label.name}}"><img src="/images/link.png"></a></h2>
+        <div class="label" style="background-color: #{{label.color}};">
+            <a href="https://github.com/timvideos/getting-started/issues?labels={{label.name}}">
+                {{label.name}}
+            </a>
+        </div>
+        <div class="description">{{&body_html}}</div>
+        {{#ideas}}
+        <div id="{{number}}" class="idea {{hot}}">
+            <h3>{{title}}<a href="{{html_url}}"><img src="/images/link.png"></a></h3>
+            <div class="labels">
+                {{#labels}}
+                    <div class="label" style="background-color: #{{color}};">
+                        <a href="https://github.com/timvideos/getting-started/issues?labels={{name}}">
+                            {{name}}
+                        </a>
+                    </div>
+                {{/labels}}
+            </div>
+            <div class="description">
+                {{&body_html}}
+            </div>
+            <div class="extra_info">{{&reference.extra}}</div>
+        </div>
+        {{/ideas}}
+    </div>
+    <hr class="project-line">
+    <hr class="project-line">
+    <br>
+    {{/projects}}
+</script>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js" type="text/javascript"></script>
+<script src="/js/ideas.js" type="text/javascript"></script>
+{% endraw %}
