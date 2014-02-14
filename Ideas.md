@@ -44,7 +44,7 @@ To help you decide which of the TimVideos.us projects you wish to contribute to,
   title="Web Tasks"></area>
 </map>
 
- * Students should check out the [[Summer Of Code page|Summer-Of-Code]].
+ * Students should check out the [[Summer Of Code]] page.
  * [Ideas tracker](https://github.com/timvideos/getting-started/issues?state=open) is a dynamic, filterable version of the [[Ideas]] page.  You are welcome to expand on ideas!
  * There are many bugs within individual components which are not yet listed as potential starter projects. Check out the bug trackers!
  * Feel free to suggest your own ideas!
