@@ -76,11 +76,30 @@ h2 {
 
 h3 {
 	font-size: 18px;
+	border-bottom: 1px solid #bbb;
 }
 
 h4, h5, h6 {
+    font-size: 14px;
 	font-family: Arvo, Monaco, serif;
-	font-weight: 700;
+}
+
+h4 {
+	font-weight: 800;
+    margin:26px 0 10px;
+}
+
+h5 {
+    font-size: 14px;
+	font-weight: 600;
+    font-style: italic;
+    margin:16px 0 10px;
+}
+
+h6 {
+	font-weight: 600;
+    font-size: 14px;
+    margin:6px 0 10px;
 }
 
 a {
@@ -435,6 +454,15 @@ footer {
     padding: 4px;
 }
 
+.description *:first-child {
+    margin-top: 0;
+}
+
+.extra_info {
+    clear: both;
+    padding: 4px;
+}
+
 .label {
     float: left;
     white-space: nowrap;
@@ -459,4 +487,26 @@ hr.project-line {
     margin: 2px 0px;
     border: 1px solid black;
     width: 100%;
+}
+
+div.idea * {
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+div.idea div.labels {
+    width: 100%;
+    clear: both;
+    padding: 2px;
+}
+
+div.idea div.details {
+    width: 100%;
+    clear: both;
+    max-height: 600px;
+    max-height: 80vh;
+    overflow-y: auto;
+    border: 1px dashed #aaaaaa;
+    margin: 2px;
+    margin-top: 8px;
+    position: relative;
 }

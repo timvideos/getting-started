@@ -16,6 +16,10 @@ function shift_headers(html, by) {
   return dummy;
 }
 
+
+var ideas_template = $('#ideas-template').html();
+var ideas_extra_template = $('#ideas-extra-template').html();
+
 $.ajax({
     type: "GET",
     url: "https://api.github.com/repos/timvideos/getting-started/issues",
@@ -40,20 +44,23 @@ $.ajax({
                 idea.reference = {
                     type: "issue",
                     repo: $.trim(issue_ref[1]),
-                    issue: $.trim(issue_ref[2]),
+                    number: $.trim(issue_ref[2]),
                 };
-                idea.reference.link = "https://github.com/timvideos/"+idea.reference.repo+"/issues/"+idea.reference.issue;
-                idea.reference.extra = Mustache.to_html('Loading extra information from <a href="{{link}}">{{repo}} bug #{{issue}}</a>', idea.reference);
+                idea.reference.url = "https://github.com/timvideos/"+idea.reference.repo+"/issues/"+idea.reference.number;
+                idea.reference.extra = Mustache.to_html('Loading extra information from <a href="{{url}}">{{repo}} bug #{{number}}</a>', idea.reference);
 
                 $.ajax({
                     type: "GET",
-                    url: "https://api.github.com/repos/timvideos/"+idea.reference.repo+"/issues/"+idea.reference.issue,
+                    url: "https://api.github.com/repos/timvideos/"+idea.reference.repo+"/issues/"+idea.reference.number,
                     dataType: "json",
                     headers: {
                         Accept: "application/vnd.github.full+json"
                     },
                 }).done(function (idea_extra_info) {
-                    var element = shift_headers(idea_extra_info.body_html, 2);
+                    idea_extra_info.repo = idea.reference.repo;
+                    idea_extra_info.fixed_html = shift_headers(idea_extra_info.body_html, 3).html();
+
+                    var element = Mustache.to_html(ideas_extra_template, idea_extra_info);
                     var target = $('#'+idea.number+' .extra_info');
                     target.empty();
                     target.append(element);
@@ -91,7 +98,6 @@ $.ajax({
             }
         });
     });
-    var template = $('#ideas-template').html();
 
     var projects_array = $.map(projects, function (v, k) {
         return v;
@@ -106,7 +112,7 @@ $.ajax({
         return 0;
     });
 
-    var output = Mustache.to_html(template, {'projects': projects_array});
+    var output = Mustache.to_html(ideas_template, {'projects': projects_array});
     //console.log(output);
     $('#ideas').html(output);
 }).fail(function () {
