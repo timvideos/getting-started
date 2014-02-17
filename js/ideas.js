@@ -1,3 +1,21 @@
+function shift_headers(html, by) {
+  var dummy = $('<div>');
+  dummy.html(html);
+  for (var i = 6; i > 0; i--) {
+    var from = 'h'+i; // CSS selector
+
+    var to = '<h'+(i+by)+'>'; // HTML
+    if (i+by > 6) { // h6 is the smallest
+      to = '<b class=h'+(i+by)+'>';
+    }
+
+    dummy.find(from).replaceWith(function(){
+      return $(to).append($(this).contents());
+    });
+  }
+  return dummy;
+}
+
 $.ajax({
     type: "GET",
     url: "https://api.github.com/repos/timvideos/getting-started/issues",
@@ -35,7 +53,10 @@ $.ajax({
                         Accept: "application/vnd.github.full+json"
                     },
                 }).done(function (idea_extra_info) {
-                    $('#'+idea.number+' .extra_info').html(idea_extra_info.body_html);
+                    var element = shift_headers(idea_extra_info.body_html, 2);
+                    var target = $('#'+idea.number+' .extra_info');
+                    target.empty();
+                    target.append(element);
                 }).fail(function () {
                     $('#'+idea.number+' .extra_info').html("Unable to load extra info.");
                 });
@@ -49,6 +70,8 @@ $.ajax({
         }
         //console.log(idea.title, project_ref, issue_ref, idea.reference);
 
+        idea.fixed_html = shift_headers(idea.body_html, 2).html();
+
         $.each(idea.labels, function (j, label) {
             if (label == 'Hot') {
                 idea['hot'] = 'hot';
@@ -61,7 +84,7 @@ $.ajax({
                         name: label_project,
                         label: label,
                         ideas: [],
-                        body_html: $('div[id=\''+label_project+'\']').html(),
+                        fixed_html: $('div[id=\''+label_project+'\']').html(),
                     };
                 }
                 projects[label_project].ideas.push(idea);
