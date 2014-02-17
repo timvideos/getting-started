@@ -67,7 +67,7 @@ FIXME: Add a "create" link to automatically create a new idea prefilled with the
 
 {% raw %}
 ~~~ markdown
-Title: [{{reference.repo}} #{{reference.issue}}] {{title}}
+Title: [{{reference.repo}} #{{reference.number}}] {{title}}
 Labels: 
  * (fluro green) Language
  * (fluro light blue) Project
@@ -77,28 +77,28 @@ Labels:
 Description:
 ----
 
-More technical details at [Link to bug in the ](http://github.com/timvideos/{{reference.repo}}/issues/{{reference.issue}})
+More technical details at [Link to bug in the ](http://github.com/timvideos/{{reference.repo}}/issues/{{reference.number}})
 
-## Brief explanation
+# Brief explanation
 
 A short description of what the thing you want to do.
 
-### Expected results
+## Expected results
 
-## Detailed Explanation
+# Detailed Explanation
 
 A much longer description of what the thing you want to do.
 
-### Further reading
+## Further reading
 
  * [Link to a PDF document](http://abc/abc.pdf)
  * [Link to a some HTML page](http://abc/abc.html)
 
-## Knowledge Prerequisites
+# Knowledge Prerequisites
 
  *
 
-## Contacts
+# Contacts
 
  * **Potential Mentors:** @{{github mentor username}}
  * **Mailing list:** [timvideos@groups.google.com](http://https://groups.google.com/forum/#!forum/timvideos/)
@@ -150,16 +150,19 @@ If you can show that you are committed to developing hardware (such as being acc
 <script type="text/html" id="ideas-template">
     {{#projects}}
     <div class="project">
-        <h2>{{name}} <a href="https://github.com/timvideos/getting-started/issues?labels={{label.name}}"><img src="/images/link.png"></a></h2>
-        <div class="label" style="background-color: #{{label.color}};">
-            <a href="https://github.com/timvideos/getting-started/issues?labels={{label.name}}">
-                {{label.name}}
-            </a>
+        <h1>{{name}} <a href="https://github.com/timvideos/getting-started/issues?labels={{label.name}}"><img src="/images/link.png"></a></h1>
+        <div class="labels">
+            <div class="label" style="background-color: #{{label.color}};">
+                <a href="https://github.com/timvideos/getting-started/issues?labels={{label.name}}">
+                    {{label.name}}
+                </a>
+            </div>
+            <div style="clear: both; height: 1px;">&nbsp;</div>
         </div>
         <div class="description">{{&fixed_html}}</div>
         {{#ideas}}
         <div id="{{number}}" class="idea {{hot}}">
-            <h3>{{title}}<a href="{{html_url}}"><img src="/images/link.png"></a></h3>
+            <h2>{{title}}<a href="{{html_url}}"><img src="/images/link.png"></a></h2>
             <div class="labels">
                 {{#labels}}
                     <div class="label" style="background-color: #{{color}};">
@@ -168,11 +171,14 @@ If you can show that you are committed to developing hardware (such as being acc
                         </a>
                     </div>
                 {{/labels}}
+                <div style="clear: both; height: 1px;">&nbsp;</div>
             </div>
-            <div class="description">
-                {{&fixed_html}}
+            <div class="details">
+                <div class="description">
+                    {{&fixed_html}}
+                </div>
+                <div class="extra_info">{{&reference.extra}}</div>
             </div>
-            <div class="extra_info">{{&reference.extra}}</div>
         </div>
         {{/ideas}}
     </div>
@@ -180,6 +186,27 @@ If you can show that you are committed to developing hardware (such as being acc
     <hr class="project-line">
     <br>
     {{/projects}}
+</script>
+<script type="text/html" id="ideas-extra-template">
+     <h3 style="border-bottom: 1px solid black; font-weight: bold;">Related bugs</h3>
+     <h3>
+           (<a href="{{html_url}}">{{repo}} Issue #{{number}} <img src="/images/link.png"></a>) -- {{title}}
+     </h3>
+     <div class="labels">
+         {{#labels}}
+             <div class="label" style="background-color: #{{color}};">
+                 <a href="https://github.com/timvideos/{{repo}}/issues?labels={{name}}">
+                     {{name}}
+                 </a>
+             </div>
+         {{/labels}}
+         <div style="clear: both; height: 1px;">&nbsp;</div>
+     </div>
+     <div>
+         <div class="description">
+             {{&fixed_html}}
+         </div>
+     </div>
 </script>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
