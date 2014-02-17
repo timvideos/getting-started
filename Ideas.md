@@ -56,9 +56,9 @@ The following information and flow diagram should help you explore current TimVi
 
 # Ideas List
 
-*This ideas list is dynamically generated from the [Ideas tracker](https://github.com/timvideos/getting-started/issues?state=open).  You can view, filter, and comment on ideas there.  
-*Feel free to suggest your own ideas!  New ideas should be added using the [Markdown Ideas Template](/Ideas.html#Markdown_Ideas_Template).  
-*There are many bugs within individual components which are not yet listed as potential starter projects. Check out the bug trackers!
+ * This ideas list is dynamically generated from the [Ideas tracker](https://github.com/timvideos/getting-started/issues?state=open).  You can view, filter, and comment on ideas there.  
+ * Feel free to suggest your own ideas!  New ideas should be added using the [Markdown Ideas Template](/Ideas.html#Markdown_Ideas_Template).  
+ * There are many bugs within individual components which are not yet listed as potential starter projects. Check out the bug trackers!
 
 
 <div id="ideas"><b>Loading ideas from GitHub ideas tracker...</b></div>
