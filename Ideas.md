@@ -45,14 +45,7 @@ The following information and flow diagram should help you explore current TimVi
   title="Web Tasks"></area>
 </map>
 
-
-
-
-<br>
-<br>
-<br>
-<br>
-<br>
+<hr>
 
 # Ideas List
 
@@ -60,6 +53,8 @@ The following information and flow diagram should help you explore current TimVi
  * Feel free to suggest your own ideas!  New ideas should be added using the [Markdown Ideas Template](/Ideas.html#Markdown_Ideas_Template).  
  * There are many bugs within individual components which are not yet listed as potential starter projects. Check out the bug trackers!
 
+<hr class="project-line">
+<hr class="project-line">
 
 <div id="ideas"><b>Loading ideas from GitHub ideas tracker...</b></div>
 
@@ -161,7 +156,7 @@ If you can show that you are committed to developing hardware (such as being acc
                 {{label.name}}
             </a>
         </div>
-        <div class="description">{{&body_html}}</div>
+        <div class="description">{{&fixed_html}}</div>
         {{#ideas}}
         <div id="{{number}}" class="idea {{hot}}">
             <h3>{{title}}<a href="{{html_url}}"><img src="/images/link.png"></a></h3>
@@ -175,7 +170,7 @@ If you can show that you are committed to developing hardware (such as being acc
                 {{/labels}}
             </div>
             <div class="description">
-                {{&body_html}}
+                {{&fixed_html}}
             </div>
             <div class="extra_info">{{&reference.extra}}</div>
         </div>
