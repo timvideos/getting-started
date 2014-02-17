@@ -106,7 +106,7 @@ A much longer description of what the thing you want to do.
 ## Contacts
 
  * **Potential Mentors:** @{{github mentor username}}
- * **Mailing list:** [xxx@groups.google.com](http://xxxx/)
+ * **Mailing list:** [timvideos@groups.google.com](http://https://groups.google.com/forum/#!forum/timvideos/)
 
 ---
 ~~~
