@@ -463,13 +463,30 @@ footer {
     padding: 4px;
 }
 
-.label {
+div.labels div.label {
     float: left;
+    display: block;
+}
+
+ul div.label {
+    display: inline-block;
+}
+
+ul div.label + p {
+    display: inline-block;
+    margin: 2px;
+}
+
+.label {
     white-space: nowrap;
     border: 1px solid white;
     padding: 0px 4px;
     margin-left: 2px;
     border-radius: 8px;
+
+    color: white;
+    font-family: Sans-Serif;
+    font-weight: bold;
 }
 
 .label a {
