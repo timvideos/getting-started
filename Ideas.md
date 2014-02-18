@@ -59,7 +59,7 @@ The following information and flow diagram should help you explore current TimVi
 <div id="ideas"><b>Loading ideas from GitHub ideas tracker...</b></div>
 
 
-### Markdown Ideas Template
+# Markdown Ideas Template
 
 There is the Markdown required to make a new ideas.
 
