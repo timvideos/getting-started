@@ -26,8 +26,8 @@ your proposal **better**, by not reading everything you are already behind.
 
 The following links detail successful general ways to write a Summer of Code Proposal:
 
-* [HOWTO Write Project Proposals](http://inkscape.org/wiki/index.php/SOC_Writing_Project_Proposals)
-* [Inkscape's Accepted Proposals](http://inkscape.org/wiki/index.php/SOC_Accepted_Proposals)
+* [HOWTO Write Project Proposals](http://wiki.inkscape.org/wiki/index.php/SOC_Writing_Project_Proposals)
+* [Inkscape's Accepted Proposals](http://wiki.inkscape.org/wiki/index.php/SOC_Accepted_Proposals)
 * [Internet2 Experience](http://www.internet2.edu/~shalunov/writing/soc2005.html)
 * [Portland State University Experience](http://summer.cs.pdx.edu/?q=node/12)
 * [Monotone Experience](http://venge.net/monotone/summerofcode.html)
