@@ -24,6 +24,7 @@ Lastly, **please read everything on this page**. This page is designed to make y
 Google Summer of Code will require you to work independently and hence showing independent investigation and troubleshooting skills **is a must**. We definitely encourage asking questions of the mentors but you must demonstrated researching the question. 
 
 The following is **bad** example. It demonstrates no research or thinking. The response to this question will be a link to this page!
+
 > Hi
 > 
 > I'd like to work on "[HDMI2USB #14] Supporting Marvell Ethernet chip on Digilent board" project, please guide me.
@@ -31,6 +32,7 @@ The following is **bad** example. It demonstrates no research or thinking. The r
 > Potential GSoC student, Tim 'mithro' Ansell
 
 The following is a **good** example. It demonstrates research and thinking about the issue and more in depth questioning.
+
 > Hi
 > 
 > I'm currently researching the "[HDMI2USB #14] Supporting Marvell Ethernet chip on Digilent board" issue and have a number of questions I'd like clarified.
