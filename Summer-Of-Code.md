@@ -179,6 +179,15 @@ Please see the [[People]] page.
  * Join the [mailing lists](https://github.com/timvideos/getting-started/wiki#the-projects) for the projects you are interested in.
  * Join the IRC chat channel [#timvideos on irc.freenode.net](irc://irc.freenode.org/#timvideos).
 
+# Frequently Asked Questions
+
+What more can you tell me?
+ * Please ask more specific questions. What don't you understand? What have you read so far? Tell us about yourself.  Tell us what you like to do.  Maybe we will have some advice that isn't suited to the general documentation. 
+
+What should I do next?
+ * Become familiar with vagrant.  apt-get install vagrant  http://docs.vagrantup.com/v2/getting-started/index.html   Get this and try it out https://github.com/CarlFK/dvsmon/blob/master/Vagrantfile
+
+
 # Thanks
 
 We would like to thank the following:
