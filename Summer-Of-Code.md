@@ -17,8 +17,63 @@ Secondly, **please read the Google Summer of Code
 It contains lots of helpful information about the program, specific deadlines
 and how things will run.
 
-Lastly, **please read everything on this page**. This page is designed to make
-your proposal **better**, by not reading everything you are already behind.
+Lastly, **please read everything on this page**. This page is designed to make your proposal **better**, by not reading everything you are already behind.
+
+# How to ask for help
+
+Google Summer of Code will require you to work independently and hence showing independent investigation and troubleshooting skills **is a must**. We definitely encourage asking questions of the mentors but you must demonstrated researching the question. 
+
+The following is **bad** example. It demonstrates no research or thinking. The response to this question will be a link to this page!
+> Hi
+> 
+> I'd like to work on "[HDMI2USB #14] Supporting Marvell Ethernet chip on Digilent board" project, please guide me.
+> 
+> Potential GSoC student, Tim 'mithro' Ansell
+
+The following is a **good** example. It demonstrates research and thinking about the issue and more in depth questioning.
+> Hi
+> 
+> I'm currently researching the "[HDMI2USB #14] Supporting Marvell Ethernet chip on Digilent board" issue and have a number of questions I'd like clarified.
+> 
+> The Marvell Ethernet chip appears to be a RGMII compatible PHYs interface. I have found a number of compatible cores at OpenCores and want to know if reusing their work is acceptable? I also found that a person has had some success at http://www.joelw.id.au/FPGA/DigilentAtlysResources and would like to follow their approach.
+> 
+> What level of network protocols need to be supported? Using a low level Ethernet frame would be significantly easier from the FPGA side but would require more work on the connected PC. Using UDP seems like the best compromise between difficulty and compatibility. TCP/IP would had a huge amount more complexity and I'm not sure of the added benefit. Would it be okay to just support UDP?
+> 
+> Thank you for your help.
+>
+> Potential GSoC student, Tim 'mithro' Ansell
+
+Some good pages to look for tips about writing good questions can be found below;
+ * http://www.catb.org/esr/faqs/smart-questions.html
+ * http://taz.newffr.com/TAZ/Sysadm/unix.guide/smart-questions.html
+ * http://www.cplusplus.com/articles/jLzyhbRD/
+
+Often the best way to ask questions is to start writing your Google Summer of Code proposal as documented in the [Writing Proposals](#writing-proposals) section and find out what areas you are getting stuck at.
+
+# Frequency Asked Questions (FAQ)
+
+### Can I work on project XXX?
+
+Yes!
+
+### Can you please help me? / 
+
+Please ask more specific questions. What don't you understand? What have you read so far? 
+Tell us about yourself.
+
+See the [How to ask for help](#how-to-ask-for-help) section above.
+
+### What should I work on? 
+
+What do you like to do? What interests you? You know better what projects are going to keep your interest for 3 months then we do.
+
+#### Is project XXX important?
+
+For GSoC the most important factor is the application quality! If the strongest application is for a lower priority project it is much more likely to be accepted even if poorer applications exist for higher priority projects.
+
+### What should I do next?
+
+Start writing your proposal as shown in the [Writing Proposals](#writing-proposals) section. This will help you ask better questions too!
 
 # Writing Proposals
 
@@ -178,15 +233,6 @@ Please see the [[People]] page.
 
  * Join the [mailing lists](https://github.com/timvideos/getting-started/wiki#the-projects) for the projects you are interested in.
  * Join the IRC chat channel [#timvideos on irc.freenode.net](irc://irc.freenode.org/#timvideos).
-
-# Frequently Asked Questions
-
-What more can you tell me?
- * Please ask more specific questions. What don't you understand? What have you read so far? Tell us about yourself.  Tell us what you like to do.  Maybe we will have some advice that isn't suited to the general documentation. 
-
-What should I do next?
- * Become familiar with vagrant.  apt-get install vagrant  http://docs.vagrantup.com/v2/getting-started/index.html   Get this and try it out https://github.com/CarlFK/dvsmon/blob/master/Vagrantfile
-
 
 # Thanks
 
