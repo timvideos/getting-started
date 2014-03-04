@@ -78,6 +78,10 @@ For GSoC the most important factor is the application quality! If the strongest 
 
 Start writing your proposal as shown in the [Writing Proposals](#writing-proposals) section. This will help you ask better questions too!
 
+### Who should I contact for project XXXX?
+
+As developer time is limited, we ask everyone post their messages to the public mailing list or IRC channel (read http://www.catb.org/esr/faqs/smart-questions.html#noprivate for a more detailed explaination).
+
 # Writing Proposals
 
 **Feel free to submit multiple proposals.**
