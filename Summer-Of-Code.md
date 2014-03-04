@@ -46,6 +46,7 @@ The following is a **good** example. It demonstrates research and thinking about
 > Potential GSoC student, Tim 'mithro' Ansell
 
 Some good pages to look for tips about writing good questions can be found below;
+
  * http://www.catb.org/esr/faqs/smart-questions.html
  * http://taz.newffr.com/TAZ/Sysadm/unix.guide/smart-questions.html
  * http://www.cplusplus.com/articles/jLzyhbRD/
