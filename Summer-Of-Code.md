@@ -47,9 +47,9 @@ The following is a **good** example. It demonstrates research and thinking about
 
 Some good pages to look for tips about writing good questions can be found below;
 
- * http://www.catb.org/esr/faqs/smart-questions.html
- * http://taz.newffr.com/TAZ/Sysadm/unix.guide/smart-questions.html
- * http://www.cplusplus.com/articles/jLzyhbRD/
+ * [How To Ask Questions The Smart Way - Eric Steven Raymond](http://www.catb.org/esr/faqs/smart-questions.html)
+ * [How To Ask Questions The Smart Way by Eric S. Raymond](http://taz.newffr.com/TAZ/Sysadm/unix.guide/smart-questions.html)
+ * [How To: Ask Questions The Smart Way - C++ Articles](http://www.cplusplus.com/articles/jLzyhbRD/)
 
 Often the best way to ask questions is to start writing your Google Summer of Code proposal as documented in the [Writing Proposals](#writing-proposals) section and find out what areas you are getting stuck at.
 
