@@ -225,8 +225,9 @@ their application was or was not accepted.
  * **Proposal shows motivation.** - While it's important to describe the project in detail and show us that you have the necessary skills, do not forget to communicate your motivation, i.e. why you want to work for us on this particular project.
 
 The following are conditions that result in automatic rejection:
- * Reject: Group project proposed. Google has specified that groups MAY NOT participate. Individuals only.
- * Reject: Proposer is not a student. Requirement of the program.
+
+ * Group project proposed. Google has specified that groups MAY NOT participate. Individuals only.
+ * Proposer is not a student. Google has specified this as a requirement of the GSoC program.
 
 # Ideas
 
