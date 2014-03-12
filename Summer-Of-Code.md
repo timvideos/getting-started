@@ -147,7 +147,7 @@ These milestones will be hard to figure out, being able to talk about specifics
 shows that you are well researched and know your stuff. Have confidence in your
 own abilities!
 
-Keep your milestones small, they should be doable in less then a weeks full
+Keep your milestones small, they should be doable in less than a week's full
 time work. The smaller (and more specific) they are, the harder it will be to
 get behind on.
 
@@ -202,7 +202,7 @@ The text which is being duplicated should be clearly marked in a different
 colour but still readable. Assume that clicking the link replace the Google
 application with the page and we can no longer remember the original proposal.
 
-**Remember quality is better then quantity!**
+**Remember quality is better than quantity!**
 
 ## Selection Criteria
 
