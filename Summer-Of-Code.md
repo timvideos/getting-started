@@ -21,7 +21,7 @@ Lastly, **please read everything on this page**. This page is designed to make y
 
 # How to ask for help
 
-Google Summer of Code will require you to work independently and hence showing independent investigation and troubleshooting skills **is a must**. We definitely encourage asking questions of the mentors but you must demonstrated researching the question. 
+Google Summer of Code will require you to work independently and hence showing independent investigation and troubleshooting skills **is a must**. We definitely encourage asking questions of the mentors but you must demonstate researching the question. 
 
 The following is **bad** example. It demonstrates no research or thinking. The response to this question will be a link to this page!
 
@@ -68,7 +68,7 @@ See the [How to ask for help](#how-to-ask-for-help) section above.
 
 ### What should I work on? 
 
-What do you like to do? What interests you? You know better what projects are going to keep your interest for 3 months then we do.
+What do you like to do? What interests you? You know better what projects are going to keep your interest for 3 months than we do.
 
 #### Is project XXX important?
 
