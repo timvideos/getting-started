@@ -1,7 +1,7 @@
 markdown: kramdown
 kramdown:
   entity_output: as_input
-exclude: ['Gemfile', 'Gemfile.lock']
+exclude: ['Gemfile', 'Gemfile.lock', 'planet.yml']
 name: "Tim Videos - Live Event Streaming - Developers page"
 description: "News, informations, instructions and how to contribute"
 url: http://code.timvideos.us

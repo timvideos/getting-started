@@ -235,7 +235,7 @@ You can find our ideas list on the [[Ideas]] page. The list is not definitive an
 
 # Mentors
 
-Please see the [[People]] page.
+Please see the [People]({% page_url people %}) page.
 
 # Where to Ask Questions
 
