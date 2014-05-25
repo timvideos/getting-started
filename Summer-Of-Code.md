@@ -1,7 +1,8 @@
 ---
-{'layout': 'default',
- 'title': 'Summer Of Code',
- 'tagline': 'Information for Google Summer of Code participants.'}
+layout: default
+title: Summer Of Code
+tagline': Information for Google Summer of Code participants.
+permalink: summer-of-code/
 
 ---
 
@@ -231,7 +232,7 @@ The following are conditions that result in automatic rejection:
 
 # Ideas
 
-You can find our ideas list on the [[Ideas]] page. The list is not definitive and any student is more than **welcome to come up with their own idea** to work on. **Initiative is a skill which will rate highly** when selecting projects. Feel free to come up with your own projects.
+You can find our ideas list on the [Ideas]({% page_url ideas %}) page. The list is not definitive and any student is more than **welcome to come up with their own idea** to work on. **Initiative is a skill which will rate highly** when selecting projects. Feel free to come up with your own projects.
 
 # Mentors
 

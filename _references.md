@@ -4,7 +4,7 @@
  [DVSwitch]: http://dvswitch.alioth.debian.org/wiki/
  [GStreamer]: http://gstreamer.freedesktop.org/
  [DV]: https://en.wikipedia.org/wiki/DV
- [st]: gst-switch.html#speakertrack
+ [st]: gst-switch/#speakertrack
 
 <!-- gst-switch (speaker track) -->
 

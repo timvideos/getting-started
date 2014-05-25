@@ -1,8 +1,8 @@
 ---
-{'layout': 'default', 
- 'title': 'HDMI2USB',
- 'tagline': ''}
-
+layout: default
+title: HDMI2USB
+tagline: ''
+permalink: projects/hdmi2usb/
 ---
 
 # HDMI2USB

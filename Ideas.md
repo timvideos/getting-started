@@ -1,7 +1,8 @@
 ---
-{'layout': 'default',
- 'title': 'Ideas!',
- 'tagline': 'Projects you could possibly work on.'}
+layout: default
+title: Ideas!
+tagline: Projects you could possibly work on.
+permalink: ideas/
 
 ---
 
@@ -9,7 +10,7 @@
 
 TimVideos.us is a group of exciting projects which together create a system for doing both recording and live event streaming for conferences, meetings, user groups and other presentations.  Whether you want to work hands-on with hardware or code in a variety of languages, we have a project for you. Join the team!
 
-Check out the [Getting Started!](/Home.html) page.  Students should also read the [[Summer Of Code]] page.
+Check out the [Getting Started!]({% page_url home %}) page.  Students should also read the [Summer Of Code]({% page_url summer-of-code %}) page.
 
 The following information and flow diagram should help you explore current TimVideos projects and learn how to start contributing. 
 
@@ -50,7 +51,7 @@ The following information and flow diagram should help you explore current TimVi
 # Ideas List
 
  * This ideas list is dynamically generated from the [Ideas tracker](https://github.com/timvideos/getting-started/issues?state=open).  You can view, filter, and comment on ideas there.  
- * Feel free to suggest your own ideas!  New ideas should be added using the [Markdown Ideas Template](/Ideas.html#markdown-ideas-template).  
+ * Feel free to suggest your own ideas!  New ideas should be added using the [Markdown Ideas Template]({% page_url ideas %}#markdown-ideas-template).  
  * There are many bugs within individual components which are not yet listed as potential starter projects. Check out the bug trackers!
 
 <hr class="project-line">
@@ -140,7 +141,7 @@ HDMI2USB is a core hardware project in the Tim Videos suite. There are two types
 
 
 <p style='font-size: 18px; color: red; text-align: center;'>
-<strong>!!! All hardware projects will require you to have a <a href="/HDMI2USB.html#digilent-atlys-prototype-board">Digilent ATLYS prototype board</a> !!!</strong>
+<strong>!!! All hardware projects will require you to have a [Digilent ATLYS prototype board]({% page_url summer-of-code %}digilent-atlys-prototype-board) !!!</strong>
 </p>
 
 If you can show that you are committed to developing hardware (such as being accepted into a program like Google Summer of Code), **you can apply for a grant to have a board provided to you for development.**

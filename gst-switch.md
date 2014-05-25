@@ -1,8 +1,8 @@
 ---
-{'layout': 'default', 
- 'title': 'gst-switch',
- 'tagline': 'A modern Gstreamer based software video mixer'}
-
+layout: default
+title: gst-switch
+tagline': A modern Gstreamer based software video mixer
+permalink: projects/gst-switch/
 ---
 
 # gst-switch
