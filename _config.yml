@@ -7,3 +7,11 @@ description: News, informations, instructions and how to contribute
 url: http://code.timvideos.us
 permalink: pretty
 highlighter: pygments
+prose:
+  repo_name: pinoss-getting-started
+  branch: master
+  prose_url: http://pinoss.github.io/prose
+  site_url: http://pinoss.github.io
+  ignore: 
+    - _generate.sh
+    - _config.yml
