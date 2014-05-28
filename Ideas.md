@@ -10,7 +10,7 @@ permalink: ideas/
 
 TimVideos.us is a group of exciting projects which together create a system for doing both recording and live event streaming for conferences, meetings, user groups and other presentations.  Whether you want to work hands-on with hardware or code in a variety of languages, we have a project for you. Join the team!
 
-Check out the [Getting Started!]({% page_url home %}) page.  Students should also read the [Summer Of Code]({% page_url summer-of-code %}) page.
+Check out the [[Getting Started]] page.  Students should also read the [[Summer Of Code]] page.
 
 The following information and flow diagram should help you explore current TimVideos projects and learn how to start contributing. 
 
@@ -141,7 +141,7 @@ HDMI2USB is a core hardware project in the Tim Videos suite. There are two types
 
 
 <p style='font-size: 18px; color: red; text-align: center;'>
-<strong>!!! All hardware projects will require you to have a [Digilent ATLYS prototype board]({% page_url summer-of-code %}digilent-atlys-prototype-board) !!!</strong>
+<strong>!!! All hardware projects will require you to have a [Digilent ATLYS prototype board]({% page_url summer-of-code %}#digilent-atlys-prototype-board) !!!</strong>
 </p>
 
 If you can show that you are committed to developing hardware (such as being accepted into a program like Google Summer of Code), **you can apply for a grant to have a board provided to you for development.**

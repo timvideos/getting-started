@@ -15,3 +15,4 @@ prose:
   ignore: 
     - _generate.sh
     - _config.yml
+    - pages.json

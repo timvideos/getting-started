@@ -232,11 +232,11 @@ The following are conditions that result in automatic rejection:
 
 # Ideas
 
-You can find our ideas list on the [Ideas]({% page_url ideas %}) page. The list is not definitive and any student is more than **welcome to come up with their own idea** to work on. **Initiative is a skill which will rate highly** when selecting projects. Feel free to come up with your own projects.
+You can find our ideas list on the [[Ideas]] page. The list is not definitive and any student is more than **welcome to come up with their own idea** to work on. **Initiative is a skill which will rate highly** when selecting projects. Feel free to come up with your own projects.
 
 # Mentors
 
-Please see the [People]({% page_url people %}) page.
+Please see the [[People]] page.
 
 # Where to Ask Questions
 
