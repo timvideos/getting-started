@@ -1,8 +1,7 @@
 ---
 layout: default
-title: Getting Started!
+title: Getting Started
 tagline: How to start contributing to TimVideos.us
-permalink: home/
 ---
 
 # Welcome!

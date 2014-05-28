@@ -2,7 +2,6 @@
 layout: default
 title: Ideas!
 tagline: Projects you could possibly work on.
-permalink: ideas/
 
 ---
 

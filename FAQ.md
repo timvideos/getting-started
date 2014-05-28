@@ -2,7 +2,6 @@
 layout: default
 title: FAQ
 tagline: Frequently Asked Questions
-permalink: faq/
 ---
 Are you interested in joining TimVideos.us as either a GSoC student or mentor?  Here are answers to some questions you may have. 
 

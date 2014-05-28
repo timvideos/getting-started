@@ -2,7 +2,7 @@
 layout: default
 title: HDMI2USB
 tagline: ''
-permalink: projects/hdmi2usb/
+category: projects
 ---
 
 # HDMI2USB

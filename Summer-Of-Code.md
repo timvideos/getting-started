@@ -2,7 +2,6 @@
 layout: default
 title: Summer Of Code
 tagline': Information for Google Summer of Code participants.
-permalink: summer-of-code/
 
 ---
 
