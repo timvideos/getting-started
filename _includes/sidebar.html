@@ -1,0 +1,23 @@
+<div class="column col-sm-3 col-md-3 col-lg-2" id="sidebar">
+  <a class="logo" href="{% page_url index %}">
+    <img src="{{ "/img/logo.png" | prepend: site.baseurl }}" />
+    <span>DEV</span>
+  </a>
+  <ul class="nav">
+    <li>
+      <a href="{% page_url homr %}">HOME</a>
+    </li>
+    <li>
+      <a href="{% page_url ideas %}">IDEAS</a>
+    </li>
+  </ul>
+  <ul class="nav hidden-xs" id="sidebar-footer">
+    <li class="social">
+      <a href="http://www.twitter.com/TimVideosUs"><i class="fa fa-twitter"></i></a>
+    </li>
+    <li>
+      <span>Proudly hosted by <a id="github" href="http://www.github.com">GitHub</a>
+      </span>
+    </li>
+  </ul>
+</div>
