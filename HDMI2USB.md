@@ -3,6 +3,7 @@ layout: default
 title: HDMI2USB
 tagline: ''
 category: projects
+tags: summer-of-code projects
 ---
 
 <div class="col-md-12">

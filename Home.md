@@ -2,6 +2,7 @@
 layout: default
 title: Getting Started
 tagline: How to start contributing to TimVideos.us
+tags: home
 ---
 
 <div class="col-md-12 col-lg-6">

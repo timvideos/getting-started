@@ -12,6 +12,11 @@ html, body {
    -webkit-overflow-scrolling: touch;
 }
 
+iframe {
+  width: 100%;
+  height: 99%;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway";
   font-weight: 300;
@@ -163,7 +168,7 @@ table > tbody > tr:nth-child(odd) > td {
 
 #sidebar a.logo span {
   margin-top: -20px;
-  font-size: 20px;
+  font-size: 18px;
   display: block;
   color: #024c7d;
   clear: left;

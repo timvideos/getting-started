@@ -2,6 +2,8 @@
 layout: default
 title: Ideas!
 tagline: Projects you could possibly work on.
+tags: ideas
+
 
 ---
 <div class="col-md-12">
@@ -75,7 +77,7 @@ HDMI2USB is a core hardware project in the Tim Videos suite. There are two types
 
 
 <p style='font-size: 18px; color: red; text-align: center;'>
-<strong>!!! All hardware projects will require you to have a [Digilent ATLYS prototype board]({% page_url summer-of-code %}#digilent-atlys-prototype-board) !!!</strong>
+<strong>!!! All hardware projects will require you to have a <a href="{% page_url summer-of-code %}#digilent-atlys-prototype-board">Digilent ATLYS prototype board</a> !!!</strong>
 </p>
 
 If you can show that you are committed to developing hardware (such as being accepted into a program like Google Summer of Code), **you can apply for a grant to have a board provided to you for development.**

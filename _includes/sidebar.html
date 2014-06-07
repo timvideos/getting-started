@@ -1,14 +1,23 @@
 <div class="column col-sm-3 col-md-3 col-lg-2" id="sidebar">
   <a class="logo" href="{% page_url index %}">
     <img src="{{ "/img/logo.png" | prepend: site.baseurl }}" />
-    <span>DEV</span>
+    <span>DEV PAGE</span>
   </a>
   <ul class="nav">
-    <li>
-      <a href="{% page_url homr %}">HOME</a>
+    <li class="{% active_class home %}">
+      <a href="{% page_url home %}">HOME</a>
     </li>
-    <li>
+    <li class="{% active_class ideas %}">
       <a href="{% page_url ideas %}">IDEAS</a>
+    </li>
+    <li class="{% active_class people %}">
+      <a href="{% page_url people %}">PEOPLE</a>
+    </li>
+    <li class="{% active_class news %}">
+      <a href="{% page_url news %}">NEWS</a>
+    </li>
+    <li class="{% active_class summer-of-code %}">
+      <a href="{% page_url summer-of-code %}">SUMMER OF CODE</a>
     </li>
   </ul>
   <ul class="nav hidden-xs" id="sidebar-footer">

@@ -2,6 +2,7 @@
 layout: default
 title: People
 tagline: The creators of Tim Videos (it is not just Tim!).
+tags: people
 
 ---
 <div class="col-sm-6 col-md-4">
