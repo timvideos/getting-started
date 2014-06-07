@@ -184,11 +184,17 @@ table > tbody > tr:nth-child(odd) > td {
   bottom:5px;
 }
 
-.social {
+.nav > .social {
   font-size: 30px;
 }
 
-.social .fa {
+.nav > .social > a{
+  position: inline;
+  display: inline-block;
+  padding: 0;
+}
+
+.nav > .social .fa {
   margin-right: 10px;
 }
 
