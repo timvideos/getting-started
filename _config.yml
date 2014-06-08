@@ -9,29 +9,44 @@ url: http://code.timvideos.us
 permalink: pretty
 highlighter: pygments
 prose:
-  rooturl: '_includes'
+  rooturl: ''
   siteurl: 'http://pinoss.github.io/'
   relativeLinks: 'http://pinoss.github.io/links.jsonp'
   media: 'img'
   metadata:
-    _includes:
-      - name: "category"
-        field:
-          element: "hidden"
-          value: "blog"
+    "":
       - name: "layout"
         field:
-          element: "hidden"
-          value: "blog"
+          element: "select"
+          options:
+            - name: "Base layout (without padding)"
+              value: "base"
+            - name: "Default"
+              value: "default"
+            - name: "Post"
+              value: "post"
+            - name: "None"
+              value: "none"
+      - name: "no_permalink"
+        field:
+          element: "button"
+          label: "Has pretty url?"
+          off: "Yes"
+          on: "No"
       - name: "title"
         field:
           element: "text"
           label: "Title"
           value: ""
-      - name: "splash"
+      - name: "tagline"
         field:
           element: "text"
-          label: "Splash image"
+          label: "Tagline"
+          value: ""
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Custom permalink"
           value: ""
       - name: "tags"
         field:
@@ -39,11 +54,23 @@ prose:
           label: "Add Tags"
           placeholder: "Choose Tags"
           options:
-            - name: "Apples"
-              value: "apples"
-            - name: "Bananas"
-              value: "bananas"
-            - name: "Pears"
-              value: "pears"
-            - name: "Mangos"
-              value: "mangos"
+            - name: "GSoC-2014"
+              value: "gsoc-2014"
+            - name: "HDMI2USB"
+              value: "hdmi2usb"
+            - name: "Projects"
+              value: "projects"
+            - name: "Home"
+              value: "home"
+            - name: "People"
+              value: "people"
+            - name: "Summer of Code"
+              value: "summer-of-code"
+      - name: "categories"
+        field:
+          element: "select"
+          label: "Select category"
+          placeholder: "Choose Category"
+          options:
+            - name: "Projects"
+              value: "projects"
