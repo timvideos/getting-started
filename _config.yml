@@ -9,11 +9,41 @@ url: http://code.timvideos.us
 permalink: pretty
 highlighter: pygments
 prose:
-  repo_name: pinoss-getting-started
-  branch: master
-  prose_url: http://pinoss.github.io/prose
-  site_url: http://pinoss.github.io
-  ignore: 
-    - _generate.sh
-    - _config.yml
-    - pages.json
+  rooturl: '_includes'
+  siteurl: 'http://pinoss.github.io/'
+  relativeLinks: 'http://pinoss.github.io/links.jsonp'
+  media: 'img'
+  metadata:
+    _includes:
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "blog"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "blog"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "splash"
+        field:
+          element: "text"
+          label: "Splash image"
+          value: ""
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          options:
+            - name: "Apples"
+              value: "apples"
+            - name: "Bananas"
+              value: "bananas"
+            - name: "Pears"
+              value: "pears"
+            - name: "Mangos"
+              value: "mangos"
