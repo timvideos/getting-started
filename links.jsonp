@@ -1,0 +1,11 @@
+---
+no_permalink: true
+---
+callback([
+{% for page in site.pages reversed | sort: title %}
+  {
+    "text": "{{page.title | replace:'"','\"'}}",
+    "href": "{{site.baseurl}}{{page.url}}"
+  } {% unless forloop.last %},{% endunless%}
+{% endfor %}
+])

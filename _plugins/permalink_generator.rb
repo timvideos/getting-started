@@ -2,7 +2,7 @@ module Jekyll
   class Page
 
     def permalink
-      return nil if data.nil?
+      return if data.nil? or data['no_permalink']
       if site.config['relative_permalinks']
         File.join(@dir, data['permalink'])
       elsif data['permalink']
