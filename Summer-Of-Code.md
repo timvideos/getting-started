@@ -30,7 +30,7 @@ tags: summer-of-code
       <h4>
         How to ask for help
         <span class="edit-link pull-right">
-          <a href="{% edit_url summer-of-code/gsoc-how to ask-for-help.md %}" target="_blank">
+          <a href="{% edit_url summer-of-code/gsoc-how-to-ask-for-help.md %}" target="_blank">
             <i class="fa fa-edit"></i>
           </a>
         </span> 
