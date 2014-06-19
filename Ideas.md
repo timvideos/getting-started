@@ -7,7 +7,14 @@ tags: ideas
 <div class="col-md-12">
   <div class="panel panel-default">
     <div class="panel-heading">
-      <h4>Overview</h4>
+      <h4>
+        Overview
+        <span class="edit-link pull-right">
+          <a href="{% edit_url ideas/ideas-overview.md %}" target="_blank">
+            <i class="fa fa-edit"></i>
+          </a>
+        </span>  
+      </h4>
     </div>
     <div class="panel-body">
       {% markdown ideas/ideas-overview.md %}
@@ -18,7 +25,14 @@ tags: ideas
 <div class="col-md-12">
   <div class="panel panel-default">
     <div class="panel-heading">
-      <h4>Ideas Lists</h4>
+      <h4>
+        Ideas Lists
+        <span class="edit-link pull-right">
+          <a href="{% edit_url ideas/ideas-list.md %}" target="_blank">
+            <i class="fa fa-edit"></i>
+          </a>
+        </span>  
+      </h4>
     </div>
     <div class="panel-body">
       {% markdown ideas/ideas-list.md %}
@@ -34,7 +48,14 @@ tags: ideas
 <div class="col-md-12">
   <div class="panel panel-default">
     <div class="panel-heading">
-      <h4>Markdown Ideas Template</h4>
+      <h4>
+        Markdown Ideas Template
+        <span class="edit-link pull-right">
+          <a href="{% edit_url ideas/ideas-template.md %}" target="_blank">
+            <i class="fa fa-edit"></i>
+          </a>
+        </span>  
+      </h4>
     </div>
     <div class="panel-body">
       {% markdown ideas/ideas-template.md %}

@@ -10,7 +10,14 @@ tags: project home
 <div class="col-md-12">
   <div class="panel panel-default">
     <div class="panel-heading">
-      <h4>gst-switch</h4>
+      <h4>
+        gst-switch
+        <span class="edit-link pull-right">
+          <a href="{% edit_url gst-switch/gst-switch-gst-switch.md %}" target="_blank">
+            <i class="fa fa-edit"></i>
+          </a>
+        </span> 
+      </h4>
     </div>
     <div class="panel-body">
       {% markdown gst-switch/gst-switch-gst-switch.md %}
@@ -21,7 +28,14 @@ tags: project home
 <div class="col-md-12">
   <div class="panel panel-default">
     <div class="panel-heading">
-      <h4>Parts of gst-switch</h4>
+      <h4>
+        Parts of gst-switch
+        <span class="edit-link pull-right">
+          <a href="{% edit_url gst-switch/gst-switch-parts.md %}" target="_blank">
+            <i class="fa fa-edit"></i>
+          </a>
+        </span> 
+      </h4>
     </div>
     <div class="panel-body">
       {% markdown gst-switch/gst-switch-parts.md %}
@@ -32,7 +46,14 @@ tags: project home
 <div class="col-md-12">
   <div class="panel panel-default">
     <div class="panel-heading">
-      <h4>speakertrack</h4>
+      <h4>
+        speakertrack
+        <span class="edit-link pull-right">
+          <a href="{% edit_url gst-switch/gst-switch-speakertrack.md %}" target="_blank">
+            <i class="fa fa-edit"></i>
+          </a>
+        </span> 
+      </h4>
     </div>
     <div class="panel-body">
       {% markdown gst-switch/gst-switch-speakertrack.md %}

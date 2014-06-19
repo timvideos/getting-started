@@ -8,7 +8,14 @@ tags: faq home
 <div class="col-md-12">
   <div class="panel panel-default">
     <div class="panel-heading">
-      <h4>FAQ</h4>
+      <h4>
+        FAQ
+        <span class="edit-link pull-right">
+          <a href="{% edit_url faq/faq-faq.md %}" target="_blank">
+            <i class="fa fa-edit"></i>
+          </a>
+        </span>
+      </h4>
     </div>
     <div class="panel-body">
       {% markdown faq/faq-faq.md %}

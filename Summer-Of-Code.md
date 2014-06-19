@@ -9,7 +9,14 @@ tags: summer-of-code
 <div class="col-md-12">
   <div class="panel panel-default">
     <div class="panel-heading">
-      <h4>Prior Reading</h4>
+      <h4>
+        Prior Reading
+        <span class="edit-link pull-right">
+          <a href="{% edit_url summer-of-code/gsoc-prior-reading.md %}" target="_blank">
+            <i class="fa fa-edit"></i>
+          </a>
+        </span>  
+      </h4>
     </div>
     <div class="panel-body">
       {% markdown summer-of-code/gsoc-prior-reading.md %}
@@ -20,7 +27,14 @@ tags: summer-of-code
 <div class="col-md-12">
   <div class="panel panel-default">
     <div class="panel-heading">
-      <h4>How to ask for help</h4>
+      <h4>
+        How to ask for help
+        <span class="edit-link pull-right">
+          <a href="{% edit_url summer-of-code/gsoc-how to ask-for-help.md %}" target="_blank">
+            <i class="fa fa-edit"></i>
+          </a>
+        </span> 
+      </h4>
     </div>
     <div class="panel-body">
       {% markdown summer-of-code/gsoc-how-to-ask-for-help.md %}
@@ -31,7 +45,14 @@ tags: summer-of-code
 <div class="col-md-12">
   <div class="panel panel-default">
     <div class="panel-heading">
-      <h4>Frequently Asked Questions (FAQ)</h4>
+      <h4>
+        Frequently Asked Questions (FAQ)
+        <span class="edit-link pull-right">
+          <a href="{% edit_url summer-of-code/gsoc-faq.md %}" target="_blank">
+            <i class="fa fa-edit"></i>
+          </a>
+        </span> 
+      </h4>
     </div>
     <div class="panel-body">
       {% markdown summer-of-code/gsoc-faq.md %}
@@ -42,7 +63,14 @@ tags: summer-of-code
 <div class="col-md-12">
   <div class="panel panel-default">
     <div class="panel-heading">
-      <h4>Writing Proposals</h4>
+      <h4>
+        Writing Proposals
+        <span class="edit-link pull-right">
+          <a href="{% edit_url summer-of-code/gsoc-writing-proposals.md %}" target="_blank">
+            <i class="fa fa-edit"></i>
+          </a>
+        </span> 
+      </h4>
     </div>
     <div class="panel-body">
       {% markdown summer-of-code/gsoc-writing-proposals.md %}
@@ -53,7 +81,14 @@ tags: summer-of-code
 <div class="col-md-6">
   <div class="panel panel-default">
     <div class="panel-heading">
-      <h4>Ideas</h4>
+      <h4>
+        Ideas
+        <span class="edit-link pull-right">
+          <a href="{% edit_url summer-of-code/gsoc-ideas.md %}" target="_blank">
+            <i class="fa fa-edit"></i>
+          </a>
+        </span> 
+      </h4>
     </div>
     <div class="panel-body">
       {% markdown summer-of-code/gsoc-ideas.md %}
@@ -62,7 +97,14 @@ tags: summer-of-code
 
   <div class="panel panel-default">
     <div class="panel-heading">
-      <h4>Where to Ask Questions</h4>
+      <h4>
+        Where to Ask Questions
+        <span class="edit-link pull-right">
+          <a href="{% edit_url summer-of-code/gsoc-where-to-ask-questions.md %}" target="_blank">
+            <i class="fa fa-edit"></i>
+          </a>
+        </span> 
+      </h4>
     </div>
     <div class="panel-body">
       {% markdown summer-of-code/gsoc-where-to-ask-questions.md %}
@@ -73,7 +115,14 @@ tags: summer-of-code
 <div class="col-md-6">
   <div class="panel panel-default">
     <div class="panel-heading">
-      <h4>Mentors</h4>
+      <h4>
+        Mentors
+        <span class="edit-link pull-right">
+          <a href="{% edit_url summer-of-code/gsoc-mentors.md %}" target="_blank">
+            <i class="fa fa-edit"></i>
+          </a>
+        </span> 
+      </h4>
     </div>
     <div class="panel-body">
       {% markdown summer-of-code/gsoc-mentors.md %}
@@ -82,7 +131,14 @@ tags: summer-of-code
 
   <div class="panel panel-default">
     <div class="panel-heading">
-      <h4>Thanks</h4>
+      <h4>
+        Thanks
+        <span class="edit-link pull-right">
+          <a href="{% edit_url summer-of-code/gsoc-thanks.md %}" target="_blank">
+            <i class="fa fa-edit"></i>
+          </a>
+        </span> 
+      </h4>
     </div>
     <div class="panel-body">
       {% markdown summer-of-code/gsoc-thanks.md %}
