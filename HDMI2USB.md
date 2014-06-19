@@ -12,7 +12,7 @@ tags: summer-of-code projects
       <h4>HDMI2USB</h4>
     </div>
     <div class="panel-body">
-      {% markdown hdmi2usb-hdmi2usb.md %}
+      {% markdown hdmi2usb/hdmi2usb-hdmi2usb.md %}
     </div>
   </div>
 </div>
@@ -23,7 +23,7 @@ tags: summer-of-code projects
       <h4>Digilent ATLYS Prototype Board</h4>
     </div>
     <div class="panel-body">
-      {% markdown hdmi2usb-digilent.md %}
+      {% markdown hdmi2usb/hdmi2usb-digilent.md %}
     </div>
   </div>
 </div>

@@ -11,7 +11,7 @@ tags: faq home
       <h4>FAQ</h4>
     </div>
     <div class="panel-body">
-      {% markdown faq-faq.md %}
+      {% markdown faq/faq-faq.md %}
     </div>
   </div>
 </div>

@@ -13,7 +13,7 @@ tags: project home
       <h4>gst-switch</h4>
     </div>
     <div class="panel-body">
-      {% markdown gst-switch-gst-switch.md %}
+      {% markdown gst-switch/gst-switch-gst-switch.md %}
     </div>
   </div>
 </div>
@@ -24,7 +24,7 @@ tags: project home
       <h4>Parts of gst-switch</h4>
     </div>
     <div class="panel-body">
-      {% markdown gst-switch-parts.md %}
+      {% markdown gst-switch/gst-switch-parts.md %}
     </div>
   </div>
 </div>
@@ -35,7 +35,7 @@ tags: project home
       <h4>speakertrack</h4>
     </div>
     <div class="panel-body">
-      {% markdown gst-switch-speakertrack.md %}
+      {% markdown gst-switch/gst-switch-speakertrack.md %}
     </div>
   </div>
 </div>

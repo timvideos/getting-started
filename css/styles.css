@@ -41,6 +41,7 @@ img {
 
 img.favicon {
   height: 24px;
+  width: 24px;
 }
 
 table { 
@@ -134,6 +135,8 @@ table > tbody > tr:nth-child(odd) > td {
   margin-top: 10px;
   height:50px;
   width:50px;
+
+  max-width: none;
 }
 
 #sidebar, #sidebar a {
@@ -263,4 +266,21 @@ padding-bottom: 0;
   #sidebar a.logo {
     margin-bottom:30px;
   }
+}
+
+/* PEOPLE */
+
+#main .people .img-circle {
+  margin-top: 10px;
+  min-height:50px;
+  min-width:50px;
+
+  height: 100%;
+  width: 100%;
+
+  max-width: none;
+}
+
+.spacer {
+    margin-top: 20px;
 }

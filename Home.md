@@ -11,7 +11,7 @@ tags: home
       <h4>Welcome!</h4>
     </div>
     <div class="panel-body">
-      {% markdown home-welcome.md %}
+      {% markdown home/home-welcome.md %}
     </div>
   </div>
 </div>
@@ -22,7 +22,7 @@ tags: home
       <h4>Getting Started</h4>
     </div>
     <div class="panel-body">
-      {% markdown home-getting-started.md %}
+      {% markdown home/home-getting-started.md %}
     </div>
   </div>
 </div>
@@ -33,7 +33,7 @@ tags: home
       <h4>The Projects</h4>
     </div>
     <div class="panel-body">
-      {% markdown home-projects.md %}
+      {% markdown home/home-projects.md %}
     </div>
   </div>
 </div>
@@ -45,7 +45,7 @@ tags: home
       <h4>Partner Projects</h4>
     </div>
     <div class="panel-body">
-      {% markdown home-partner-projects.md %}
+      {% markdown home/home-partner-projects.md %}
     </div>
   </div>
 </div>

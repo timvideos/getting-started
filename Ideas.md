@@ -3,8 +3,6 @@ layout: default
 title: Ideas!
 tagline: Projects you could possibly work on.
 tags: ideas
-
-
 ---
 <div class="col-md-12">
   <div class="panel panel-default">
@@ -12,7 +10,7 @@ tags: ideas
       <h4>Overview</h4>
     </div>
     <div class="panel-body">
-      {% markdown ideas-overview.md %}
+      {% markdown ideas/ideas-overview.md %}
     </div>
   </div>
 </div>
@@ -23,7 +21,7 @@ tags: ideas
       <h4>Ideas Lists</h4>
     </div>
     <div class="panel-body">
-      {% markdown ideas-list.md %}
+      {% markdown ideas/ideas-list.md %}
     </div>
   </div>
 </div>
@@ -39,7 +37,7 @@ tags: ideas
       <h4>Markdown Ideas Template</h4>
     </div>
     <div class="panel-body">
-      {% markdown ideas-template.md %}
+      {% markdown ideas/ideas-template.md %}
     </div>
   </div>
 </div>

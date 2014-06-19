@@ -12,7 +12,7 @@ tags: summer-of-code
       <h4>Prior Reading</h4>
     </div>
     <div class="panel-body">
-      {% markdown gsoc-prior-reading.md %}
+      {% markdown summer-of-code/gsoc-prior-reading.md %}
     </div>
   </div>
 </div>
@@ -23,7 +23,7 @@ tags: summer-of-code
       <h4>How to ask for help</h4>
     </div>
     <div class="panel-body">
-      {% markdown gsoc-how-to-ask-for-help.md %}
+      {% markdown summer-of-code/gsoc-how-to-ask-for-help.md %}
     </div>
   </div>
 </div>
@@ -34,7 +34,7 @@ tags: summer-of-code
       <h4>Frequently Asked Questions (FAQ)</h4>
     </div>
     <div class="panel-body">
-      {% markdown gsoc-faq.md %}
+      {% markdown summer-of-code/gsoc-faq.md %}
     </div>
   </div>
 </div>
@@ -45,7 +45,7 @@ tags: summer-of-code
       <h4>Writing Proposals</h4>
     </div>
     <div class="panel-body">
-      {% markdown gsoc-writing-proposals.md %}
+      {% markdown summer-of-code/gsoc-writing-proposals.md %}
     </div>
   </div>
 </div>
@@ -56,7 +56,7 @@ tags: summer-of-code
       <h4>Ideas</h4>
     </div>
     <div class="panel-body">
-      {% markdown gsoc-ideas.md %}
+      {% markdown summer-of-code/gsoc-ideas.md %}
     </div>
   </div>
 
@@ -65,7 +65,7 @@ tags: summer-of-code
       <h4>Where to Ask Questions</h4>
     </div>
     <div class="panel-body">
-      {% markdown gsoc-where-to-ask-questions.md %}
+      {% markdown summer-of-code/gsoc-where-to-ask-questions.md %}
     </div>
   </div>
 </div>
@@ -76,7 +76,7 @@ tags: summer-of-code
       <h4>Mentors</h4>
     </div>
     <div class="panel-body">
-      {% markdown gsoc-mentors.md %}
+      {% markdown summer-of-code/gsoc-mentors.md %}
     </div>
   </div>
 
@@ -85,7 +85,7 @@ tags: summer-of-code
       <h4>Thanks</h4>
     </div>
     <div class="panel-body">
-      {% markdown gsoc-thanks.md %}
+      {% markdown summer-of-code/gsoc-thanks.md %}
     </div>
   </div>
 </div>
