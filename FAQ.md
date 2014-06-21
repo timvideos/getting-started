@@ -3,8 +3,8 @@ layout: default
 title: FAQ
 tagline: Frequently Asked Questions
 tags: faq home
-
 ---
+
 <div class="col-md-12">
   <div class="panel panel-default">
     <span class="edit-link pull-right">

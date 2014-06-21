@@ -3,7 +3,6 @@ layout: default
 title: Summer Of Code
 tagline': Information for Google Summer of Code participants.
 tags: summer-of-code
-
 ---
 
 <div class="col-md-12">
