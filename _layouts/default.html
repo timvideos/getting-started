@@ -2,5 +2,16 @@
 layout: base
 ---
 <div class="padding">
-  {{ content }}
+  <div class="col-sm-12">
+    <div class="panel panel-default">
+        <span class="edit-link pull-right">
+          <a href="{% edit_url %}{{ page.path }}" target="_blank">
+            <i class="fa fa-edit"></i>
+          </a>
+        </span>  
+      <div class="panel-body">
+        {{ content }}
+      </div>
+    </div>
+  </div>
 </div>

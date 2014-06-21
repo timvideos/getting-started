@@ -5,15 +5,25 @@ tagline: The creators of Tim Videos (it is not just Tim!).
 tags: people
 ---
 
-<div class="col-md-12">
-  <div class="panel panel-default">
-    <span class="edit-link pull-right">
-      <a href="{% edit_url pages/people.md %}" target="_blank">
-        <i class="fa fa-edit"></i>
-      </a>
-    </span>  
-    <div class="panel-body">
-      {% markdown pages/people.md %}
-    </div>
-  </div>
-</div>
+### Tim 'mithro' Ansell
+The "Tim" in Tim Videos. Founder and Leader of the Tim Video's project.
+
+***
+
+### 'duzy' Chan 
+Main developer of the gst-switch project
+
+***
+
+### Jahanzeb Ahmad
+Main developer of the HDMI2USB project.
+
+***
+
+### Ryan 'xfxf' Verner
+Runs NextDayVideo Australia, records a number of FOSS conferences around Australia including PyCon AU and sometimes Linux.conf.au
+
+***
+
+### Carl 'CarlFK' Karsten
+Runs NextDayVideo America, records a number of FOSS conferences around America including PyCon US.

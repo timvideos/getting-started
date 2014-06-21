@@ -5,15 +5,15 @@ tagline: Frequently Asked Questions
 tags: faq home
 ---
 
-<div class="col-md-12">
-  <div class="panel panel-default">
-    <span class="edit-link pull-right">
-      <a href="{% edit_url pages/faq.md %}" target="_blank">
-        <i class="fa fa-edit"></i>
-      </a>
-    </span>
-    <div class="panel-body">
-      {% markdown pages/faq.md %}
-    </div>
-  </div>
-</div>
+Are you interested in joining TimVideos.us as either a GSoC student or mentor?  Here are answers to some questions you may have. 
+
+[Prospective Students](#prospective-students)
+
+[Prospective Mentors](#prospective-mentors)
+
+## Prospective Students 
+
+
+
+
+## Prospective Mentors 

@@ -15,7 +15,7 @@ module Jekyll
     private
 
     def edit_interface_link(link, filename)
-      link.gsub('((filename))', "_includes/#{filename}")
+      link.gsub('((filename))', "#{filename}")
     end
   end
 end
