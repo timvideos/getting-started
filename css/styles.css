@@ -250,6 +250,14 @@ padding-bottom: 0;
 }
 .panel .edit-link {
   display: none;
+  position: relative;
+  right: 5px;
+  top: 5px;
+}
+.panel .edit-link a {
+  font-weight:300;
+  font-size:18px;
+  color: #c80000;
 }
 .panel:hover .edit-link {
   display: inline-block;

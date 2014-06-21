@@ -9,4 +9,4 @@ url: http://code.timvideos.us
 permalink: pretty
 highlighter: pygments
 
-edit_interface_link: https://github.com/pinoss/getting-started/edit/master/((filename)) 
+edit_interface_link: 'http://pinoss.github.io/prose/#pinoss/getting-started/tree/master/((filename))' 
