@@ -3,13 +3,14 @@ layout: default
 title: Getting Started
 tagline: How to start contributing to TimVideos.us
 tags: home
+published: true
 ---
 
 # Welcome
 
 **Welcome to TimVideos.us!**
 
-**TimVideos.us** is a group of exciting projects which together create a system for doing both _recording and live event streaming_ for **conferences**, **meetings**, **user groups** and **other** presentations. 
+**TimVideos.us** is a _group_ of exciting projects which together create a system for doing both _recording and live event streaming_ for **conferences**, **meetings**, **user groups** and **other** presentations. 
 
 We hope that, through our _projects_, the costs and expertise currently required to produce live streaming events will be reduced to near zero. We wish to develop a system where everyone has the ability to record presentations and host live remote participants across the globe.
 
