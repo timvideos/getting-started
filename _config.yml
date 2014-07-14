@@ -2,7 +2,7 @@ username: pinoss
 repo: getting-started
 branch: master
 
-destination: _site
+destination: ../getting-started-gh-pages/
 
 safe: false
 lsi: false
