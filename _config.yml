@@ -1,16 +1,25 @@
+username: pinoss
+repo: getting-started
+branch: master
+
+destination: _site
+
+safe: false
+lsi: false
+
 markdown: kramdown
 kramdown:
   entity_output: as_input
-exclude: [Gemfile, Gemfile.lock, planet.yml]
+exclude: [Gemfile, Gemfile.lock, planet.yml, vendor, .travis.yml, Rakefile]
 auto_permalinks: true 
 name: Tim Videos - Live Event Streaming - Developers page
 description: News, informations, instructions and how to contribute
-url: http://code.timvideos.us
+url: http://pinoss.github.io/getting-started
 permalink: pretty
 highlighter: pygments
 
 edit_interface_link: 'http://pinoss.github.io/prose/#pinoss/getting-started/edit/master/((filename))' 
 
 prose:
-  siteurl: 'http://pinoss.github.io/'
+  siteurl: 'http://pinoss.github.io/getting-started'
   relativeLinks: 'http://pinoss.github.io/links.jsonp'
