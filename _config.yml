@@ -18,7 +18,7 @@ url: http://pinoss.github.io/getting-started
 permalink: pretty
 highlighter: pygments
 
-edit_interface_link: 'http://code.timvideos.us/prose/#timvideos/getting-started/edit/master/((filename))' 
+edit_interface_link: 'http://editor.timvideos.us/#timvideos/getting-started/edit/master/((filename))' 
 
 prose:
   siteurl: 'http://pinoss.github.io/getting-started'
