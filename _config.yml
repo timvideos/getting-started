@@ -1,4 +1,4 @@
-username: pinoss
+username: timvideos
 repo: getting-started
 branch: master
 
@@ -14,12 +14,12 @@ exclude: [Gemfile, Gemfile.lock, planet.yml, vendor, .travis.yml, Rakefile]
 auto_permalinks: true 
 name: Tim Videos - Live Event Streaming - Developers page
 description: News, informations, instructions and how to contribute
-url: http://pinoss.github.io/getting-started
+url: http://code.timvideos.us
 permalink: pretty
 highlighter: pygments
 
 edit_interface_link: 'http://editor.timvideos.us/#timvideos/getting-started/edit/master/((filename))' 
 
 prose:
-  siteurl: 'http://pinoss.github.io/getting-started'
-  relativeLinks: 'http://pinoss.github.io/links.jsonp'
+  siteurl: 'http://code.timvideos.us'
+  relativeLinks: 'http://code.timvideos.us/links.jsonp'
