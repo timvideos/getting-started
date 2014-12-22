@@ -8,10 +8,10 @@ following format.
 
 #### Labels
 
- * <div class="label" style="background-color: #02e10c;">(fluro green)</div> Language
- * <div class="label" style="background-color: #02d7e1;">(fluro light blue)</div> Project
- * <div class="label" style="background-color: #d7e102;">(dark yellow)</div> Type
- * <div class="label" style="background-color: #5319e7;">(dark blue)</div> Difficulty
+ * <a style="background-color: #02e10c;">(fluro green)</a> Language
+ * <a style="background-color: #02d7e1;">(fluro light blue)</a> Project
+ * <a style="background-color: #d7e102;">(dark yellow)</a> Type
+ * <a style="background-color: #5319e7;">(dark blue)</a> Difficulty
 
 #### Description
 
