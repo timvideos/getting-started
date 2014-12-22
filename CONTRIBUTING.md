@@ -1,13 +1,10 @@
 New ideas added to the [getting started] issue tracker should follow the
-following format. You should be able to copy and paste the template below and
-then fill them in.
-
-{% raw %}
+following format.
 
 #### Title
-~~~ markdown
+```markdown
 [{{reference.repo}} #{{reference.number}}] {{title}}
-~~~
+```
 
 #### Labels
 
@@ -17,7 +14,11 @@ then fill them in.
  * <div class="label" style="background-color: #5319e7;">(dark blue)</div> Difficulty
 
 #### Description
-~~~ markdown
+
+You should be able to copy and paste the template below and then fill them it
+in.
+
+```markdown
 
 More technical details at [Link to bug in the ](http://github.com/timvideos/{{reference.repo}}/issues/{{reference.number}})
 
@@ -45,7 +46,4 @@ A much longer description of what the thing you want to do.
  * **Potential Mentors:** @{{github mentor username}}
  * **Mailing list:** [timvideos@groups.google.com](http://https://groups.google.com/forum/#!forum/timvideos/)
 
-~~~
-{% endraw %}
-
-</div>
+```
