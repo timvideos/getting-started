@@ -1,13 +1,6 @@
-
-# Overview
-
-TimVideos.us is a group of exciting projects which together create a system for doing both recording and live event streaming for conferences, meetings, user groups and other presentations.  Whether you want to work hands-on with hardware or code in a variety of languages, we have a project for you. Join the team!
-
-# Markdown Ideas Template
-
-There is the Markdown required to make a new ideas.
-
-FIXME: Add a "create" link to automatically create a new idea prefilled with the following template.
+New ideas added to the [getting started] issue tracker should follow the
+following format. You should be able to copy and paste the template below and
+then fill them in.
 
 {% raw %}
 
