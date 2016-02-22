@@ -1,10 +1,20 @@
-New ideas added to the [getting started] issue tracker should follow the
-following format.
 
-#### Title
-```markdown
-[{{reference.repo}} #{{reference.number}}] {{title}}
-```
+The issue tracker contains a bunch of well formed projects (both small and
+large) which are great ways to get started contributing to the 
+[TimVideos project](https://code.timvideos.us/) if you have a block of time you
+can allocated (such as participating in a program like 
+[Google Summer of Code students](https://code.timvideos.us/summer-of-code/) or
+part of a University's Honors Project or Industry Placement/Intern program.
+
+## Adding Ideas
+
+New ideas added to the issue tracker should follow the
+[`ISSUE_TEMPLATE`](ISSUE_TEMPLATE.md).
+
+Most ideas should link to issues found in other 
+
+All issues should be have the appropriate labels added to them.
+
 
 #### Labels
 
@@ -13,37 +23,3 @@ following format.
  * <a style="background-color: #d7e102;">(dark yellow)</a> Type
  * <a style="background-color: #5319e7;">(dark blue)</a> Difficulty
 
-#### Description
-
-You should be able to copy and paste the template below and then fill them it
-in.
-
-```markdown
-
-More technical details at [Link to bug in the ](http://github.com/timvideos/{{reference.repo}}/issues/{{reference.number}})
-
-# Brief explanation
-
-A short description of what the thing you want to do.
-
-## Expected results
-
-# Detailed Explanation
-
-A much longer description of what the thing you want to do.
-
-## Further reading
-
- * [Link to a PDF document](http://abc/abc.pdf)
- * [Link to a some HTML page](http://abc/abc.html)
-
-# Knowledge Prerequisites
-
- *
-
-# Contacts
-
- * **Potential Mentors:** @{{github mentor username}}
- * **Mailing list:** [timvideos@groups.google.com](http://https://groups.google.com/forum/#!forum/timvideos/)
-
-```
