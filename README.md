@@ -25,12 +25,14 @@ Bug</a> label.
 
 ## Using the Issue Tracker
 
-![Issue Block](/img/issue-block.png)
-![Issue Page](/img/issue-page.png)
-
 ### Using Labels to Filter
 
 ![Issue Filter](/img/issue-filter.png)
+
+### Issue Information
+
+![Issue Block](/img/issue-block.png)
+![Issue Page](/img/issue-page.png)
 
 ### Understanding Labels
 
