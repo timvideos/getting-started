@@ -17,8 +17,8 @@
    height="217.80428"
    sodipodi:docname="issue-block.svg"
    inkscape:export-filename="issue-block.png"
-   inkscape:export-xdpi="41.280212"
-   inkscape:export-ydpi="41.280212">
+   inkscape:export-xdpi="82.65361"
+   inkscape:export-ydpi="82.65361">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -336,7 +336,10 @@
      y="127.12412"
      x="566.07037"
      style="font-size:19.64878845px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans"
-     xml:space="preserve"><tspan
+     xml:space="preserve"
+     inkscape:export-filename="/usr/local/google/home/tansell/foss/timvideos/getting-started/img/path3144-96-2.png"
+     inkscape:export-xdpi="104.7569"
+     inkscape:export-ydpi="104.7569"><tspan
        y="127.12412"
        x="566.07037"
        id="tspan2989-2-2-0"
@@ -402,7 +405,9 @@
      id="path3144-96-2"
      d="m 583.54447,95.27023 0.18236,14.06799"
      style="fill:none;stroke:#ff0000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Sstartb)"
-     sodipodi:nodetypes="cc" />
+     sodipodi:nodetypes="cc"
+     inkscape:export-xdpi="104.7569"
+     inkscape:export-ydpi="104.7569" />
   <path
      inkscape:connector-curvature="0"
      id="path3144-96-2-7"
